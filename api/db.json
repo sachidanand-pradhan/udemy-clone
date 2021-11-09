@@ -1,0 +1,110 @@
+{"products": [
+    {
+      "id": 1,
+      "name": "JavaScript",
+      "title": "The Complete JavaScript Course 2021: From Zero to Expert!",
+      "image":"https://img-c.udemycdn.com/course/240x135/851712_fc61_6.jpg",
+      "rating": 4.7,
+      "price": 455,
+      "oldprice": 1055,
+      "shortDecp" : "The modern JavaScript course for everyone! Master JavaScript with projects, challenges and theory. Many courses in one!",
+      "Created by ":"Jonas Schmedtman",
+      "learn":[
+          {
+          "heading": "What you'll learn",     
+          "l1": "Become an advanced, confident, and modern JavaScript developer from scratch",
+          "l2": "Become job-ready by understanding how JavaScript really works behind the scenes",
+          "l3": "JavaScript fundamentals: variables, if/else, operators, boolean logic, functions, arrays, objects, loops, strings, etc.",
+          "l4": "Modern OOP: Classes, constructors, prototypal inheritance, encapsulation, etc.",
+          "l5": "Asynchronous JavaScript: Event loop, promises, async/await, AJAX calls and APIs",
+          "l6": "Become an advanced, confident, and modern JavaScript developer from scratch",
+          "l7": "Become job-ready by understanding how JavaScript really works behind the scenes",
+          "l8": "JavaScript fundamentals: variables, if/else, operators, boolean logic, functions, arrays, objects, loops, strings, etc.",
+          "l9": "Modern OOP: Classes, constructors, prototypal inheritance, encapsulation, etc.",
+          "l0": "Asynchronous JavaScript: Event loop, promises, async/await, AJAX calls and APIs"
+      }
+      ],
+      "content":[{
+                    "c1":"Welcome,",
+                    "c2":"Introduction",
+                    "c3":"Basic of JavaScript",
+                    "c4":"DOM",
+                    "c5":"Advance JavaScript"
+      }],
+      "requirement":[{
+                    "r1": "No coding experience is necessary to take this course! I take you from beginner to expert!",
+                    "r2":"Any computer and OS will work — Windows, macOS or Linux. We will set up your text editor the course.",
+                    "r3": "A basic understanding of HTML and CSS is a plus, but not a must! The course includes an HTML and CSS crash course."
+      }],
+      "description": [{
+          "desc1":"*** The #1 bestselling JavaScript course on Udemy! ***",
+          "desc2": "*** Completely re-built from scratch in October 2020 (68 hours video) ***",
+          "desc3": "Really, really well made course. Super in-depth, with great challenges and projects that will solidify your Javascript understanding. I found the lectures were paced perfectly -- Jonas doesn't skip over anything that might be useful to a JS developer — Carson Bartholomew",
+          "desc4": "JavaScript is the most popular programming language in the world. It powers the entire modern web. It provides millions of high-paying jobs all over the world."
+      }],
+      "include": [{
+          "i1" : "This course includes:",
+          "i2": "68 hours on-demand video",
+          "i3": "21 articles",
+          "i4": "18 downloadable resources",
+          "i5": "Full lifetime access",
+          "i6": "Access on mobile and TV",
+          "i7": "Certificate of completion"
+      }]
+    },
+
+    {
+        "id": 2,
+        "name": "Python",
+        "title": "2021 Complete Python Bootcamp From Zero to Hero in Python",
+        "image":"https://img-c.udemycdn.com/course/240x135/567828_67d0.jpg",
+        "rating": 4.6,
+        "price": 455,
+        "oldprice": 1055,
+        "shortDecp" : "Learn Python like a Professional Start from the basics and go all the way to creating your own applications and games",
+        "Created by ":"Jose Portilla",
+        "learn":[
+            {
+            "heading": "What you'll learn",   
+            "l1": "Learn to use Python professionally, learning both Python 2 and Python 3!",
+            "l2": "Learn advanced Python features, like the collections module and how to work with timestamps!",
+            "l3": "Understand complex topics, like decorators",
+            "l4": "Get an understanding of how to create GUIs in the Jupyter Notebook system!",
+            "l5": "Create games with Python, like Tic Tac Toe and Blackjack!",
+            "l6": "Learn to use Object Oriented Programming with classes!",
+            "l7": "Understand how to use both the Jupyter Notebook and create .py files",
+            "l8": "Build a complete understanding of Python from the ground up!"
+        }
+        ],
+        "content":[{
+                   "c1": "Course Overview",
+                   "c2": "Python Setup",
+                   "c3": "Python Object and Data Structure Basics",
+                   "c4": "Methods and Functions",
+                   "c5":"Object Oriented Programming"         
+        }],
+        "requirement":[{
+            "heading": "Requirements",
+            "r1":"Access to a computer with an internet connection."
+                   
+        }],
+        "description": [{
+            "heading":"Description",
+            "desc1": "Become a Python Programmer and learn one of employer's most requested skills of 2021!",
+            "desc2":"This is the most comprehensive, yet straight-forward, course for the Python programming language on Udemy! Whether you have never programmed before, already know basic syntax, or want to learn about the advanced features of Python, this course is for you! In this course we will teach you Python 3.",
+            "desc3": "With over 100 lectures and more than 21 hours of video this comprehensive course leaves no stone unturned! This course includes quizzes, tests, coding exercises and homework assignments as well as 3 major projects to create a Python project portfolio!"
+            
+        }],
+        "include": [{
+            "i1" : "This course includes:",
+            "i2": "22 hours on-demand video",
+            "i3": "14 articles",
+            "i4": "Full lifetime access",
+            "i5": "Access on mobile and TV",
+            "i6": "Certificate of completion"
+        }]
+      }
+]
+
+
+    }
