@@ -1,0 +1,16 @@
+{
+  "name": "tailwindcss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:tailwind":"tailwindcss build src/style.css -o ../public/style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.0",
+    "tailwindcss": "^2.2.19"
+  }
+}
