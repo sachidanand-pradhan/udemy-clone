@@ -1798,7 +1798,7 @@ function addFunctionalityToNavbar() {
         sdiv7.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
 
         let h7 = document.createElement("h1")
-        h7.innerText=""
+        h7.innerText="Language Learning"
 
         let i7 = document.createElement("img")
         i7.setAttribute('class', 'w-2 h-2')
