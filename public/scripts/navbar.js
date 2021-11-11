@@ -1784,7 +1784,7 @@ function addFunctionalityToNavbar() {
         sdiv6.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
 
         let h6 = document.createElement("h1")
-        h6.innerText=""
+        h6.innerText="Social Science"
 
         let i6 = document.createElement("img")
         i6.setAttribute('class', 'w-2 h-2')
