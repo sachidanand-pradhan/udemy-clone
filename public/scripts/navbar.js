@@ -88,7 +88,7 @@ function addFunctionalityToNavbar() {
         sdiv4.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
 
         let h4 = document.createElement("h1")
-        h4.innerText="Programming Launguages"
+        h4.innerText="Programming Languages"
 
         let i4 = document.createElement("img")
         i4.setAttribute('class', 'w-2 h-2')
@@ -130,7 +130,7 @@ function addFunctionalityToNavbar() {
         sdiv7.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
 
         let h7 = document.createElement("h1")
-        h7.innerText="Softwere Testing"
+        h7.innerText="Software Testing"
 
         let i7 = document.createElement("img")
         i7.setAttribute('class', 'w-2 h-2')
@@ -144,7 +144,7 @@ function addFunctionalityToNavbar() {
         sdiv8.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
 
         let h8 = document.createElement("h1")
-        h8.innerText="Softwere Engineering"
+        h8.innerText="Software Engineering"
 
         let i8 = document.createElement("img")
         i8.setAttribute('class', 'w-2 h-2')
@@ -158,7 +158,7 @@ function addFunctionalityToNavbar() {
         sdiv9.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
 
         let h9 = document.createElement("h1")
-        h9.innerText="Softwere Development Tools"
+        h9.innerText="Software Development Tools"
 
         let i9 = document.createElement("img")
         i9.setAttribute('class', 'w-2 h-2')
@@ -559,7 +559,7 @@ function addFunctionalityToNavbar() {
         secdiv.append(sdiv11)
      })
 
-     // after hover on ****   firstdiv > It & Softwere  **** 
+     // after hover on ****   firstdiv > It & Software  **** 
      let Itsoft = document.getElementById("Itsoft")
      Itsoft.addEventListener('mouseover',()=>{
          secdiv.innerText = null
@@ -596,7 +596,7 @@ function addFunctionalityToNavbar() {
         sdiv3.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
 
         let h3 = document.createElement("h1")
-        h3.innerText="Hardwere"
+        h3.innerText="Hardware"
 
         let i3 = document.createElement("img")
         i3.setAttribute('class', 'w-2 h-2')
@@ -624,7 +624,7 @@ function addFunctionalityToNavbar() {
         sdiv5.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
 
         let h5 = document.createElement("h1")
-        h5.innerText="Other IT & Softwere"
+        h5.innerText="Other IT & Software"
 
         let i5 = document.createElement("img")
         i5.setAttribute('class', 'w-2 h-2')
