@@ -1728,7 +1728,7 @@ function addFunctionalityToNavbar() {
         sdiv2.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
 
         let h2 = document.createElement("h1")
-        h2.innerText=""
+        h2.innerText="Humanities"
 
         let i2nd = document.createElement("img")
         i2nd.setAttribute('class', 'w-2 h-2')
