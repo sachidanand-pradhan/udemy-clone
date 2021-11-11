@@ -252,7 +252,7 @@ function navbar() {
             <div id="firstdiv" class="w-64 bg-white  border ">
                 <!-- under the ****  first div  **** -->
                 <!-- 1 item -->
-                <div class="flex text-sm items-center hover:text-blue-800 ml-2 mt-4">
+                <div id="development" class="flex text-sm items-center hover:text-blue-800 ml-2 mt-4">
                     <h1 class="flex-grow">Development</h1>
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
                         <path fill-rule="evenodd"
@@ -261,8 +261,8 @@ function navbar() {
                     </svg>
                 </div>
                 <!-- 2 item -->
-                <div class="flex text-sm items-center hover:text-blue-800 ml-2 mt-4">
-                    <h1 id="bussi" class="flex-grow">Bussiness</h1>
+                <div id="bussi" class="flex text-sm items-center hover:text-blue-800 ml-2 mt-4">
+                    <h1  class="flex-grow">Bussiness</h1>
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
                         <path fill-rule="evenodd"
                             d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
@@ -270,7 +270,7 @@ function navbar() {
                     </svg>
                 </div>
                 <!-- 3 item -->
-                <div class="flex text-sm items-center hover:text-blue-800 ml-2 mt-4">
+                <div id="fna" class="flex text-sm items-center hover:text-blue-800 ml-2 mt-4">
                     <h1 class="flex-grow">Finance & Accounting</h1>
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
                         <path fill-rule="evenodd"
@@ -279,7 +279,7 @@ function navbar() {
                     </svg>
                 </div>
                 <!-- 4 item -->
-                <div class="flex text-sm items-center hover:text-blue-800 ml-2 mt-4">
+                <div id="Itsoft" class="flex text-sm items-center hover:text-blue-800 ml-2 mt-4">
                     <h1 class="flex-grow">IT & Softwere</h1>
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
                         <path fill-rule="evenodd"
@@ -288,7 +288,7 @@ function navbar() {
                     </svg>
                 </div>
                 <!-- 5 item -->
-                <div class="flex text-sm items-center hover:text-blue-800 ml-2 mt-4">
+                <div id="officeproductivity" class="flex text-sm items-center hover:text-blue-800 ml-2 mt-4">
                     <h1 class="flex-grow">Office Productivity</h1>
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
                         <path fill-rule="evenodd"
@@ -297,7 +297,7 @@ function navbar() {
                     </svg>
                 </div>
                 <!-- 6 item -->
-                <div class="flex text-sm items-center hover:text-blue-800 ml-2 mt-4">
+                <div id="personaldev" class="flex text-sm items-center hover:text-blue-800 ml-2 mt-4">
                     <h1 class="flex-grow">Personal Development</h1>
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
                         <path fill-rule="evenodd"
@@ -390,7 +390,7 @@ function navbar() {
                     </svg>
                 </div>
                 <!-- 3 item -->
-                <div class="flex text-sm items-center hover:text-blue-800 ml-2 mt-4">
+                <div id="mdev" class="flex text-sm items-center hover:text-blue-800 ml-2 mt-4">
                     <h1 class="flex-grow">Mobile Development</h1>
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
                         <path fill-rule="evenodd"
