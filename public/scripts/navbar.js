@@ -1701,7 +1701,6 @@ function addFunctionalityToNavbar() {
 
         sdiv7.append(h7,i7)
         secdiv.append(sdiv7)
-
     });
 
     // after hover on ****   firstdiv > Teaching & Academics  **** 
@@ -1806,6 +1805,48 @@ function addFunctionalityToNavbar() {
 
         sdiv7.append(h7,i7)
         secdiv.append(sdiv7)
+
+          // 8 item
+          let sdiv8 = document.createElement("div")
+          sdiv8.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+  
+          let h8 = document.createElement("h1")
+          h8.innerText="Teacher Training"
+  
+          let i8 = document.createElement("img")
+          i8.setAttribute('class', 'w-2 h-2')
+          i8.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+  
+          sdiv8.append(h8,i8)
+          secdiv.append(sdiv8)
+  
+          // 9 item
+          let sdiv9 = document.createElement("div")
+          sdiv9.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+  
+          let h9 = document.createElement("h1")
+          h9.innerText="Test Prep"
+  
+          let i9 = document.createElement("img")
+          i9.setAttribute('class', 'w-2 h-2')
+          i9.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+  
+          sdiv9.append(h9,i9)
+          secdiv.append(sdiv9)
+  
+          // 10 item
+          let sdiv10 = document.createElement("div")
+          sdiv10.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+  
+          let h10 = document.createElement("h1")
+          h10.innerText="Other Teachings & Academics"
+  
+          let i10 = document.createElement("img")
+          i10.setAttribute('class', 'w-2 h-2')
+          i10.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+  
+          sdiv10.append(h10,i10)
+          secdiv.append(sdiv10)
 
     });
 
