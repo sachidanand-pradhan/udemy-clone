@@ -152,7 +152,7 @@ function navbar() {
     <!--------------------------------------------- navbar ------------------------------------------------->
     <div class="flex justify-between items-center h-20 bg-white">
         <!-- mobilemenu -->
-        <button onclick="showmenu()" class="mx-4 md:hidden">
+        <button id='menu-icon' class="mx-4 md:hidden">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
                 stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
@@ -468,6 +468,8 @@ function navbar() {
             <div class="mt-4 ml-2 text-sm font-semibold">Papular topics</div>
         </div>
     </div>
+    <!-- search result -->
+    <div class="w-2/4 h-auto max-h-80 overflow-hidden bg-white border absolute z-40 " style="margin-left:15%;" id="ShowCoursesName"></div>
     <!-- ----------   after hover on bussiness   --------- -->
     <div id="bussiness" class="hidden" style="margin-left: 49%;">
         <h1 class="text-center m-3 font-bold text-xl leading-5">Get your team access to over 6,000 top Udemy courses,

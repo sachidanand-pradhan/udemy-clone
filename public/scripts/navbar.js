@@ -226,6 +226,9 @@ function addFunctionalityToNavbar() {
         afterhovermenu.setAttribute('class', 'hidden')
     })
 
+    let menuIcon = document.getElementById('menu-icon');
+    menuIcon.onclick = showmenu;
+
     function showmenu() {
         afterhovermenu.setAttribute('class', 'flex md:hidden fixed w-full')
     }
