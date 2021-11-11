@@ -1,8 +1,8 @@
 let d = document.getElementById("d");
 async function getData() {
-    let res = await fetch(`http://localhost:3000/api/javascript`);
+    let res = await fetch(`http://localhost:5000/api/javascript`);
     let data = await res.json();
-    console.log("data:", data);
+    console.log("data:------", data);
     // console.log("data:",data[0].include);
     // add(data);
 
