@@ -1,4 +1,4 @@
-{"products": [
+{"javascript": [
     {
       "id": 1,
       "name": "JavaScript",
@@ -52,58 +52,6 @@
           "i7": "Certificate of completion"
       }]
     },
-
-    {
-        "id": 2,
-        "name": "Python",
-        "title": "2021 Complete Python Bootcamp From Zero to Hero in Python",
-        "image":"https://img-c.udemycdn.com/course/240x135/567828_67d0.jpg",
-        "rating": 4.6,
-        "price": 455,
-        "oldprice": 1055,
-        "shortDecp" : "Learn Python like a Professional Start from the basics and go all the way to creating your own applications and games",
-        "Created by ":"Jose Portilla",
-        "learn":[
-            {
-            "heading": "What you'll learn",   
-            "l1": "Learn to use Python professionally, learning both Python 2 and Python 3!",
-            "l2": "Learn advanced Python features, like the collections module and how to work with timestamps!",
-            "l3": "Understand complex topics, like decorators",
-            "l4": "Get an understanding of how to create GUIs in the Jupyter Notebook system!",
-            "l5": "Create games with Python, like Tic Tac Toe and Blackjack!",
-            "l6": "Learn to use Object Oriented Programming with classes!",
-            "l7": "Understand how to use both the Jupyter Notebook and create .py files",
-            "l8": "Build a complete understanding of Python from the ground up!"
-        }
-        ],
-        "content":[{
-                   "c1": "Course Overview",
-                   "c2": "Python Setup",
-                   "c3": "Python Object and Data Structure Basics",
-                   "c4": "Methods and Functions",
-                   "c5":"Object Oriented Programming"         
-        }],
-        "requirement":[{
-            "heading": "Requirements",
-            "r1":"Access to a computer with an internet connection."
-                   
-        }],
-        "description": [{
-            "heading":"Description",
-            "desc1": "Become a Python Programmer and learn one of employer's most requested skills of 2021!",
-            "desc2":"This is the most comprehensive, yet straight-forward, course for the Python programming language on Udemy! Whether you have never programmed before, already know basic syntax, or want to learn about the advanced features of Python, this course is for you! In this course we will teach you Python 3.",
-            "desc3": "With over 100 lectures and more than 21 hours of video this comprehensive course leaves no stone unturned! This course includes quizzes, tests, coding exercises and homework assignments as well as 3 major projects to create a Python project portfolio!"
-            
-        }],
-        "include": [{
-            "i1" : "This course includes:",
-            "i2": "22 hours on-demand video",
-            "i3": "14 articles",
-            "i4": "Full lifetime access",
-            "i5": "Access on mobile and TV",
-            "i6": "Certificate of completion"
-        }]
-      },
     {
         "id": 3,
         "name": "Modern JavaScript From The Beginning",
@@ -869,63 +817,6 @@
         ]
     },
     {
-        "id": 17,
-        "name": "Python",
-        "title": "2021 Complete Python Bootcamp From Zero to Hero in Python",
-        "image": "https://img-c.udemycdn.com/course/240x135/567828_67d0.jpg",
-        "rating": 4.6,
-        "price": 455,
-        "oldPrice": 3499,
-        "shortDecp": "Learn Python like a Professional Start from the basics and go all the way to creating your own applications and games",
-        "Created by ": "Jose Portilla",
-        "learn": [
-            {
-                "heading": "What you'll learn",
-                "l1": "Learn to use Python professionally, learning both Python 2 and Python 3!",
-                "l2": "Learn advanced Python features, like the collections module and how to work with timestamps!",
-                "l3": "Understand complex topics, like decorators",
-                "l4": "Get an understanding of how to create GUIs in the Jupyter Notebook system!",
-                "l5": "Create games with Python, like Tic Tac Toe and Blackjack!",
-                "l6": "Learn to use Object Oriented Programming with classes!",
-                "l7": "Understand how to use both the Jupyter Notebook and create .py files",
-                "l8": "Build a complete understanding of Python from the ground up!"
-            }
-        ],
-        "content": [
-            {
-                "c1": "Course Overview",
-                "c2": "Python Setup",
-                "c3": "Python Object and Data Structure Basics",
-                "c4": "Methods and Functions",
-                "c5": "Object Oriented Programming"
-            }
-        ],
-        "requirement": [
-            {
-                "heading": "Requirements",
-                "r1": "Access to a computer with an internet connection."
-            }
-        ],
-        "description": [
-            {
-                "heading": "Description",
-                "desc1": "Become a Python Programmer and learn one of employer's most requested skills of 2021!",
-                "desc2": "This is the most comprehensive, yet straight-forward, course for the Python programming language on Udemy! Whether you have never programmed before, already know basic syntax, or want to learn about the advanced features of Python, this course is for you! In this course we will teach you Python 3.",
-                "desc3": "With over 100 lectures and more than 21 hours of video this comprehensive course leaves no stone unturned! This course includes quizzes, tests, coding exercises and homework assignments as well as 3 major projects to create a Python project portfolio!"
-            }
-        ],
-        "include": [
-            {
-                "i1": "This course includes:",
-                "i2": "22 hours on-demand video",
-                "i3": "14 articles",
-                "i4": "Full lifetime access",
-                "i5": "Access on mobile and TV",
-                "i6": "Certificate of completion"
-            }
-        ]
-    },
-    {
         "id": 18,
         "name": "JavaScript",
         "title": "JavaScript: Understanding the Weird Parts",
@@ -987,7 +878,7 @@
         ]
     },
     {
-        "id": 19,
+        "id": 1900,
         "name": "JavaScript",
         "title": "Modern JavaScript From The Beginning",
         "image": "https://img-c.udemycdn.com/course/240x135/1463348_52a4_2.jpg",
@@ -1047,7 +938,118 @@
             }
         ]
     }
+    
 
+],
+"python":[
+    {
+        "id": 17,
+        "name": "Python",
+        "title": "2021 Complete Python Bootcamp From Zero to Hero in Python",
+        "image": "https://img-c.udemycdn.com/course/240x135/567828_67d0.jpg",
+        "rating": 4.6,
+        "price": 455,
+        "oldPrice": 3499,
+        "shortDecp": "Learn Python like a Professional Start from the basics and go all the way to creating your own applications and games",
+        "Created by ": "Jose Portilla",
+        "learn": [
+            {
+                "heading": "What you'll learn",
+                "l1": "Learn to use Python professionally, learning both Python 2 and Python 3!",
+                "l2": "Learn advanced Python features, like the collections module and how to work with timestamps!",
+                "l3": "Understand complex topics, like decorators",
+                "l4": "Get an understanding of how to create GUIs in the Jupyter Notebook system!",
+                "l5": "Create games with Python, like Tic Tac Toe and Blackjack!",
+                "l6": "Learn to use Object Oriented Programming with classes!",
+                "l7": "Understand how to use both the Jupyter Notebook and create .py files",
+                "l8": "Build a complete understanding of Python from the ground up!"
+            }
+        ],
+        "content": [
+            {
+                "c1": "Course Overview",
+                "c2": "Python Setup",
+                "c3": "Python Object and Data Structure Basics",
+                "c4": "Methods and Functions",
+                "c5": "Object Oriented Programming"
+            }
+        ],
+        "requirement": [
+            {
+                "heading": "Requirements",
+                "r1": "Access to a computer with an internet connection."
+            }
+        ],
+        "description": [
+            {
+                "heading": "Description",
+                "desc1": "Become a Python Programmer and learn one of employer's most requested skills of 2021!",
+                "desc2": "This is the most comprehensive, yet straight-forward, course for the Python programming language on Udemy! Whether you have never programmed before, already know basic syntax, or want to learn about the advanced features of Python, this course is for you! In this course we will teach you Python 3.",
+                "desc3": "With over 100 lectures and more than 21 hours of video this comprehensive course leaves no stone unturned! This course includes quizzes, tests, coding exercises and homework assignments as well as 3 major projects to create a Python project portfolio!"
+            }
+        ],
+        "include": [
+            {
+                "i1": "This course includes:",
+                "i2": "22 hours on-demand video",
+                "i3": "14 articles",
+                "i4": "Full lifetime access",
+                "i5": "Access on mobile and TV",
+                "i6": "Certificate of completion"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Python",
+        "title": "2021 Complete Python Bootcamp From Zero to Hero in Python",
+        "image":"https://img-c.udemycdn.com/course/240x135/567828_67d0.jpg",
+        "rating": 4.6,
+        "price": 455,
+        "oldprice": 1055,
+        "shortDecp" : "Learn Python like a Professional Start from the basics and go all the way to creating your own applications and games",
+        "Created by ":"Jose Portilla",
+        "learn":[
+            {
+            "heading": "What you'll learn",   
+            "l1": "Learn to use Python professionally, learning both Python 2 and Python 3!",
+            "l2": "Learn advanced Python features, like the collections module and how to work with timestamps!",
+            "l3": "Understand complex topics, like decorators",
+            "l4": "Get an understanding of how to create GUIs in the Jupyter Notebook system!",
+            "l5": "Create games with Python, like Tic Tac Toe and Blackjack!",
+            "l6": "Learn to use Object Oriented Programming with classes!",
+            "l7": "Understand how to use both the Jupyter Notebook and create .py files",
+            "l8": "Build a complete understanding of Python from the ground up!"
+        }
+        ],
+        "content":[{
+                   "c1": "Course Overview",
+                   "c2": "Python Setup",
+                   "c3": "Python Object and Data Structure Basics",
+                   "c4": "Methods and Functions",
+                   "c5":"Object Oriented Programming"         
+        }],
+        "requirement":[{
+            "heading": "Requirements",
+            "r1":"Access to a computer with an internet connection."
+                   
+        }],
+        "description": [{
+            "heading":"Description",
+            "desc1": "Become a Python Programmer and learn one of employer's most requested skills of 2021!",
+            "desc2":"This is the most comprehensive, yet straight-forward, course for the Python programming language on Udemy! Whether you have never programmed before, already know basic syntax, or want to learn about the advanced features of Python, this course is for you! In this course we will teach you Python 3.",
+            "desc3": "With over 100 lectures and more than 21 hours of video this comprehensive course leaves no stone unturned! This course includes quizzes, tests, coding exercises and homework assignments as well as 3 major projects to create a Python project portfolio!"
+            
+        }],
+        "include": [{
+            "i1" : "This course includes:",
+            "i2": "22 hours on-demand video",
+            "i3": "14 articles",
+            "i4": "Full lifetime access",
+            "i5": "Access on mobile and TV",
+            "i6": "Certificate of completion"
+        }]
+      }
 ]
 
 
