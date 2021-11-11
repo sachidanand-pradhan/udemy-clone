@@ -1,16 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
+function navbar() {
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navbar</title>
-    <link rel="stylesheet" href="../style.css">
-</head>
-
-<body>
-    <!-- click on mobilemenu -->
+    return `<!-- click on mobilemenu -->
     <div id="afterhovermenu" class="hidden">
         <div id="hovermenudiv" class="w-72 bg-white overflow-y-scroll" style="height: 630px;">
             <!-- sign in and sign up -->
@@ -256,8 +246,8 @@
         </button>
     </div>
     <!------------------------------------------------------   after navbar  **** ----------------------------------->
-    <div class="flex absolute">
-        <div id="onetwo" class="hidden">
+    <div class="flex absolute z-40">
+        <div id="onetwo" class="hidden z-40">
             <!-----------------------after hover on category --------------------->
             <div id="firstdiv" class="w-64 bg-white  border ">
                 <!-- under the ****  first div  **** -->
@@ -580,26 +570,8 @@
         <div class="m-4 text-sm text-gray-600 hover:text-blue-700"><a href="#">Help</a></div>
         <div class="m-4 text-sm text-gray-600 hover:text-blue-700"><a href="#">Log out</a></div>
 
-    </div>
+    </div>`
+}
 
 
-    <!--  -->
-    <!-- --------------------------- image  ------------------------------------------------------- -->
-    <img src="https://img-c.udemycdn.com/notices/web_banner/slide_1_image_udlite/db24b94e-d190-4d5a-b1dd-958f702cc8f5.jpg"
-        alt="">
-    <div class="flex justify-between px-4">
-        <button onclick="ok()">sign out</button>
-        <button onclick="done()">sign in</button>
-    </div>
-    <img src="https://img-c.udemycdn.com/notices/web_banner/slide_1_image_udlite/db24b94e-d190-4d5a-b1dd-958f702cc8f5.jpg"
-        alt="">
-    <img src="https://img-c.udemycdn.com/notices/web_banner/slide_1_image_udlite/db24b94e-d190-4d5a-b1dd-958f702cc8f5.jpg"
-        alt="">
-    <img src="https://img-c.udemycdn.com/notices/web_banner/slide_1_image_udlite/db24b94e-d190-4d5a-b1dd-958f702cc8f5.jpg"
-        alt="">
-
-</body>
-
-</html>
-
-<script src="../scripts/navbar.js"></script>
+export default navbar;

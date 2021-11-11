@@ -7,9 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel='stylesheet' href='./style.css' </head>
-    <script src=''></script>
+    <script src='./scripts/navbar.js'></script>
 
 <body>
+    <div id='navbar'></div>
     <!-- intro -->
     <div class="intro h-auto w-full">
         <img src='https://img-b.udemycdn.com/notices/web_banner/slide_1_image_udlite/db24b94e-d190-4d5a-b1dd-958f702cc8f5.jpg?secure=rzO5o24POVnBKsw0jfCtIA%3D%3D%2C1636530597'
@@ -17,7 +18,7 @@
     </div>
 
     <!-- intro search -->
-    <div class='p-6 bg-gray-50 h-auto shadow-lg md:absolute md:top-5 md:left-14 md:w-intro'>
+    <div class='p-6 bg-gray-50 h-auto shadow-lg md:absolute md:top-24 md:left-14 md:w-intro z-0'>
         <h1 class='text-2xl 950px:text-3xl font-bold'>Learning that gets you</h1>
         <p class='md:text-lg text-md mt-2'>Skills for your present (and your future). Get started with us.</p>
         <div class="border border-black h-auto p-3 flex mt-2 justify-between">
@@ -357,3 +358,23 @@
 </body>
 
 </html>
+
+
+<script type='module'>
+    import navbar from './components/navbar.js';
+
+    let promise = new Promise((resolve,reject) => {
+        let header = document.getElementById('navbar');
+    
+        header.innerHTML = navbar();
+
+        resolve('Navbar imported');
+    });
+    promise.then((res) => {
+        console.log( res );
+        addFunctionalityToNavbar();
+        console.log( 'done' );
+    })
+
+
+</script>

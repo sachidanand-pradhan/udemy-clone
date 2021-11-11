@@ -1,5 +1,7 @@
- 
-    // function for category----------------------------------****************--------------------
+
+// function for category----------------------------------****************--------------------
+function addFunctionalityToNavbar() {
+
     let cat = document.getElementById("cat")
     var firstdiv = document.getElementById("firstdiv")
     var secdiv = document.getElementById("secdiv")
@@ -193,8 +195,8 @@
     let language = document.getElementById("language")
     let beforlogin = document.getElementById("beforlogin")
     let afterlogin = document.getElementById("afterlogin")
-    function ok(){
-        signin.setAttribute('class','hidden md:block mx-2 text-sm border border-black px-3 font-semibold py-2')
+    function ok() {
+        signin.setAttribute('class', 'hidden md:block mx-2 text-sm border border-black px-3 font-semibold py-2')
         signup.setAttribute('class', 'hidden md:block mx-2 text-sm border border-black bg-black text-white px-3 font-semibold py-2')
         language.setAttribute('class', 'hidden md:block mx-2 border border-black px-2 py-2 mr-4')
         user.setAttribute('class', 'hidden')
@@ -204,27 +206,27 @@
         beforlogin.setAttribute('class', 'block')
         afterlogin.setAttribute('class', 'hidden')
     }
-    function done(){
+    function done() {
         signin.setAttribute('class', 'hidden')
         signup.setAttribute('class', 'hidden')
         user.setAttribute('class', 'py-7 mr-4 hidden md:block')
         language.setAttribute('class', 'hidden')
         learning.setAttribute('class', 'mx-2 text-sm hidden md:block hover:text-blue-800 py-7')
         bell.setAttribute('class', 'mx-2 py-7 hidden md:block')
-        favorite.setAttribute('class','mx-2 py-7 hidden md:block')
+        favorite.setAttribute('class', 'mx-2 py-7 hidden md:block')
         beforlogin.setAttribute('class', 'hidden')
         afterlogin.setAttribute('class', 'flex gap-2 m-4')
     }
 
 
     // -----  function for toggle on mobilemenu --------
-
     let afterhovermenu = document.getElementById("afterhovermenu")
     let cross = document.getElementById("cross")
-    cross.addEventListener('click',()=>{
-        afterhovermenu.setAttribute('class','hidden')
+    cross.addEventListener('click', () => {
+        afterhovermenu.setAttribute('class', 'hidden')
     })
-    function showmenu() {
-        afterhovermenu.setAttribute('class', ' flex md:hidden fixed w-full')
-    }
 
+    function showmenu() {
+        afterhovermenu.setAttribute('class', 'flex md:hidden fixed w-full')
+    }
+}
