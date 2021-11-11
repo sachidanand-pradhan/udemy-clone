@@ -306,7 +306,7 @@ function navbar() {
                     </svg>
                 </div>
                 <!-- 7 item -->
-                <div class="flex text-sm items-center hover:text-blue-800 ml-2 mt-4">
+                <div id="design" class="flex text-sm items-center hover:text-blue-800 ml-2 mt-4">
                     <h1 class="flex-grow">Design</h1>
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
                         <path fill-rule="evenodd"
@@ -315,7 +315,7 @@ function navbar() {
                     </svg>
                 </div>
                 <!-- 8 item -->
-                <div class="flex text-sm items-center hover:text-blue-800 ml-2 mt-4">
+                <div id='marketing' class="flex text-sm items-center hover:text-blue-800 ml-2 mt-4">
                     <h1 class="flex-grow">Marketing</h1>
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
                         <path fill-rule="evenodd"
@@ -324,7 +324,7 @@ function navbar() {
                     </svg>
                 </div>
                 <!-- 9 item -->
-                <div class="flex text-sm items-center hover:text-blue-800 ml-2 mt-4">
+                <div id='lifestyle' class="flex text-sm items-center hover:text-blue-800 ml-2 mt-4">
                     <h1 class="flex-grow">Lifestyle</h1>
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
                         <path fill-rule="evenodd"
@@ -333,7 +333,7 @@ function navbar() {
                     </svg>
                 </div>
                 <!-- 10 item -->
-                <div class="flex text-sm items-center hover:text-blue-800 ml-2 mt-4">
+                <div id='photoandvideo' class="flex text-sm items-center hover:text-blue-800 ml-2 mt-4">
                     <h1 class="flex-grow">Photography & Video</h1>
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
                         <path fill-rule="evenodd"
@@ -342,7 +342,7 @@ function navbar() {
                     </svg>
                 </div>
                 <!-- 11 item -->
-                <div class="flex text-sm items-center hover:text-blue-800 ml-2 mt-4">
+                <div id='healthfitness' class="flex text-sm items-center hover:text-blue-800 ml-2 mt-4">
                     <h1 class="flex-grow">Health & fitness</h1>
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
                         <path fill-rule="evenodd"
@@ -351,7 +351,7 @@ function navbar() {
                     </svg>
                 </div>
                 <!-- 12 item -->
-                <div class="flex text-sm items-center hover:text-blue-800 ml-2 mt-4">
+                <div id='music' class="flex text-sm items-center hover:text-blue-800 ml-2 mt-4">
                     <h1 class="flex-grow">Music</h1>
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
                         <path fill-rule="evenodd"
@@ -360,7 +360,7 @@ function navbar() {
                     </svg>
                 </div>
                 <!-- 13 item -->
-                <div class="flex text-sm items-center hover:text-blue-800 ml-2 mt-4 mb-12">
+                <div id='teachingandacademics' class="flex text-sm items-center hover:text-blue-800 ml-2 mt-4 mb-12">
                     <h1 class="flex-grow">Teaching & Academics</h1>
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
                         <path fill-rule="evenodd"
