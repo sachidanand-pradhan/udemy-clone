@@ -1704,6 +1704,111 @@ function addFunctionalityToNavbar() {
 
     });
 
+    // after hover on ****   firstdiv > Teaching & Academics  **** 
+
+    let teachingandacademics = document.getElementById("teachingandacademics")
+    teachingandacademics.addEventListener('mouseover', () => {
+        secdiv.innerText = null
+        // 1 item
+        let sdiv1 = document.createElement("div")
+        sdiv1.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+
+        let h1 = document.createElement("h1")
+        h1.innerText=""
+
+        let i1 = document.createElement("img")
+        i1.setAttribute('class', 'w-2 h-2')
+        i1.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+
+        sdiv1.append(h1,i1)
+        secdiv.append(sdiv1)
+
+        // 2 item
+        let sdiv2 = document.createElement("div")
+        sdiv2.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+
+        let h2 = document.createElement("h1")
+        h2.innerText=""
+
+        let i2nd = document.createElement("img")
+        i2nd.setAttribute('class', 'w-2 h-2')
+        i2nd.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+
+        sdiv2.append(h2,i2nd)
+        secdiv.append(sdiv2)
+
+        //3 item
+        let sdiv3 = document.createElement("div")
+        sdiv3.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+
+        let h3 = document.createElement("h1")
+        h3.innerText=""
+
+        let i3 = document.createElement("img")
+        i3.setAttribute('class', 'w-2 h-2')
+        i3.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+
+        sdiv3.append(h3,i3)
+        secdiv.append(sdiv3)
+
+        // 4 item
+        let sdiv4 = document.createElement("div")
+        sdiv4.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+
+        let h4 = document.createElement("h1")
+        h4.innerText=""
+
+        let i4 = document.createElement("img")
+        i4.setAttribute('class', 'w-2 h-2')
+        i4.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+
+        sdiv4.append(h4,i4)
+        secdiv.append(sdiv4)
+
+        // 5 item
+        let sdiv5 = document.createElement("div")
+        sdiv5.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+
+        let h5 = document.createElement("h1")
+        h5.innerText=""
+
+        let i5 = document.createElement("img")
+        i5.setAttribute('class', 'w-2 h-2')
+        i5.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+
+        sdiv5.append(h5,i5)
+        secdiv.append(sdiv5)
+
+        // 6 item
+        let sdiv6 = document.createElement("div")
+        sdiv6.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+
+        let h6 = document.createElement("h1")
+        h6.innerText=""
+
+        let i6 = document.createElement("img")
+        i6.setAttribute('class', 'w-2 h-2')
+        i6.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+
+        sdiv6.append(h6,i6)
+        secdiv.append(sdiv6)
+
+        // 7 item
+        let sdiv7 = document.createElement("div")
+        sdiv7.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+
+        let h7 = document.createElement("h1")
+        h7.innerText=""
+
+        let i7 = document.createElement("img")
+        i7.setAttribute('class', 'w-2 h-2')
+        i7.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+
+        sdiv7.append(h7,i7)
+        secdiv.append(sdiv7)
+
+    });
+
      // // after hover on ****   firstdiv > Office productivity  **** 
 
      let officeproductivity = document.getElementById("officeproductivity")
