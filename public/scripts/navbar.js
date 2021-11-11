@@ -1770,7 +1770,7 @@ function addFunctionalityToNavbar() {
         sdiv5.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
 
         let h5 = document.createElement("h1")
-        h5.innerText=""
+        h5.innerText="Online Education"
 
         let i5 = document.createElement("img")
         i5.setAttribute('class', 'w-2 h-2')
