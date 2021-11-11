@@ -1742,7 +1742,7 @@ function addFunctionalityToNavbar() {
         sdiv3.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
 
         let h3 = document.createElement("h1")
-        h3.innerText=""
+        h3.innerText="Math"
 
         let i3 = document.createElement("img")
         i3.setAttribute('class', 'w-2 h-2')
