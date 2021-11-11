@@ -1,1056 +1,1087 @@
-{"javascript": [
-    {
-      "id": 1,
-      "name": "JavaScript",
-      "title": "The Complete JavaScript Course 2021: From Zero to Expert!",
-      "image":"https://img-c.udemycdn.com/course/240x135/851712_fc61_6.jpg",
-      "rating": 4.7,
-      "price": 455,
-      "oldprice": 1055,
-      "shortDecp" : "The modern JavaScript course for everyone! Master JavaScript with projects, challenges and theory. Many courses in one!",
-      "Created by ":"Jonas Schmedtman",
-      "learn":[
-          {
-          "heading": "What you'll learn",     
-          "l1": "Become an advanced, confident, and modern JavaScript developer from scratch",
-          "l2": "Become job-ready by understanding how JavaScript really works behind the scenes",
-          "l3": "JavaScript fundamentals: variables, if/else, operators, boolean logic, functions, arrays, objects, loops, strings, etc.",
-          "l4": "Modern OOP: Classes, constructors, prototypal inheritance, encapsulation, etc.",
-          "l5": "Asynchronous JavaScript: Event loop, promises, async/await, AJAX calls and APIs",
-          "l6": "Become an advanced, confident, and modern JavaScript developer from scratch",
-          "l7": "Become job-ready by understanding how JavaScript really works behind the scenes",
-          "l8": "JavaScript fundamentals: variables, if/else, operators, boolean logic, functions, arrays, objects, loops, strings, etc.",
-          "l9": "Modern OOP: Classes, constructors, prototypal inheritance, encapsulation, etc.",
-          "l0": "Asynchronous JavaScript: Event loop, promises, async/await, AJAX calls and APIs"
-      }
-      ],
-      "content":[{
-                    "c1":"Welcome,",
-                    "c2":"Introduction",
-                    "c3":"Basic of JavaScript",
-                    "c4":"DOM",
-                    "c5":"Advance JavaScript"
-      }],
-      "requirement":[{
+{
+    "javascript": [
+        {
+            "id": 1,
+            "name": "JavaScript",
+            "title": "The Complete JavaScript Course 2021: From Zero to Expert!",
+            "image": "https://img-c.udemycdn.com/course/240x135/851712_fc61_6.jpg",
+            "rating": 4.7,
+            "price": 455,
+            "oldprice": 1055,
+            "shortDecp": "The modern JavaScript course for everyone! Master JavaScript with projects, challenges and theory. Many courses in one!",
+            "CreatedBy": "Jonas Schmedtman",
+            "learn": [
+                {
+                    "heading": "What you'll learn",
+                    "l1": "Become an advanced, confident, and modern JavaScript developer from scratch",
+                    "l2": "Become job-ready by understanding how JavaScript really works behind the scenes",
+                    "l3": "JavaScript fundamentals: variables, if/else, operators, boolean logic, functions, arrays, objects, loops, strings, etc.",
+                    "l4": "Modern OOP: Classes, constructors, prototypal inheritance, encapsulation, etc.",
+                    "l5": "Asynchronous JavaScript: Event loop, promises, async/await, AJAX calls and APIs",
+                    "l6": "Become an advanced, confident, and modern JavaScript developer from scratch",
+                    "l7": "Become job-ready by understanding how JavaScript really works behind the scenes",
+                    "l8": "JavaScript fundamentals: variables, if/else, operators, boolean logic, functions, arrays, objects, loops, strings, etc.",
+                    "l9": "Modern OOP: Classes, constructors, prototypal inheritance, encapsulation, etc.",
+                    "l0": "Asynchronous JavaScript: Event loop, promises, async/await, AJAX calls and APIs"
+                }
+            ],
+            "content": [
+                {
+                    "c1": "Welcome,",
+                    "c2": "Introduction",
+                    "c3": "Basic of JavaScript",
+                    "c4": "DOM",
+                    "c5": "Advance JavaScript"
+                }
+            ],
+            "requirement": [
+                {
                     "r1": "No coding experience is necessary to take this course! I take you from beginner to expert!",
-                    "r2":"Any computer and OS will work — Windows, macOS or Linux. We will set up your text editor the course.",
+                    "r2": "Any computer and OS will work — Windows, macOS or Linux. We will set up your text editor the course.",
                     "r3": "A basic understanding of HTML and CSS is a plus, but not a must! The course includes an HTML and CSS crash course."
-      }],
-      "description": [{
-          "desc1":"*** The #1 bestselling JavaScript course on Udemy! ***",
-          "desc2": "*** Completely re-built from scratch in October 2020 (68 hours video) ***",
-          "desc3": "Really, really well made course. Super in-depth, with great challenges and projects that will solidify your Javascript understanding. I found the lectures were paced perfectly -- Jonas doesn't skip over anything that might be useful to a JS developer — Carson Bartholomew",
-          "desc4": "JavaScript is the most popular programming language in the world. It powers the entire modern web. It provides millions of high-paying jobs all over the world."
-      }],
-      "include": [{
-          "i1" : "This course includes:",
-          "i2": "68 hours on-demand video",
-          "i3": "21 articles",
-          "i4": "18 downloadable resources",
-          "i5": "Full lifetime access",
-          "i6": "Access on mobile and TV",
-          "i7": "Certificate of completion"
-      }]
-    },
-    {
-        "id": 3,
-        "name": "Modern JavaScript From The Beginning",
-        "title": "Learn and build projects with pure JavaScript (No frameworks or libraries)",
-        "image": "https://img-c.udemycdn.com/course/240x135/1463348_52a4_2.jpg",
-        "rating": 4.7,
-        "shortDecp": "The modern JavaScript course for everyone! Master JavaScript with projects, challenges and theory. Many courses in one!",
-        "Created by ": "Brad Traversy",
-        "learn": [
-            {
-                "heading": "What you'll learn",
-                "l1": "Become an advanced, confident, and modern JavaScript developer from scratch",
-                "l2": "Become job-ready by understanding how JavaScript really works behind the scenes",
-                "l3": "JavaScript fundamentals: variables, if/else, operators, boolean logic, functions, arrays, objects, loops, strings, etc.",
-                "l4": "Modern OOP: Classes, constructors, prototypal inheritance, encapsulation, etc.",
-                "l5": "Asynchronous JavaScript: Event loop, promises, async/await, AJAX calls and APIs",
-                "l6": "Become an advanced, confident, and modern JavaScript developer from scratch",
-                "l7": "Become job-ready by understanding how JavaScript really works behind the scenes",
-                "l8": "JavaScript fundamentals: variables, if/else, operators, boolean logic, functions, arrays, objects, loops, strings, etc.",
-                "l9": "Modern OOP: Classes, constructors, prototypal inheritance, encapsulation, etc.",
-                "l0": "Asynchronous JavaScript: Event loop, promises, async/await, AJAX calls and APIs"
-            }
-        ],
-        "content": [
-            {
-                "c1": "Welcome,",
-                "c2": "Introduction",
-                "c3": "Basic of JavaScript",
-                "c4": "DOM",
-                "c5": "Advance JavaScript"
-            }
-        ],
-        "requirement": [
-            {
-                "r1": "No coding experience is necessary to take this course! I take you from beginner to expert!",
-                "r2": "Any computer and OS will work — Windows, macOS or Linux. We will set up your text editor the course.",
-                "r3": "A basic understanding of HTML and CSS is a plus, but not a must! The course includes an HTML and CSS crash course."
-            }
-        ],
-        "description": [
-            {
-                "desc1": "*** The #1 bestselling JavaScript course on Udemy! ***",
-                "desc2": "*** Completely re-built from scratch in October 2020 (68 hours video) ***",
-                "desc3": "Really, really well made course. Super in-depth, with great challenges and projects that will solidify your Javascript understanding. I found the lectures were paced perfectly -- Jonas doesn't skip over anything that might be useful to a JS developer — Carson Bartholomew",
-                "desc4": "JavaScript is the most popular programming language in the world. It powers the entire modern web. It provides millions of high-paying jobs all over the world."
-            }
-        ],
-        "include": [
-            {
-                "i1": "This course includes:",
-                "i2": "68 hours on-demand video",
-                "i3": "21 articles",
-                "i4": "18 downloadable resources",
-                "i5": "Full lifetime access",
-                "i6": "Access on mobile and TV",
-                "i7": "Certificate of completion"
-            }
-        ]
-    },
-    {
-        "id": 4,
-        "name": "Modern JavaScript (Complete guide, from Novice to Ninja)",
-        "title": "Learn Modern JavaScript from the very start to ninja-level & build awesome JavaScript applications.",
-        "image": "https://img-c.udemycdn.com/course/240x135/2201164_831a.jpg",
-        "rating": 4.6,
-        "shortDecp": "Learn Modern JavaScript (Complete guide, from Novice to Ninja) like a Professional Start from the basics and go all the way to creating your own applications and games",
-        "Created by ": "The Net Ninja (Shaun Pelling)",
-        "learn": [
-            {
-                "heading": "What you'll learn",
-                "l1": "Learn to use Modern JavaScript (Complete guide, from Novice to Ninja) professionally, learning both Modern JavaScript (Complete guide, from Novice to Ninja) 2 and Modern JavaScript (Complete guide, from Novice to Ninja) 3!",
-                "l2": "Learn advanced Modern JavaScript (Complete guide, from Novice to Ninja) features, like the collections module and how to work with timestamps!",
-                "l3": "Understand complex topics, like decorators",
-                "l4": "Get an understanding of how to create GUIs in the Jupyter Notebook system!",
-                "l5": "Create games with Modern JavaScript (Complete guide, from Novice to Ninja), like Tic Tac Toe and Blackjack!",
-                "l6": "Learn to use Object Oriented Programming with classes!",
-                "l7": "Understand how to use both the Jupyter Notebook and create .py files",
-                "l8": "Build a complete understanding of Modern JavaScript (Complete guide, from Novice to Ninja) from the ground up!"
-            }
-        ],
-        "content": [
-            {
-                "c1": "Course Overview",
-                "c2": "Modern JavaScript (Complete guide, from Novice to Ninja) Setup",
-                "c3": "Modern JavaScript (Complete guide, from Novice to Ninja) Object and Data Structure Basics",
-                "c4": "Methods and Functions",
-                "c5": "Object Oriented Programming"
-            }
-        ],
-        "requirement": [
-            {
-                "heading": "Requirements",
-                "r1": "Access to a computer with an internet connection."
-            }
-        ],
-        "description": [
-            {
-                "heading": "Description",
-                "desc1": "Become a Modern JavaScript (Complete guide, from Novice to Ninja) Programmer and learn one of employer's most requested skills of 2021!",
-                "desc2": "This is the most comprehensive, yet straight-forward, course for the Modern JavaScript (Complete guide, from Novice to Ninja) programming language on Udemy! Whether you have never programmed before, already know basic syntax, or want to learn about the advanced features of Modern JavaScript (Complete guide, from Novice to Ninja), this course is for you! In this course we will teach you Modern JavaScript (Complete guide, from Novice to Ninja) 3.",
-                "desc3": "With over 100 lectures and more than 21 hours of video this comprehensive course leaves no stone unturned! This course includes quizzes, tests, coding exercises and homework assignments as well as 3 major projects to create a Modern JavaScript (Complete guide, from Novice to Ninja) project portfolio!"
-            }
-        ],
-        "include": [
-            {
-                "i1": "This course includes:",
-                "i2": "22 hours on-demand video",
-                "i3": "14 articles",
-                "i4": "Full lifetime access",
-                "i5": "Access on mobile and TV",
-                "i6": "Certificate of completion"
-            }
-        ]
-    },
-    {
-        "id": 5,
-        "name": "Learn JavaScript: Full-Stack from Scratch",
-        "title": "Understand the JavaScript language itself, Node.js, MongoDB, The Web Browser and More To Create Meaningful Applications",
-        "image": "https://img-c.udemycdn.com/course/240x135/1436332_1fc3_5.jpg",
-        "rating": 4.7,
-        "shortDecp": "Learn Learn JavaScript: Full-Stack from Scratch like a Professional Start from the basics and go all the way to creating your own applications and games",
-        "Created by ": "Brad Schiff",
-        "learn": [
-            {
-                "heading": "What you'll learn",
-                "l1": "Learn to use Learn JavaScript: Full-Stack from Scratch professionally, learning both Learn JavaScript: Full-Stack from Scratch 2 and Learn JavaScript: Full-Stack from Scratch 3!",
-                "l2": "Learn advanced Learn JavaScript: Full-Stack from Scratch features, like the collections module and how to work with timestamps!",
-                "l3": "Understand complex topics, like decorators",
-                "l4": "Get an understanding of how to create GUIs in the Jupyter Notebook system!",
-                "l5": "Create games with Learn JavaScript: Full-Stack from Scratch, like Tic Tac Toe and Blackjack!",
-                "l6": "Learn to use Object Oriented Programming with classes!",
-                "l7": "Understand how to use both the Jupyter Notebook and create .py files",
-                "l8": "Build a complete understanding of Learn JavaScript: Full-Stack from Scratch from the ground up!"
-            }
-        ],
-        "content": [
-            {
-                "c1": "Course Overview",
-                "c2": "Learn JavaScript: Full-Stack from Scratch Setup",
-                "c3": "Learn JavaScript: Full-Stack from Scratch Object and Data Structure Basics",
-                "c4": "Methods and Functions",
-                "c5": "Object Oriented Programming"
-            }
-        ],
-        "requirement": [
-            {
-                "heading": "Requirements",
-                "r1": "Access to a computer with an internet connection."
-            }
-        ],
-        "description": [
-            {
-                "heading": "Description",
-                "desc1": "Become a Learn JavaScript: Full-Stack from Scratch Programmer and learn one of employer's most requested skills of 2021!",
-                "desc2": "This is the most comprehensive, yet straight-forward, course for the Learn JavaScript: Full-Stack from Scratch programming language on Udemy! Whether you have never programmed before, already know basic syntax, or want to learn about the advanced features of Learn JavaScript: Full-Stack from Scratch, this course is for you! In this course we will teach you Learn JavaScript: Full-Stack from Scratch 3.",
-                "desc3": "With over 100 lectures and more than 21 hours of video this comprehensive course leaves no stone unturned! This course includes quizzes, tests, coding exercises and homework assignments as well as 3 major projects to create a Learn JavaScript: Full-Stack from Scratch project portfolio!"
-            }
-        ],
-        "include": [
-            {
-                "i1": "This course includes:",
-                "i2": "22 hours on-demand video",
-                "i3": "14 articles",
-                "i4": "Full lifetime access",
-                "i5": "Access on mobile and TV",
-                "i6": "Certificate of completion"
-            }
-        ]
-    },
-    {
-        "id": 6,
-        "name": "Javascript Tutorial and Projects Course",
-        "title": "Learn Javascript by Building Many Interesting Projects",
-        "image": "https://img-c.udemycdn.com/course/240x135/1518026_77fb_4.jpg",
-        "rating": 4.7,
-        "shortDecp": "Learn Javascript Tutorial and Projects Course like a Professional Start from the basics and go all the way to creating your own applications and games",
-        "Created by ": "John smilga",
-        "learn": [
-            {
-                "heading": "What you'll learn",
-                "l1": "Learn to use Javascript Tutorial and Projects Course professionally, learning both Javascript Tutorial and Projects Course 2 and Modern JavaScript (Complete guide, from Novice to Ninja) 3!",
-                "l2": "Learn advanced Modern JavaScript (Complete guide, from Novice to Ninja) features, like the collections module and how to work with timestamps!",
-                "l3": "Understand complex topics, like decorators",
-                "l4": "Get an understanding of how to create GUIs in the Jupyter Notebook system!",
-                "l5": "Create games with Modern JavaScript (Complete guide, from Novice to Ninja), like Tic Tac Toe and Blackjack!",
-                "l6": "Learn to use Object Oriented Programming with classes!",
-                "l7": "Understand how to use both the Jupyter Notebook and create .py files",
-                "l8": "Build a complete understanding of Modern JavaScript (Complete guide, from Novice to Ninja) from the ground up!"
-            }
-        ],
-        "content": [
-            {
-                "c1": "Course Overview",
-                "c2": "Modern JavaScript (Complete guide, from Novice to Ninja) Setup",
-                "c3": "Modern JavaScript (Complete guide, from Novice to Ninja) Object and Data Structure Basics",
-                "c4": "Methods and Functions",
-                "c5": "Object Oriented Programming"
-            }
-        ],
-        "requirement": [
-            {
-                "heading": "Requirements",
-                "r1": "Access to a computer with an internet connection."
-            }
-        ],
-        "description": [
-            {
-                "heading": "Description",
-                "desc1": "Become a Modern JavaScript (Complete guide, from Novice to Ninja) Programmer and learn one of employer's most requested skills of 2021!",
-                "desc2": "This is the most comprehensive, yet straight-forward, course for the Modern JavaScript (Complete guide, from Novice to Ninja) programming language on Udemy! Whether you have never programmed before, already know basic syntax, or want to learn about the advanced features of Modern JavaScript (Complete guide, from Novice to Ninja), this course is for you! In this course we will teach you Modern JavaScript (Complete guide, from Novice to Ninja) 3.",
-                "desc3": "With over 100 lectures and more than 21 hours of video this comprehensive course leaves no stone unturned! This course includes quizzes, tests, coding exercises and homework assignments as well as 3 major projects to create a Modern JavaScript (Complete guide, from Novice to Ninja) project portfolio!"
-            }
-        ],
-        "include": [
-            {
-                "i1": "This course includes:",
-                "i2": "22 hours on-demand video",
-                "i3": "14 articles",
-                "i4": "Full lifetime access",
-                "i5": "Access on mobile and TV",
-                "i6": "Certificate of completion"
-            }
-        ]
-    },
-    {
-        "id": 7,
-        "name": "Complete Javascript & jQuery Course with Bonus Vue JS Intro",
-        "title": "Learn Javascript, jQuery and Ajax from the start + Bonus Intro to Vue JS 3. Incudes complete written course material!",
-        "image": "https://img-c.udemycdn.com/course/240x135/3291142_8f0c_4.jpg",
-        "rating": 4.6,
-        "shortDecp": "Learn Modern JavaScript (Complete guide, from Novice to Ninja) like a Professional Start from the basics and go all the way to creating your own applications and games",
-        "Created by ": "Ivan Lourenço Gomes, Andrii Piatakha",
-        "learn": [
-            {
-                "heading": "What you'll learn",
-                "l1": "Learn to use Modern JavaScript (Complete guide, from Novice to Ninja) professionally, learning both Modern JavaScript (Complete guide, from Novice to Ninja) 2 and Modern JavaScript (Complete guide, from Novice to Ninja) 3!",
-                "l2": "Learn advanced Modern JavaScript (Complete guide, from Novice to Ninja) features, like the collections module and how to work with timestamps!",
-                "l3": "Understand complex topics, like decorators",
-                "l4": "Get an understanding of how to create GUIs in the Jupyter Notebook system!",
-                "l5": "Create games with Modern JavaScript (Complete guide, from Novice to Ninja), like Tic Tac Toe and Blackjack!",
-                "l6": "Learn to use Object Oriented Programming with classes!",
-                "l7": "Understand how to use both the Jupyter Notebook and create .py files",
-                "l8": "Build a complete understanding of Modern JavaScript (Complete guide, from Novice to Ninja) from the ground up!"
-            }
-        ],
-        "content": [
-            {
-                "c1": "Course Overview",
-                "c2": "Modern JavaScript (Complete guide, from Novice to Ninja) Setup",
-                "c3": "Modern JavaScript (Complete guide, from Novice to Ninja) Object and Data Structure Basics",
-                "c4": "Methods and Functions",
-                "c5": "Object Oriented Programming"
-            }
-        ],
-        "requirement": [
-            {
-                "heading": "Requirements",
-                "r1": "Access to a computer with an internet connection."
-            }
-        ],
-        "description": [
-            {
-                "heading": "Description",
-                "desc1": "Become a Modern JavaScript (Complete guide, from Novice to Ninja) Programmer and learn one of employer's most requested skills of 2021!",
-                "desc2": "This is the most comprehensive, yet straight-forward, course for the Modern JavaScript (Complete guide, from Novice to Ninja) programming language on Udemy! Whether you have never programmed before, already know basic syntax, or want to learn about the advanced features of Modern JavaScript (Complete guide, from Novice to Ninja), this course is for you! In this course we will teach you Modern JavaScript (Complete guide, from Novice to Ninja) 3.",
-                "desc3": "With over 100 lectures and more than 21 hours of video this comprehensive course leaves no stone unturned! This course includes quizzes, tests, coding exercises and homework assignments as well as 3 major projects to create a Modern JavaScript (Complete guide, from Novice to Ninja) project portfolio!"
-            }
-        ],
-        "include": [
-            {
-                "i1": "This course includes:",
-                "i2": "22 hours on-demand video",
-                "i3": "14 articles",
-                "i4": "Full lifetime access",
-                "i5": "Access on mobile and TV",
-                "i6": "Certificate of completion"
-            }
-        ]
-    },
-    {
-        "id": 8,
-        "name": "Golang",
-        "title": "Building Web Applications with Go - Intermediate Level",
-        "image": "https://img-c.udemycdn.com/course/240x135/4125016_6633.jpg",
-        "rating": 4.8,
-        "price": 455,
-        "oldprice": 3499,
-        "shortDecp": "Learn how to build a secure eecommerce application with Go (Golang)",
-        "Created by ": "Trevor Sawler",
-        "learn": [
-            {
-                "heading": "What you'll learn",
-                "l1": "Learn to use Python professionally, learning both Python 2 and Python 3!",
-                "l2": "Learn advanced Python features, like the collections module and how to work with timestamps!",
-                "l3": "Understand complex topics, like decorators",
-                "l4": "Get an understanding of how to create GUIs in the Jupyter Notebook system!",
-                "l5": "Create games with Python, like Tic Tac Toe and Blackjack!",
-                "l6": "Learn to use Object Oriented Programming with classes!",
-                "l7": "Understand how to use both the Jupyter Notebook and create .py files",
-                "l8": "Build a complete understanding of Python from the ground up!"
-            }
-        ],
-        "content": [
-            {
-                "c1": "Course Overview",
-                "c2": "Python Setup",
-                "c3": "Python Object and Data Structure Basics",
-                "c4": "Methods and Functions",
-                "c5": "Object Oriented Programming"
-            }
-        ],
-        "requirement": [
-            {
-                "heading": "Requirements",
-                "r1": "Access to a computer with an internet connection."
-            }
-        ],
-        "description": [
-            {
-                "heading": "Description",
-                "desc1": "Become a Python Programmer and learn one of employer's most requested skills of 2021!",
-                "desc2": "This is the most comprehensive, yet straight-forward, course for the Python programming language on Udemy! Whether you have never programmed before, already know basic syntax, or want to learn about the advanced features of Python, this course is for you! In this course we will teach you Python 3.",
-                "desc3": "With over 100 lectures and more than 21 hours of video this comprehensive course leaves no stone unturned! This course includes quizzes, tests, coding exercises and homework assignments as well as 3 major projects to create a Python project portfolio!"
-            }
-        ],
-        "include": [
-            {
-                "i1": "This course includes:",
-                "i2": "22 hours on-demand video",
-                "i3": "14 articles",
-                "i4": "Full lifetime access",
-                "i5": "Access on mobile and TV",
-                "i6": "Certificate of completion"
-            }
-        ]
-    },
-    {
-        "id": 9,
-        "name": "Web Development",
-        "title": "The Web Developer Bootcamp 2021",
-        "image": "https://img-c.udemycdn.com/course/240x135/625204_436a_3.jpg",
-        "rating": 4.7,
-        "price": 455,
-        "oldprice": 3499,
-        "shortDecp": "COMPLETELY REDONE - The only course you need to learn web development - HTML, CSS, JS, Node, and More!",
-        "Created by ": "Colt Steele",
-        "learn": [
-            {
-                "heading": "What you'll learn",
-                "l1": "Learn to use Python professionally, learning both Python 2 and Python 3!",
-                "l2": "Learn advanced Python features, like the collections module and how to work with timestamps!",
-                "l3": "Understand complex topics, like decorators",
-                "l4": "Get an understanding of how to create GUIs in the Jupyter Notebook system!",
-                "l5": "Create games with Python, like Tic Tac Toe and Blackjack!",
-                "l6": "Learn to use Object Oriented Programming with classes!",
-                "l7": "Understand how to use both the Jupyter Notebook and create .py files",
-                "l8": "Build a complete understanding of Python from the ground up!"
-            }
-        ],
-        "content": [
-            {
-                "c1": "Course Overview",
-                "c2": "Python Setup",
-                "c3": "Python Object and Data Structure Basics",
-                "c4": "Methods and Functions",
-                "c5": "Object Oriented Programming"
-            }
-        ],
-        "requirement": [
-            {
-                "heading": "Requirements",
-                "r1": "Access to a computer with an internet connection."
-            }
-        ],
-        "description": [
-            {
-                "heading": "Description",
-                "desc1": "Become a Python Programmer and learn one of employer's most requested skills of 2021!",
-                "desc2": "This is the most comprehensive, yet straight-forward, course for the Python programming language on Udemy! Whether you have never programmed before, already know basic syntax, or want to learn about the advanced features of Python, this course is for you! In this course we will teach you Python 3.",
-                "desc3": "With over 100 lectures and more than 21 hours of video this comprehensive course leaves no stone unturned! This course includes quizzes, tests, coding exercises and homework assignments as well as 3 major projects to create a Python project portfolio!"
-            }
-        ],
-        "include": [
-            {
-                "i1": "This course includes:",
-                "i2": "22 hours on-demand video",
-                "i3": "14 articles",
-                "i4": "Full lifetime access",
-                "i5": "Access on mobile and TV",
-                "i6": "Certificate of completion"
-            }
-        ]
-    },
-    {
-        "id": 10,
-        "name": "Web Development",
-        "title": "The Complete 2021 Web Developer course - Build 15 Projects",
-        "image": "https://img-c.udemycdn.com/course/240x135/548278_b005_9.jpg",
-        "rating": 4.5,
-        "price": 455,
-        "oldprice": 3499,
-        "shortDecp": "The only course you need to become a full-stack web developer. Covers HTML5, CSS3, JS, ES6, Node, APIs, Mobile & more!",
-        "Created by ": "Development Island (UK)",
-        "learn": [
-            {
-                "heading": "What you'll learn",
-                "l1": "Learn to use Python professionally, learning both Python 2 and Python 3!",
-                "l2": "Learn advanced Python features, like the collections module and how to work with timestamps!",
-                "l3": "Understand complex topics, like decorators",
-                "l4": "Get an understanding of how to create GUIs in the Jupyter Notebook system!",
-                "l5": "Create games with Python, like Tic Tac Toe and Blackjack!",
-                "l6": "Learn to use Object Oriented Programming with classes!",
-                "l7": "Understand how to use both the Jupyter Notebook and create .py files",
-                "l8": "Build a complete understanding of Python from the ground up!"
-            }
-        ],
-        "content": [
-            {
-                "c1": "Course Overview",
-                "c2": "Python Setup",
-                "c3": "Python Object and Data Structure Basics",
-                "c4": "Methods and Functions",
-                "c5": "Object Oriented Programming"
-            }
-        ],
-        "requirement": [
-            {
-                "heading": "Requirements",
-                "r1": "Access to a computer with an internet connection."
-            }
-        ],
-        "description": [
-            {
-                "heading": "Description",
-                "desc1": "Become a Python Programmer and learn one of employer's most requested skills of 2021!",
-                "desc2": "This is the most comprehensive, yet straight-forward, course for the Python programming language on Udemy! Whether you have never programmed before, already know basic syntax, or want to learn about the advanced features of Python, this course is for you! In this course we will teach you Python 3.",
-                "desc3": "With over 100 lectures and more than 21 hours of video this comprehensive course leaves no stone unturned! This course includes quizzes, tests, coding exercises and homework assignments as well as 3 major projects to create a Python project portfolio!"
-            }
-        ],
-        "include": [
-            {
-                "i1": "This course includes:",
-                "i2": "22 hours on-demand video",
-                "i3": "14 articles",
-                "i4": "Full lifetime access",
-                "i5": "Access on mobile and TV",
-                "i6": "Certificate of completion"
-            }
-        ]
-    },
-    {
-        "id": 11,
-        "name": "JavaScript",
-        "title": "JavaScript Beginner Bootcamp (2021)",
-        "image": "https://img-c.udemycdn.com/course/240x135/860812_f16e_23.jpg",
-        "rating": 4.5,
-        "shortDecp": "JavaScript for Beginners: Projects based learning, whiteboard animations, coding in the browser and quizzes",
-        "Created by ": "Rob Merrill",
-        "learn": [
-            {
-                "heading": "What you'll learn",
-                "l1": "Learn basics of JavaScript",
-                "l2": "Build projects as you learn concepts to get a taste of building applications on a small scale",
-                "l3": "Build a Portfolio Page with HTML & CSS",
-                "l4": "Look under the hood to understand how JavaScript works",
-                "l5": "Create Interactive Webpage and deploy to the web",
-                "l6": "Become interview ready with whiteboard algorithm challenges",
-                "l7": "Visually understand the JavaScript Language"
-            }
-        ],
-        "content": [
-            {}
-        ],
-        "requirement": [
-            {
-                "heading": "Requirements",
-                "r1": "Google Chrome Browser",
-                "r2": "No prior coding experience needed"
-            }
-        ],
-        "description": [
-            {
-                "heading": "Description",
-                "desc1": "This isn't the only JavaScript course you should ever take...but it should be your first!",
-                "desc2": "JavaScript the Basics is your one stop course to enter into the language of JavaScript. We are going to start from scratch and build up our understanding of the world's most popular programming language together. View JavaScript in action with whiteboard videos optimized for viewing on your smartphone. This is truly a course that you can engage with no matter where you are. Take your JavaScript eduction on the go! With whiteboard videos you get to visualize what JavaScript does under the hood. ",
-                "desc3": "You can practice JavaScript in your web browser! Take advantage of Google Chrome developer tools to put the JavaScript you have learned during our whiteboard lesson into practice with further examples and challenges. This is our JavaScript playground.There will be lots of quizzes on the JavaScript syntax we have just covered. The goal of this course is to move slow and allow these concepts and syntax to sink in through repetition.This course is also full of mini-projects that allow you to apply the JavaScript you are learning to actually building something that you can use. We focus on small to mid-sized projects aimed at the skill level of a beginner to intermediate JavaScript student.Learning JavaScript is like learning a language. This course won't make a false promise of saying you will master JavaScript overnight. However, this course will immerse you into the world's most popular programming language. "
-            }
-        ],
-        "include": [
-            {
-                "i1": "This course includes:",
-                "i2": "37 hours on-demand video",
-                "i3": "57 articles",
-                "i4": "7 downloadable resources",
-                "i5": "Full lifetime access",
-                "i6": "Access on mobile and TV",
-                "i7": "Certificate of completion"
-            }
-        ]
-    },
-    {
-        "id": 12,
-        "name": "JavaScript",
-        "title": "JavaScript Basics for Beginners",
-        "image": "https://img-c.udemycdn.com/course/240x135/1743420_0062.jpg",
-        "rating": 4.6,
-        "shortDecp": "JavaScript - Master the Fundamentals in 6 Hours",
-        "Created by ": "Rob Merrill",
-        "learn": [
-            {
-                "heading": "What you'll learn",
-                "l1": "Understand the fundamental concepts in JavaScript",
-                "l2": "Learn and apply the best practices",
-                "l3": "Write solid JavaScript code",
-                "l4": "Learn problem-solving skills",
-                "l5": "Avoid common pitfalls and mistakes other JavaScript developers make"
-            }
-        ],
-        "content": [
-            {}
-        ],
-        "requirement": [
-            {
-                "heading": "Requirements",
-                "r1": "No coding experience is required to take this course."
-            }
-        ],
-        "description": [
-            {
-                "heading": "Description",
-                "desc1": "WHAT IS JAVASCRIPT? ",
-                "desc2": "JavaScript is one of the most popular programming languages in the world, and growing faster than any other programming language. As a developer, you can use JavaScript to build web and mobile apps, real-time networking apps, command-line tools, and games.",
-                "desc3": "4 REASONS TO LEARN JAVASCRIPT JavaScript is a key tool for front-end, back-end, and full-stack developers.The average annual salary for a JavaScript developer is $72,000.Companies like Walmart, Netflix, and PayPal run big internal applications around JavaScript. Having strong JavaScript knowledge will help you land your dream job."
-            }
-        ],
-        "include": [
-            {
-                "i1": "This course includes:",
-                "i2": "6.5 hours on-demand video",
-                "i3": "3 articles",
-                "i4": "1 downloadable resource",
-                "i5": "Full lifetime access",
-                "i6": "Access on mobile and TV",
-                "i7": "Certificate of completion"
-            }
-        ]
-    },
-    {
-        "id": 13,
-        "name": "JavaScript",
-        "title": "The Complete JavaScript Course - Beginner to Professional",
-        "image": "https://img-c.udemycdn.com/course/240x135/1342418_b2f3_16.jpg",
-        "rating": 4.5,
-        "shortDecp": "The only course you need to become a JavaScript developer - 45 JavaScript projects, ES6, JSON, AJAX & much more!",
-        "Created by ": "Rob Merrill",
-        "learn": [
-            {
-                "heading": "What you'll learn",
-                "l1": "Master the #1 programming language in the world",
-                "l2": "Build games, web apps and websites in JavaScript",
-                "l3": "Become a professional JavaScript developer",
-                "l4": "Get web development jobs on freelancer sites"
-            }
-        ],
-        "content": [
-            {
-                "c1": "JavaScript and HTML",
-                "c2": "Add JavaScript to your WebPage",
-                "c3": "First JavaScript",
-                "c4": "Console debug",
-                "c5": "JavaScript Comments",
-                "c6": "Practice Exercise",
-                "c7": "Exercise Source Code"
-            }
-        ],
-        "requirement": [
-            {
-                "heading": "Requirements",
-                "r1": "No experience required - this course will take you from beginner to paid professional",
-                "r2": "All you need is a text editor or download of the one suggested in the course",
-                "r3": "HTML and CSS experience"
-            }
-        ],
-        "description": [
-            {
-                "heading": "Description",
-                "desc1": "This course has everything you need to become a professional JavaScript developer! ",
-                "desc2": "With over 33 hours of training, quizzes and challenges, it's the most comprehensive JavaScript course available on Udemy!Whether you want a career in front end or back end development - it's essential that you have a solid understanding of this versatile language! Come learn the #1 programming language in the world in this fun and exciting course with Laurence Svekis - a web developer with 18 years experience who has followed Rob Percival's 'learn by doing' style to create this amazing course.",
-                "desc3": "Build 45 Games, Web Apps and Websites with JavaScript. You'll go from beginner to extremely high-level and your instructor will complete each project with you step by step on screen. Inside the course, you'll build a Magic Eight Ball game, mini calculator, a Calorie Counter app, a geo-located Google Map, a functioning online store and much much more! You'll learn how to:"
-            }
-        ],
-        "include": [
-            {
-                "i1": "This course includes:",
-                "i2": "34 hours on-demand video",
-                "i3": "179 articles",
-                "i4": "21 downloadable resource",
-                "i5": "Full lifetime access",
-                "i6": "Access on mobile and TV",
-                "i7": "Certificate of completion"
-            }
-        ]
-    },
-    {
-        "id": 14,
-        "name": "JavaScript",
-        "title": "Object-oriented Programming in JavaScript",
-        "image": "https://img-c.udemycdn.com/course/240x135/1642074_7ef3.jpg",
-        "rating": 4.6,
-        "shortDecp": "Learn all about OOP, understand the most confusing parts of JavaScript and prepare for technical interviews",
-        "Created by ": "Rob Merrill",
-        "learn": [
-            {
-                "heading": "What you'll learn",
-                "l1": "Understand the most confusing parts of JavaScript",
-                "l2": "Prepare for technical interviews",
-                "l3": "Build re-usable components",
-                "l4": "Learn all about prototypes and prototypical inheritance",
-                "l5": "Learn all about object-oriented programming",
-                "l6": "Manage and reduce complexity in code",
-                "l7": "Write cleaner code",
-                "l8": "Use ES6 features (classes and modules) and tooling"
-            }
-        ],
-        "content": [
-            {
-                "c1": "Course Structure",
-                "c2": "Asking Questions"
-            }
-        ],
-        "requirement": [
-            {
-                "heading": "Requirements",
-                "r1": "At least 3 months experience with JavaScript"
-            }
-        ],
-        "description": [
-            {
-                "heading": "Description",
-                "desc1": "What is Object-oriented Programming (OOP)?",
-                "desc2": "Object-oriented programming (OOP) is a popular programming paradigm or style of programming. It’s been around since ‘70s, but unlike tools and frameworks that come and go, OOP is still very relevant today. That’s because it’s not a programming language or a tool. It’s a style of programming.",
-                "desc3": "OOP helps you manage and reduce complexity in software by building re-usable building blocks (objects). Properly designed objects provide a simple interface and hide the unnecessary complexity from the outside, just like a DVD player! A DVD player has a complex logic board on the inside and a few buttons on the outside. When you press the play button, you don’t care how all those microchips talk to each other."
-            }
-        ],
-        "include": [
-            {
-                "i1": "This course includes:",
-                "i2": "4 hours on-demand video",
-                "i3": "7 articles",
-                "i4": "12 downloadable resource",
-                "i5": "Full lifetime access",
-                "i6": "Access on mobile and TV",
-                "i7": "Certificate of completion"
-            }
-        ]
-    },
-    {
-        "id": 15,
-        "name": "JavaScript",
-        "title": "Make a Spotify Clone from Scratch: JavaScript PHP and MySQL",
-        "image": "https://img-c.udemycdn.com/course/240x135/1188176_a4be_2.jpg",
-        "rating": 4.7,
-        "shortDecp": "Learn JavaScript, PHP and MySQL by building the ultimate music streaming website from scratch! The complete guide!",
-        "Created by ": "Rob Merrill",
-        "learn": [
-            {
-                "heading": "What you'll learn",
-                "l1": "Build your own music streaming service like Spotify",
-                "l2": "Discover important techniques that are essential for any aspiring software engineers",
-                "l3": "Master important areas of development in JavaScript, PHP, HTML and MySQL"
-            }
-        ],
-        "content": [
-            {
-                "c1": "Creating the register form"
-            }
-        ],
-        "requirement": [
-            {
-                "heading": "Requirements",
-                "r1": "No prior knowledge needed! A basic understanding of HTML is helpful - but not essential",
-                "r2": "A computer"
-            }
-        ],
-        "description": [
-            {
-                "heading": "Description",
-                "desc1": "Do you want to become an expert in JavaScript, PHP and MySQL?",
-                "desc2": "Do you want to build a real music streaming site just like Spotify? If so, you’re in the right place! This course will guide you step by step in creating your own Spotify clone",
-                "desc3": "I work as a Software Engineer at Microsoft where I build products used by millions of people all over the world! I want to take the skills I’ve gained through years of working with some of the best developers in the world and transfer them directly to you! I’ve taught thousands of students here on Udemy and created some of the most popular development courses on Udemy!"
-            }
-        ],
-        "include": [
-            {
-                "i1": "This course includes:",
-                "i2": "15 hours on-demand video",
-                "i3": "131 articles",
-                "i5": "Full lifetime access",
-                "i6": "Access on mobile and TV",
-                "i7": "Certificate of completion"
-            }
-        ]
-    },
-    {
-        "id": 16,
-        "name": "JavaScript",
-        "title": "The Complete JavaScript Course 2021: From Zero to Expert!",
-        "image": "https://img-c.udemycdn.com/course/240x135/851712_fc61_6.jpg",
-        "rating": 4.7,
-        "price": 755,
-        "oldPrice": 2499,
-        "shortDecp": "The modern JavaScript course for everyone! Master JavaScript with projects, challenges and theory. Many courses in one!",
-        "Created by ": "Jonas Schmedtman",
-        "learn": [
-            {
-                "heading": "What you'll learn",
-                "l1": "Become an advanced, confident, and modern JavaScript developer from scratch",
-                "l2": "Become job-ready by understanding how JavaScript really works behind the scenes",
-                "l3": "JavaScript fundamentals: variables, if/else, operators, boolean logic, functions, arrays, objects, loops, strings, etc.",
-                "l4": "Modern OOP: Classes, constructors, prototypal inheritance, encapsulation, etc.",
-                "l5": "Asynchronous JavaScript: Event loop, promises, async/await, AJAX calls and APIs",
-                "l6": "Become an advanced, confident, and modern JavaScript developer from scratch",
-                "l7": "Become job-ready by understanding how JavaScript really works behind the scenes",
-                "l8": "JavaScript fundamentals: variables, if/else, operators, boolean logic, functions, arrays, objects, loops, strings, etc.",
-                "l9": "Modern OOP: Classes, constructors, prototypal inheritance, encapsulation, etc.",
-                "l0": "Asynchronous JavaScript: Event loop, promises, async/await, AJAX calls and APIs"
-            }
-        ],
-        "content": [
-            {
-                "c1": "Welcome,",
-                "c2": "Introduction",
-                "c3": "Basic of JavaScript",
-                "c4": "DOM",
-                "c5": "Advance JavaScript"
-            }
-        ],
-        "requirement": [
-            {
-                "r1": "No coding experience is necessary to take this course! I take you from beginner to expert!",
-                "r2": "Any computer and OS will work — Windows, macOS or Linux. We will set up your text editor the course.",
-                "r3": "A basic understanding of HTML and CSS is a plus, but not a must! The course includes an HTML and CSS crash course."
-            }
-        ],
-        "description": [
-            {
-                "desc1": "*** The #1 bestselling JavaScript course on Udemy! ***",
-                "desc2": "*** Completely re-built from scratch in October 2020 (68 hours video) ***",
-                "desc3": "Really, really well made course. Super in-depth, with great challenges and projects that will solidify your Javascript understanding. I found the lectures were paced perfectly -- Jonas doesn't skip over anything that might be useful to a JS developer — Carson Bartholomew",
-                "desc4": "JavaScript is the most popular programming language in the world. It powers the entire modern web. It provides millions of high-paying jobs all over the world."
-            }
-        ],
-        "include": [
-            {
-                "i1": "This course includes:",
-                "i2": "68 hours on-demand video",
-                "i3": "21 articles",
-                "i4": "18 downloadable resources",
-                "i5": "Full lifetime access",
-                "i6": "Access on mobile and TV",
-                "i7": "Certificate of completion"
-            }
-        ]
-    },
-    {
-        "id": 18,
-        "name": "JavaScript",
-        "title": "JavaScript: Understanding the Weird Parts",
-        "image": "https://img-c.udemycdn.com/course/240x135/364426_2991_6.jpg",
-        "rating": 4.8,
-        "price": 599,
-        "oldPrice": 2499,
-        "shortDecp": "An advanced JavaScript course for everyone! Scope, closures, prototypes, 'this', build your own framework, and more.",
-        "Created by ": "Anthony Alicea",
-        "learn": [
-            {
-                "heading": "What you'll learn",
-                "l1": "Grasp how Javascript works and it's fundamental concepts",
-                "l2": "Understand advanced concepts such as closures, prototypal inheritance, IIFEs, and much more.",
-                "l3": "Avoid common pitfalls and mistakes other Javascript coders make",
-                "l4": "Build your own Javascript framework or library",
-                "l5": "Write solid, good Javascript code",
-                "l6": "Drastically improve your ability to debug problems in Javascript.",
-                "l7": "Understand the source code of popular Javascript frameworks",
-                "l8": "JavaScript fundamentals: variables, if/else, operators, boolean logic, functions, arrays, objects, loops, strings, etc.",
-                "l9": "Modern OOP: Classes, constructors, prototypal inheritance, encapsulation, etc.",
-                "l0": "Asynchronous JavaScript: Event loop, promises, async/await, AJAX calls and APIs"
-            }
-        ],
-        "content": [
-            {
-                "c1": "Getting Started",
-                "c2": "Execution Contexts and Lexical Environmentds",
-                "c3": "Types of Operators",
-                "c4": "Objects and Functions",
-                "c5": "Building Objects"
-            }
-        ],
-        "requirement": [
-            {
-                "r1": "Basic Javascript knowledge (variables, loops, and basic functions - that's all the course expects you to know!)",
-                "r2": "A browser and text editor",
-                "r3": "A basic understanding of HTML and CSS is a plus, but not a must! The course includes an HTML and CSS crash course."
-            }
-        ],
-        "description": [
-            {
-                "desc1": "Javascript is the language that modern developers need to know, and know well. Truly knowing Javascript will get you a job, and enable you to build quality web and server applications.",
-                "desc2": "NOTE: This course includes information on ECMAScript 6 (ES6) the next version of Javascript!",
-                "desc3": "In this course you will gain a deep understanding of Javascript, learn how Javascript works under the hood, and how that knowledge helps you avoid common pitfalls and drastically improve your ability to debug problems. You will find clarity in the parts that others, even experienced coders, may find weird, odd, and at times incomprehensible. You'll learn the beauty and deceptive power of this language that is at the forefront of modern software development today",
-                "desc4": "This course will cover such advanced concepts as objects and object literals, function expressions, prototypical inheritance, functional programming, scope chains, function constructors (plus new ES6 features), immediately invoked function expressions (IIFEs), call, apply, bind, and more."
-            }
-        ],
-        "include": [
-            {
-                "i1": "This course includes:",
-                "i2": "12 hours on-demand video",
-                "i3": "9 articles",
-                "i4": "50 downloadable resources",
-                "i5": "Full lifetime access",
-                "i6": "Access on mobile and TV",
-                "i7": "Certificate of completion"
-            }
-        ]
-    },
-    {
-        "id": 1900,
-        "name": "JavaScript",
-        "title": "Modern JavaScript From The Beginning",
-        "image": "https://img-c.udemycdn.com/course/240x135/1463348_52a4_2.jpg",
-        "rating": 4.7,
-        "price": 899,
-        "oldPrice": 4499,
-        "shortDecp": "Learn and build projects with pure JavaScript (No frameworks or libraries)",
-        "Created by ": "Brad Traversy",
-        "learn": [
-            {
-                "heading": "What you'll learn",
-                "l1": "Modular learning sections & 10 real world projects with pure JavaScript",
-                "l2": "Asynchronous programming with Ajax, Fetch API, Promises & Async / Await",
-                "l3": "Learn JavaScript Patterns",
-                "l4": "Master the DOM (document object model) WITHOUT jQuery",
-                "l5": "Regular expressions, error handling, localStorage & more",
-                "l6": "Drastically improve your ability to debug problems in Javascript.",
-                "l7": "Understand the source code of popular Javascript frameworks",
-                "l8": "JavaScript fundamentals: variables, if/else, operators, boolean logic, functions, arrays, objects, loops, strings, etc.",
-                "l9": "Modern OOP: Classes, constructors, prototypal inheritance, encapsulation, etc.",
-                "l0": "Asynchronous JavaScript: Event loop, promises, async/await, AJAX calls and APIs"
-            }
-        ],
-        "content": [
-            {
-                "c1": "Intro & Getting Started",
-                "c2": "JavaScript Language Fumdamentals",
-                "c3": "DOM Manipulation & Events",
-                "c4": "DOM Projects",
-                "c5": "API Projects"
-            }
-        ],
-        "requirement": [
-            {
-                "r1": "Basic HTML / CSS knowledge",
-                "r2": "A browser and text editor",
-                "r3": "A basic understanding of HTML and CSS is a plus, but not a must! The course includes an HTML and CSS crash course."
-            }
-        ],
-        "description": [
-            {
-                "desc1": "This is a front to back JavaScript course for absolutely everybody. We start with the basic fundamentals and work our way to advanced programming WITHOUT relying on frameworks or libraries at all. You will learn a ton of pure JavaScript, whether you are a beginner or an established JS programmer. There is something for everyone...",
-                "desc2": "Basics & Fundamentals: Data types, let & const variables, functions, conditionals, loops, object literals, arrays, etc",
-                "desc3": "DOM Manipulation: Selectors, traversing the DOM, show/hide, creating & removing elements, event listeners",
-                "desc4": "OOP: ES5 prototypes, inheritance, ES2015 classes & sub-classes, constructors"
-            }
-        ],
-        "include": [
-            {
-                "i1": "This course includes:",
-                "i2": "21.5 hours on-demand video",
-                "i3": "2 articles",
-                "i4": "111 downloadable resources",
-                "i5": "Full lifetime access",
-                "i6": "Access on mobile and TV",
-                "i7": "Certificate of completion"
-            }
-        ]
-    }
-    
-
-],
-"python":[
-    {
-        "id": 17,
-        "name": "Python",
-        "title": "2021 Complete Python Bootcamp From Zero to Hero in Python",
-        "image": "https://img-c.udemycdn.com/course/240x135/567828_67d0.jpg",
-        "rating": 4.6,
-        "price": 455,
-        "oldPrice": 3499,
-        "shortDecp": "Learn Python like a Professional Start from the basics and go all the way to creating your own applications and games",
-        "Created by ": "Jose Portilla",
-        "learn": [
-            {
-                "heading": "What you'll learn",
-                "l1": "Learn to use Python professionally, learning both Python 2 and Python 3!",
-                "l2": "Learn advanced Python features, like the collections module and how to work with timestamps!",
-                "l3": "Understand complex topics, like decorators",
-                "l4": "Get an understanding of how to create GUIs in the Jupyter Notebook system!",
-                "l5": "Create games with Python, like Tic Tac Toe and Blackjack!",
-                "l6": "Learn to use Object Oriented Programming with classes!",
-                "l7": "Understand how to use both the Jupyter Notebook and create .py files",
-                "l8": "Build a complete understanding of Python from the ground up!"
-            }
-        ],
-        "content": [
-            {
-                "c1": "Course Overview",
-                "c2": "Python Setup",
-                "c3": "Python Object and Data Structure Basics",
-                "c4": "Methods and Functions",
-                "c5": "Object Oriented Programming"
-            }
-        ],
-        "requirement": [
-            {
-                "heading": "Requirements",
-                "r1": "Access to a computer with an internet connection."
-            }
-        ],
-        "description": [
-            {
-                "heading": "Description",
-                "desc1": "Become a Python Programmer and learn one of employer's most requested skills of 2021!",
-                "desc2": "This is the most comprehensive, yet straight-forward, course for the Python programming language on Udemy! Whether you have never programmed before, already know basic syntax, or want to learn about the advanced features of Python, this course is for you! In this course we will teach you Python 3.",
-                "desc3": "With over 100 lectures and more than 21 hours of video this comprehensive course leaves no stone unturned! This course includes quizzes, tests, coding exercises and homework assignments as well as 3 major projects to create a Python project portfolio!"
-            }
-        ],
-        "include": [
-            {
-                "i1": "This course includes:",
-                "i2": "22 hours on-demand video",
-                "i3": "14 articles",
-                "i4": "Full lifetime access",
-                "i5": "Access on mobile and TV",
-                "i6": "Certificate of completion"
-            }
-        ]
-    },
-    {
-        "id": 2,
-        "name": "Python",
-        "title": "2021 Complete Python Bootcamp From Zero to Hero in Python",
-        "image":"https://img-c.udemycdn.com/course/240x135/567828_67d0.jpg",
-        "rating": 4.6,
-        "price": 455,
-        "oldprice": 1055,
-        "shortDecp" : "Learn Python like a Professional Start from the basics and go all the way to creating your own applications and games",
-        "Created by ":"Jose Portilla",
-        "learn":[
-            {
-            "heading": "What you'll learn",   
-            "l1": "Learn to use Python professionally, learning both Python 2 and Python 3!",
-            "l2": "Learn advanced Python features, like the collections module and how to work with timestamps!",
-            "l3": "Understand complex topics, like decorators",
-            "l4": "Get an understanding of how to create GUIs in the Jupyter Notebook system!",
-            "l5": "Create games with Python, like Tic Tac Toe and Blackjack!",
-            "l6": "Learn to use Object Oriented Programming with classes!",
-            "l7": "Understand how to use both the Jupyter Notebook and create .py files",
-            "l8": "Build a complete understanding of Python from the ground up!"
+                }
+            ],
+            "description": [
+                {
+                    "desc1": "*** The #1 bestselling JavaScript course on Udemy! ***",
+                    "desc2": "*** Completely re-built from scratch in October 2020 (68 hours video) ***",
+                    "desc3": "Really, really well made course. Super in-depth, with great challenges and projects that will solidify your Javascript understanding. I found the lectures were paced perfectly -- Jonas doesn't skip over anything that might be useful to a JS developer — Carson Bartholomew",
+                    "desc4": "JavaScript is the most popular programming language in the world. It powers the entire modern web. It provides millions of high-paying jobs all over the world."
+                }
+            ],
+            "include": [
+                {
+                    "i1": "This course includes:",
+                    "i2": "68 hours on-demand video",
+                    "i3": "21 articles",
+                    "i4": "18 downloadable resources",
+                    "i5": "Full lifetime access",
+                    "i6": "Access on mobile and TV",
+                    "i7": "Certificate of completion"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Modern JavaScript From The Beginning",
+            "title": "Learn and build projects with pure JavaScript (No frameworks or libraries)",
+            "image": "https://img-c.udemycdn.com/course/240x135/1463348_52a4_2.jpg",
+            "rating": 4.7,
+            "price": 455,
+            "oldprice": 1055,
+            "shortDecp": "The modern JavaScript course for everyone! Master JavaScript with projects, challenges and theory. Many courses in one!",
+            "CreatedBy": "Brad Traversy",
+            "learn": [
+                {
+                    "heading": "What you'll learn",
+                    "l1": "Become an advanced, confident, and modern JavaScript developer from scratch",
+                    "l2": "Become job-ready by understanding how JavaScript really works behind the scenes",
+                    "l3": "JavaScript fundamentals: variables, if/else, operators, boolean logic, functions, arrays, objects, loops, strings, etc.",
+                    "l4": "Modern OOP: Classes, constructors, prototypal inheritance, encapsulation, etc.",
+                    "l5": "Asynchronous JavaScript: Event loop, promises, async/await, AJAX calls and APIs",
+                    "l6": "Become an advanced, confident, and modern JavaScript developer from scratch",
+                    "l7": "Become job-ready by understanding how JavaScript really works behind the scenes",
+                    "l8": "JavaScript fundamentals: variables, if/else, operators, boolean logic, functions, arrays, objects, loops, strings, etc.",
+                    "l9": "Modern OOP: Classes, constructors, prototypal inheritance, encapsulation, etc.",
+                    "l0": "Asynchronous JavaScript: Event loop, promises, async/await, AJAX calls and APIs"
+                }
+            ],
+            "content": [
+                {
+                    "c1": "Welcome,",
+                    "c2": "Introduction",
+                    "c3": "Basic of JavaScript",
+                    "c4": "DOM",
+                    "c5": "Advance JavaScript"
+                }
+            ],
+            "requirement": [
+                {
+                    "r1": "No coding experience is necessary to take this course! I take you from beginner to expert!",
+                    "r2": "Any computer and OS will work — Windows, macOS or Linux. We will set up your text editor the course.",
+                    "r3": "A basic understanding of HTML and CSS is a plus, but not a must! The course includes an HTML and CSS crash course."
+                }
+            ],
+            "description": [
+                {
+                    "desc1": "*** The #1 bestselling JavaScript course on Udemy! ***",
+                    "desc2": "*** Completely re-built from scratch in October 2020 (68 hours video) ***",
+                    "desc3": "Really, really well made course. Super in-depth, with great challenges and projects that will solidify your Javascript understanding. I found the lectures were paced perfectly -- Jonas doesn't skip over anything that might be useful to a JS developer — Carson Bartholomew",
+                    "desc4": "JavaScript is the most popular programming language in the world. It powers the entire modern web. It provides millions of high-paying jobs all over the world."
+                }
+            ],
+            "include": [
+                {
+                    "i1": "This course includes:",
+                    "i2": "68 hours on-demand video",
+                    "i3": "21 articles",
+                    "i4": "18 downloadable resources",
+                    "i5": "Full lifetime access",
+                    "i6": "Access on mobile and TV",
+                    "i7": "Certificate of completion"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Modern JavaScript (Complete guide, from Novice to Ninja)",
+            "title": "Learn Modern JavaScript from the very start to ninja-level & build awesome JavaScript applications.",
+            "image": "https://img-c.udemycdn.com/course/240x135/2201164_831a.jpg",
+            "rating": 4.6,
+            "price": 455,
+            "oldprice": 1055,
+            "shortDecp": "Learn Modern JavaScript (Complete guide, from Novice to Ninja) like a Professional Start from the basics and go all the way to creating your own applications and games",
+            "CreatedBy": "The Net Ninja (Shaun Pelling)",
+            "learn": [
+                {
+                    "heading": "What you'll learn",
+                    "l1": "Learn to use Modern JavaScript (Complete guide, from Novice to Ninja) professionally, learning both Modern JavaScript (Complete guide, from Novice to Ninja) 2 and Modern JavaScript (Complete guide, from Novice to Ninja) 3!",
+                    "l2": "Learn advanced Modern JavaScript (Complete guide, from Novice to Ninja) features, like the collections module and how to work with timestamps!",
+                    "l3": "Understand complex topics, like decorators",
+                    "l4": "Get an understanding of how to create GUIs in the Jupyter Notebook system!",
+                    "l5": "Create games with Modern JavaScript (Complete guide, from Novice to Ninja), like Tic Tac Toe and Blackjack!",
+                    "l6": "Learn to use Object Oriented Programming with classes!",
+                    "l7": "Understand how to use both the Jupyter Notebook and create .py files",
+                    "l8": "Build a complete understanding of Modern JavaScript (Complete guide, from Novice to Ninja) from the ground up!"
+                }
+            ],
+            "content": [
+                {
+                    "c1": "Course Overview",
+                    "c2": "Modern JavaScript (Complete guide, from Novice to Ninja) Setup",
+                    "c3": "Modern JavaScript (Complete guide, from Novice to Ninja) Object and Data Structure Basics",
+                    "c4": "Methods and Functions",
+                    "c5": "Object Oriented Programming"
+                }
+            ],
+            "requirement": [
+                {
+                    "heading": "Requirements",
+                    "r1": "Access to a computer with an internet connection."
+                }
+            ],
+            "description": [
+                {
+                    "heading": "Description",
+                    "desc1": "Become a Modern JavaScript (Complete guide, from Novice to Ninja) Programmer and learn one of employer's most requested skills of 2021!",
+                    "desc2": "This is the most comprehensive, yet straight-forward, course for the Modern JavaScript (Complete guide, from Novice to Ninja) programming language on Udemy! Whether you have never programmed before, already know basic syntax, or want to learn about the advanced features of Modern JavaScript (Complete guide, from Novice to Ninja), this course is for you! In this course we will teach you Modern JavaScript (Complete guide, from Novice to Ninja) 3.",
+                    "desc3": "With over 100 lectures and more than 21 hours of video this comprehensive course leaves no stone unturned! This course includes quizzes, tests, coding exercises and homework assignments as well as 3 major projects to create a Modern JavaScript (Complete guide, from Novice to Ninja) project portfolio!"
+                }
+            ],
+            "include": [
+                {
+                    "i1": "This course includes:",
+                    "i2": "22 hours on-demand video",
+                    "i3": "14 articles",
+                    "i4": "Full lifetime access",
+                    "i5": "Access on mobile and TV",
+                    "i6": "Certificate of completion"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Learn JavaScript: Full-Stack from Scratch",
+            "title": "Understand the JavaScript language itself, Node.js, MongoDB, The Web Browser and More To Create Meaningful Applications",
+            "image": "https://img-c.udemycdn.com/course/240x135/1436332_1fc3_5.jpg",
+            "rating": 4.7,
+            "price": 455,
+            "oldprice": 1055,
+            "shortDecp": "Learn Learn JavaScript: Full-Stack from Scratch like a Professional Start from the basics and go all the way to creating your own applications and games",
+            "CreatedBy": "Brad Schiff",
+            "learn": [
+                {
+                    "heading": "What you'll learn",
+                    "l1": "Learn to use Learn JavaScript: Full-Stack from Scratch professionally, learning both Learn JavaScript: Full-Stack from Scratch 2 and Learn JavaScript: Full-Stack from Scratch 3!",
+                    "l2": "Learn advanced Learn JavaScript: Full-Stack from Scratch features, like the collections module and how to work with timestamps!",
+                    "l3": "Understand complex topics, like decorators",
+                    "l4": "Get an understanding of how to create GUIs in the Jupyter Notebook system!",
+                    "l5": "Create games with Learn JavaScript: Full-Stack from Scratch, like Tic Tac Toe and Blackjack!",
+                    "l6": "Learn to use Object Oriented Programming with classes!",
+                    "l7": "Understand how to use both the Jupyter Notebook and create .py files",
+                    "l8": "Build a complete understanding of Learn JavaScript: Full-Stack from Scratch from the ground up!"
+                }
+            ],
+            "content": [
+                {
+                    "c1": "Course Overview",
+                    "c2": "Learn JavaScript: Full-Stack from Scratch Setup",
+                    "c3": "Learn JavaScript: Full-Stack from Scratch Object and Data Structure Basics",
+                    "c4": "Methods and Functions",
+                    "c5": "Object Oriented Programming"
+                }
+            ],
+            "requirement": [
+                {
+                    "heading": "Requirements",
+                    "r1": "Access to a computer with an internet connection."
+                }
+            ],
+            "description": [
+                {
+                    "heading": "Description",
+                    "desc1": "Become a Learn JavaScript: Full-Stack from Scratch Programmer and learn one of employer's most requested skills of 2021!",
+                    "desc2": "This is the most comprehensive, yet straight-forward, course for the Learn JavaScript: Full-Stack from Scratch programming language on Udemy! Whether you have never programmed before, already know basic syntax, or want to learn about the advanced features of Learn JavaScript: Full-Stack from Scratch, this course is for you! In this course we will teach you Learn JavaScript: Full-Stack from Scratch 3.",
+                    "desc3": "With over 100 lectures and more than 21 hours of video this comprehensive course leaves no stone unturned! This course includes quizzes, tests, coding exercises and homework assignments as well as 3 major projects to create a Learn JavaScript: Full-Stack from Scratch project portfolio!"
+                }
+            ],
+            "include": [
+                {
+                    "i1": "This course includes:",
+                    "i2": "22 hours on-demand video",
+                    "i3": "14 articles",
+                    "i4": "Full lifetime access",
+                    "i5": "Access on mobile and TV",
+                    "i6": "Certificate of completion"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Javascript Tutorial and Projects Course",
+            "title": "Learn Javascript by Building Many Interesting Projects",
+            "image": "https://img-c.udemycdn.com/course/240x135/1518026_77fb_4.jpg",
+            "rating": 4.7,
+            "price": 455,
+            "oldprice": 1055,
+            "shortDecp": "Learn Javascript Tutorial and Projects Course like a Professional Start from the basics and go all the way to creating your own applications and games",
+            "CreatedBy": "John smilga",
+            "learn": [
+                {
+                    "heading": "What you'll learn",
+                    "l1": "Learn to use Javascript Tutorial and Projects Course professionally, learning both Javascript Tutorial and Projects Course 2 and Modern JavaScript (Complete guide, from Novice to Ninja) 3!",
+                    "l2": "Learn advanced Modern JavaScript (Complete guide, from Novice to Ninja) features, like the collections module and how to work with timestamps!",
+                    "l3": "Understand complex topics, like decorators",
+                    "l4": "Get an understanding of how to create GUIs in the Jupyter Notebook system!",
+                    "l5": "Create games with Modern JavaScript (Complete guide, from Novice to Ninja), like Tic Tac Toe and Blackjack!",
+                    "l6": "Learn to use Object Oriented Programming with classes!",
+                    "l7": "Understand how to use both the Jupyter Notebook and create .py files",
+                    "l8": "Build a complete understanding of Modern JavaScript (Complete guide, from Novice to Ninja) from the ground up!"
+                }
+            ],
+            "content": [
+                {
+                    "c1": "Course Overview",
+                    "c2": "Modern JavaScript (Complete guide, from Novice to Ninja) Setup",
+                    "c3": "Modern JavaScript (Complete guide, from Novice to Ninja) Object and Data Structure Basics",
+                    "c4": "Methods and Functions",
+                    "c5": "Object Oriented Programming"
+                }
+            ],
+            "requirement": [
+                {
+                    "heading": "Requirements",
+                    "r1": "Access to a computer with an internet connection."
+                }
+            ],
+            "description": [
+                {
+                    "heading": "Description",
+                    "desc1": "Become a Modern JavaScript (Complete guide, from Novice to Ninja) Programmer and learn one of employer's most requested skills of 2021!",
+                    "desc2": "This is the most comprehensive, yet straight-forward, course for the Modern JavaScript (Complete guide, from Novice to Ninja) programming language on Udemy! Whether you have never programmed before, already know basic syntax, or want to learn about the advanced features of Modern JavaScript (Complete guide, from Novice to Ninja), this course is for you! In this course we will teach you Modern JavaScript (Complete guide, from Novice to Ninja) 3.",
+                    "desc3": "With over 100 lectures and more than 21 hours of video this comprehensive course leaves no stone unturned! This course includes quizzes, tests, coding exercises and homework assignments as well as 3 major projects to create a Modern JavaScript (Complete guide, from Novice to Ninja) project portfolio!"
+                }
+            ],
+            "include": [
+                {
+                    "i1": "This course includes:",
+                    "i2": "22 hours on-demand video",
+                    "i3": "14 articles",
+                    "i4": "Full lifetime access",
+                    "i5": "Access on mobile and TV",
+                    "i6": "Certificate of completion"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Complete Javascript & jQuery Course with Bonus Vue JS Intro",
+            "title": "Learn Javascript, jQuery and Ajax from the start + Bonus Intro to Vue JS 3. Incudes complete written course material!",
+            "image": "https://img-c.udemycdn.com/course/240x135/3291142_8f0c_4.jpg",
+            "rating": 4.6,
+            "price": 455,
+            "oldprice": 1055,
+            "shortDecp": "Learn Modern JavaScript (Complete guide, from Novice to Ninja) like a Professional Start from the basics and go all the way to creating your own applications and games",
+            "CreatedBy": "Ivan Lourenço Gomes, Andrii Piatakha",
+            "learn": [
+                {
+                    "heading": "What you'll learn",
+                    "l1": "Learn to use Modern JavaScript (Complete guide, from Novice to Ninja) professionally, learning both Modern JavaScript (Complete guide, from Novice to Ninja) 2 and Modern JavaScript (Complete guide, from Novice to Ninja) 3!",
+                    "l2": "Learn advanced Modern JavaScript (Complete guide, from Novice to Ninja) features, like the collections module and how to work with timestamps!",
+                    "l3": "Understand complex topics, like decorators",
+                    "l4": "Get an understanding of how to create GUIs in the Jupyter Notebook system!",
+                    "l5": "Create games with Modern JavaScript (Complete guide, from Novice to Ninja), like Tic Tac Toe and Blackjack!",
+                    "l6": "Learn to use Object Oriented Programming with classes!",
+                    "l7": "Understand how to use both the Jupyter Notebook and create .py files",
+                    "l8": "Build a complete understanding of Modern JavaScript (Complete guide, from Novice to Ninja) from the ground up!"
+                }
+            ],
+            "content": [
+                {
+                    "c1": "Course Overview",
+                    "c2": "Modern JavaScript (Complete guide, from Novice to Ninja) Setup",
+                    "c3": "Modern JavaScript (Complete guide, from Novice to Ninja) Object and Data Structure Basics",
+                    "c4": "Methods and Functions",
+                    "c5": "Object Oriented Programming"
+                }
+            ],
+            "requirement": [
+                {
+                    "heading": "Requirements",
+                    "r1": "Access to a computer with an internet connection."
+                }
+            ],
+            "description": [
+                {
+                    "heading": "Description",
+                    "desc1": "Become a Modern JavaScript (Complete guide, from Novice to Ninja) Programmer and learn one of employer's most requested skills of 2021!",
+                    "desc2": "This is the most comprehensive, yet straight-forward, course for the Modern JavaScript (Complete guide, from Novice to Ninja) programming language on Udemy! Whether you have never programmed before, already know basic syntax, or want to learn about the advanced features of Modern JavaScript (Complete guide, from Novice to Ninja), this course is for you! In this course we will teach you Modern JavaScript (Complete guide, from Novice to Ninja) 3.",
+                    "desc3": "With over 100 lectures and more than 21 hours of video this comprehensive course leaves no stone unturned! This course includes quizzes, tests, coding exercises and homework assignments as well as 3 major projects to create a Modern JavaScript (Complete guide, from Novice to Ninja) project portfolio!"
+                }
+            ],
+            "include": [
+                {
+                    "i1": "This course includes:",
+                    "i2": "22 hours on-demand video",
+                    "i3": "14 articles",
+                    "i4": "Full lifetime access",
+                    "i5": "Access on mobile and TV",
+                    "i6": "Certificate of completion"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Golang",
+            "title": "Building Web Applications with Go - Intermediate Level",
+            "image": "https://img-c.udemycdn.com/course/240x135/4125016_6633.jpg",
+            "rating": 4.8,
+            "price": 455,
+            "oldprice": 3499,
+            "shortDecp": "Learn how to build a secure eecommerce application with Go (Golang)",
+            "CreatedBy": "Trevor Sawler",
+            "learn": [
+                {
+                    "heading": "What you'll learn",
+                    "l1": "Learn to use Python professionally, learning both Python 2 and Python 3!",
+                    "l2": "Learn advanced Python features, like the collections module and how to work with timestamps!",
+                    "l3": "Understand complex topics, like decorators",
+                    "l4": "Get an understanding of how to create GUIs in the Jupyter Notebook system!",
+                    "l5": "Create games with Python, like Tic Tac Toe and Blackjack!",
+                    "l6": "Learn to use Object Oriented Programming with classes!",
+                    "l7": "Understand how to use both the Jupyter Notebook and create .py files",
+                    "l8": "Build a complete understanding of Python from the ground up!"
+                }
+            ],
+            "content": [
+                {
+                    "c1": "Course Overview",
+                    "c2": "Python Setup",
+                    "c3": "Python Object and Data Structure Basics",
+                    "c4": "Methods and Functions",
+                    "c5": "Object Oriented Programming"
+                }
+            ],
+            "requirement": [
+                {
+                    "heading": "Requirements",
+                    "r1": "Access to a computer with an internet connection."
+                }
+            ],
+            "description": [
+                {
+                    "heading": "Description",
+                    "desc1": "Become a Python Programmer and learn one of employer's most requested skills of 2021!",
+                    "desc2": "This is the most comprehensive, yet straight-forward, course for the Python programming language on Udemy! Whether you have never programmed before, already know basic syntax, or want to learn about the advanced features of Python, this course is for you! In this course we will teach you Python 3.",
+                    "desc3": "With over 100 lectures and more than 21 hours of video this comprehensive course leaves no stone unturned! This course includes quizzes, tests, coding exercises and homework assignments as well as 3 major projects to create a Python project portfolio!"
+                }
+            ],
+            "include": [
+                {
+                    "i1": "This course includes:",
+                    "i2": "22 hours on-demand video",
+                    "i3": "14 articles",
+                    "i4": "Full lifetime access",
+                    "i5": "Access on mobile and TV",
+                    "i6": "Certificate of completion"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Web Development",
+            "title": "The Web Developer Bootcamp 2021",
+            "image": "https://img-c.udemycdn.com/course/240x135/625204_436a_3.jpg",
+            "rating": 4.7,
+            "price": 455,
+            "oldprice": 3499,
+            "shortDecp": "COMPLETELY REDONE - The only course you need to learn web development - HTML, CSS, JS, Node, and More!",
+            "CreatedBy": "Colt Steele",
+            "learn": [
+                {
+                    "heading": "What you'll learn",
+                    "l1": "Learn to use Python professionally, learning both Python 2 and Python 3!",
+                    "l2": "Learn advanced Python features, like the collections module and how to work with timestamps!",
+                    "l3": "Understand complex topics, like decorators",
+                    "l4": "Get an understanding of how to create GUIs in the Jupyter Notebook system!",
+                    "l5": "Create games with Python, like Tic Tac Toe and Blackjack!",
+                    "l6": "Learn to use Object Oriented Programming with classes!",
+                    "l7": "Understand how to use both the Jupyter Notebook and create .py files",
+                    "l8": "Build a complete understanding of Python from the ground up!"
+                }
+            ],
+            "content": [
+                {
+                    "c1": "Course Overview",
+                    "c2": "Python Setup",
+                    "c3": "Python Object and Data Structure Basics",
+                    "c4": "Methods and Functions",
+                    "c5": "Object Oriented Programming"
+                }
+            ],
+            "requirement": [
+                {
+                    "heading": "Requirements",
+                    "r1": "Access to a computer with an internet connection."
+                }
+            ],
+            "description": [
+                {
+                    "heading": "Description",
+                    "desc1": "Become a Python Programmer and learn one of employer's most requested skills of 2021!",
+                    "desc2": "This is the most comprehensive, yet straight-forward, course for the Python programming language on Udemy! Whether you have never programmed before, already know basic syntax, or want to learn about the advanced features of Python, this course is for you! In this course we will teach you Python 3.",
+                    "desc3": "With over 100 lectures and more than 21 hours of video this comprehensive course leaves no stone unturned! This course includes quizzes, tests, coding exercises and homework assignments as well as 3 major projects to create a Python project portfolio!"
+                }
+            ],
+            "include": [
+                {
+                    "i1": "This course includes:",
+                    "i2": "22 hours on-demand video",
+                    "i3": "14 articles",
+                    "i4": "Full lifetime access",
+                    "i5": "Access on mobile and TV",
+                    "i6": "Certificate of completion"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Web Development",
+            "title": "The Complete 2021 Web Developer course - Build 15 Projects",
+            "image": "https://img-c.udemycdn.com/course/240x135/548278_b005_9.jpg",
+            "rating": 4.5,
+            "price": 455,
+            "oldprice": 3499,
+            "shortDecp": "The only course you need to become a full-stack web developer. Covers HTML5, CSS3, JS, ES6, Node, APIs, Mobile & more!",
+            "CreatedBy": "Development Island (UK)",
+            "learn": [
+                {
+                    "heading": "What you'll learn",
+                    "l1": "Learn to use Python professionally, learning both Python 2 and Python 3!",
+                    "l2": "Learn advanced Python features, like the collections module and how to work with timestamps!",
+                    "l3": "Understand complex topics, like decorators",
+                    "l4": "Get an understanding of how to create GUIs in the Jupyter Notebook system!",
+                    "l5": "Create games with Python, like Tic Tac Toe and Blackjack!",
+                    "l6": "Learn to use Object Oriented Programming with classes!",
+                    "l7": "Understand how to use both the Jupyter Notebook and create .py files",
+                    "l8": "Build a complete understanding of Python from the ground up!"
+                }
+            ],
+            "content": [
+                {
+                    "c1": "Course Overview",
+                    "c2": "Python Setup",
+                    "c3": "Python Object and Data Structure Basics",
+                    "c4": "Methods and Functions",
+                    "c5": "Object Oriented Programming"
+                }
+            ],
+            "requirement": [
+                {
+                    "heading": "Requirements",
+                    "r1": "Access to a computer with an internet connection."
+                }
+            ],
+            "description": [
+                {
+                    "heading": "Description",
+                    "desc1": "Become a Python Programmer and learn one of employer's most requested skills of 2021!",
+                    "desc2": "This is the most comprehensive, yet straight-forward, course for the Python programming language on Udemy! Whether you have never programmed before, already know basic syntax, or want to learn about the advanced features of Python, this course is for you! In this course we will teach you Python 3.",
+                    "desc3": "With over 100 lectures and more than 21 hours of video this comprehensive course leaves no stone unturned! This course includes quizzes, tests, coding exercises and homework assignments as well as 3 major projects to create a Python project portfolio!"
+                }
+            ],
+            "include": [
+                {
+                    "i1": "This course includes:",
+                    "i2": "22 hours on-demand video",
+                    "i3": "14 articles",
+                    "i4": "Full lifetime access",
+                    "i5": "Access on mobile and TV",
+                    "i6": "Certificate of completion"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "name": "JavaScript",
+            "title": "JavaScript Beginner Bootcamp (2021)",
+            "image": "https://img-c.udemycdn.com/course/240x135/860812_f16e_23.jpg",
+            "rating": 4.5,
+            "price": 455,
+            "oldprice": 1055,
+            "shortDecp": "JavaScript for Beginners: Projects based learning, whiteboard animations, coding in the browser and quizzes",
+            "CreatedBy": "Rob Merrill",
+            "learn": [
+                {
+                    "heading": "What you'll learn",
+                    "l1": "Learn basics of JavaScript",
+                    "l2": "Build projects as you learn concepts to get a taste of building applications on a small scale",
+                    "l3": "Build a Portfolio Page with HTML & CSS",
+                    "l4": "Look under the hood to understand how JavaScript works",
+                    "l5": "Create Interactive Webpage and deploy to the web",
+                    "l6": "Become interview ready with whiteboard algorithm challenges",
+                    "l7": "Visually understand the JavaScript Language"
+                }
+            ],
+            "content": [
+                {}
+            ],
+            "requirement": [
+                {
+                    "heading": "Requirements",
+                    "r1": "Google Chrome Browser",
+                    "r2": "No prior coding experience needed"
+                }
+            ],
+            "description": [
+                {
+                    "heading": "Description",
+                    "desc1": "This isn't the only JavaScript course you should ever take...but it should be your first!",
+                    "desc2": "JavaScript the Basics is your one stop course to enter into the language of JavaScript. We are going to start from scratch and build up our understanding of the world's most popular programming language together. View JavaScript in action with whiteboard videos optimized for viewing on your smartphone. This is truly a course that you can engage with no matter where you are. Take your JavaScript eduction on the go! With whiteboard videos you get to visualize what JavaScript does under the hood. ",
+                    "desc3": "You can practice JavaScript in your web browser! Take advantage of Google Chrome developer tools to put the JavaScript you have learned during our whiteboard lesson into practice with further examples and challenges. This is our JavaScript playground.There will be lots of quizzes on the JavaScript syntax we have just covered. The goal of this course is to move slow and allow these concepts and syntax to sink in through repetition.This course is also full of mini-projects that allow you to apply the JavaScript you are learning to actually building something that you can use. We focus on small to mid-sized projects aimed at the skill level of a beginner to intermediate JavaScript student.Learning JavaScript is like learning a language. This course won't make a false promise of saying you will master JavaScript overnight. However, this course will immerse you into the world's most popular programming language. "
+                }
+            ],
+            "include": [
+                {
+                    "i1": "This course includes:",
+                    "i2": "37 hours on-demand video",
+                    "i3": "57 articles",
+                    "i4": "7 downloadable resources",
+                    "i5": "Full lifetime access",
+                    "i6": "Access on mobile and TV",
+                    "i7": "Certificate of completion"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "name": "JavaScript",
+            "title": "JavaScript Basics for Beginners",
+            "image": "https://img-c.udemycdn.com/course/240x135/1743420_0062.jpg",
+            "rating": 4.6,
+            "price": 455,
+            "oldprice": 1055,
+            "shortDecp": "JavaScript - Master the Fundamentals in 6 Hours",
+            "CreatedBy": "Rob Merrill",
+            "learn": [
+                {
+                    "heading": "What you'll learn",
+                    "l1": "Understand the fundamental concepts in JavaScript",
+                    "l2": "Learn and apply the best practices",
+                    "l3": "Write solid JavaScript code",
+                    "l4": "Learn problem-solving skills",
+                    "l5": "Avoid common pitfalls and mistakes other JavaScript developers make"
+                }
+            ],
+            "content": [
+                {}
+            ],
+            "requirement": [
+                {
+                    "heading": "Requirements",
+                    "r1": "No coding experience is required to take this course."
+                }
+            ],
+            "description": [
+                {
+                    "heading": "Description",
+                    "desc1": "WHAT IS JAVASCRIPT? ",
+                    "desc2": "JavaScript is one of the most popular programming languages in the world, and growing faster than any other programming language. As a developer, you can use JavaScript to build web and mobile apps, real-time networking apps, command-line tools, and games.",
+                    "desc3": "4 REASONS TO LEARN JAVASCRIPT JavaScript is a key tool for front-end, back-end, and full-stack developers.The average annual salary for a JavaScript developer is $72,000.Companies like Walmart, Netflix, and PayPal run big internal applications around JavaScript. Having strong JavaScript knowledge will help you land your dream job."
+                }
+            ],
+            "include": [
+                {
+                    "i1": "This course includes:",
+                    "i2": "6.5 hours on-demand video",
+                    "i3": "3 articles",
+                    "i4": "1 downloadable resource",
+                    "i5": "Full lifetime access",
+                    "i6": "Access on mobile and TV",
+                    "i7": "Certificate of completion"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "name": "JavaScript",
+            "title": "The Complete JavaScript Course - Beginner to Professional",
+            "image": "https://img-c.udemycdn.com/course/240x135/1342418_b2f3_16.jpg",
+            "rating": 4.5,
+            "price": 455,
+            "oldprice": 1055,
+            "shortDecp": "The only course you need to become a JavaScript developer - 45 JavaScript projects, ES6, JSON, AJAX & much more!",
+            "CreatedBy": "Rob Merrill",
+            "learn": [
+                {
+                    "heading": "What you'll learn",
+                    "l1": "Master the #1 programming language in the world",
+                    "l2": "Build games, web apps and websites in JavaScript",
+                    "l3": "Become a professional JavaScript developer",
+                    "l4": "Get web development jobs on freelancer sites"
+                }
+            ],
+            "content": [
+                {
+                    "c1": "JavaScript and HTML",
+                    "c2": "Add JavaScript to your WebPage",
+                    "c3": "First JavaScript",
+                    "c4": "Console debug",
+                    "c5": "JavaScript Comments",
+                    "c6": "Practice Exercise",
+                    "c7": "Exercise Source Code"
+                }
+            ],
+            "requirement": [
+                {
+                    "heading": "Requirements",
+                    "r1": "No experience required - this course will take you from beginner to paid professional",
+                    "r2": "All you need is a text editor or download of the one suggested in the course",
+                    "r3": "HTML and CSS experience"
+                }
+            ],
+            "description": [
+                {
+                    "heading": "Description",
+                    "desc1": "This course has everything you need to become a professional JavaScript developer! ",
+                    "desc2": "With over 33 hours of training, quizzes and challenges, it's the most comprehensive JavaScript course available on Udemy!Whether you want a career in front end or back end development - it's essential that you have a solid understanding of this versatile language! Come learn the #1 programming language in the world in this fun and exciting course with Laurence Svekis - a web developer with 18 years experience who has followed Rob Percival's 'learn by doing' style to create this amazing course.",
+                    "desc3": "Build 45 Games, Web Apps and Websites with JavaScript. You'll go from beginner to extremely high-level and your instructor will complete each project with you step by step on screen. Inside the course, you'll build a Magic Eight Ball game, mini calculator, a Calorie Counter app, a geo-located Google Map, a functioning online store and much much more! You'll learn how to:"
+                }
+            ],
+            "include": [
+                {
+                    "i1": "This course includes:",
+                    "i2": "34 hours on-demand video",
+                    "i3": "179 articles",
+                    "i4": "21 downloadable resource",
+                    "i5": "Full lifetime access",
+                    "i6": "Access on mobile and TV",
+                    "i7": "Certificate of completion"
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "name": "JavaScript",
+            "title": "Object-oriented Programming in JavaScript",
+            "image": "https://img-c.udemycdn.com/course/240x135/1642074_7ef3.jpg",
+            "rating": 4.6,
+            "price": 455,
+            "oldprice": 1055,
+            "shortDecp": "Learn all about OOP, understand the most confusing parts of JavaScript and prepare for technical interviews",
+            "CreatedBy": "Rob Merrill",
+            "learn": [
+                {
+                    "heading": "What you'll learn",
+                    "l1": "Understand the most confusing parts of JavaScript",
+                    "l2": "Prepare for technical interviews",
+                    "l3": "Build re-usable components",
+                    "l4": "Learn all about prototypes and prototypical inheritance",
+                    "l5": "Learn all about object-oriented programming",
+                    "l6": "Manage and reduce complexity in code",
+                    "l7": "Write cleaner code",
+                    "l8": "Use ES6 features (classes and modules) and tooling"
+                }
+            ],
+            "content": [
+                {
+                    "c1": "Course Structure",
+                    "c2": "Asking Questions"
+                }
+            ],
+            "requirement": [
+                {
+                    "heading": "Requirements",
+                    "r1": "At least 3 months experience with JavaScript"
+                }
+            ],
+            "description": [
+                {
+                    "heading": "Description",
+                    "desc1": "What is Object-oriented Programming (OOP)?",
+                    "desc2": "Object-oriented programming (OOP) is a popular programming paradigm or style of programming. It’s been around since ‘70s, but unlike tools and frameworks that come and go, OOP is still very relevant today. That’s because it’s not a programming language or a tool. It’s a style of programming.",
+                    "desc3": "OOP helps you manage and reduce complexity in software by building re-usable building blocks (objects). Properly designed objects provide a simple interface and hide the unnecessary complexity from the outside, just like a DVD player! A DVD player has a complex logic board on the inside and a few buttons on the outside. When you press the play button, you don’t care how all those microchips talk to each other."
+                }
+            ],
+            "include": [
+                {
+                    "i1": "This course includes:",
+                    "i2": "4 hours on-demand video",
+                    "i3": "7 articles",
+                    "i4": "12 downloadable resource",
+                    "i5": "Full lifetime access",
+                    "i6": "Access on mobile and TV",
+                    "i7": "Certificate of completion"
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "name": "JavaScript",
+            "title": "Make a Spotify Clone from Scratch: JavaScript PHP and MySQL",
+            "image": "https://img-c.udemycdn.com/course/240x135/1188176_a4be_2.jpg",
+            "rating": 4.7,
+            "price": 455,
+            "oldprice": 1055,
+            "shortDecp": "Learn JavaScript, PHP and MySQL by building the ultimate music streaming website from scratch! The complete guide!",
+            "CreatedBy": "Rob Merrill",
+            "learn": [
+                {
+                    "heading": "What you'll learn",
+                    "l1": "Build your own music streaming service like Spotify",
+                    "l2": "Discover important techniques that are essential for any aspiring software engineers",
+                    "l3": "Master important areas of development in JavaScript, PHP, HTML and MySQL"
+                }
+            ],
+            "content": [
+                {
+                    "c1": "Creating the register form"
+                }
+            ],
+            "requirement": [
+                {
+                    "heading": "Requirements",
+                    "r1": "No prior knowledge needed! A basic understanding of HTML is helpful - but not essential",
+                    "r2": "A computer"
+                }
+            ],
+            "description": [
+                {
+                    "heading": "Description",
+                    "desc1": "Do you want to become an expert in JavaScript, PHP and MySQL?",
+                    "desc2": "Do you want to build a real music streaming site just like Spotify? If so, you’re in the right place! This course will guide you step by step in creating your own Spotify clone",
+                    "desc3": "I work as a Software Engineer at Microsoft where I build products used by millions of people all over the world! I want to take the skills I’ve gained through years of working with some of the best developers in the world and transfer them directly to you! I’ve taught thousands of students here on Udemy and createdBoe of the most popular development courses on Udemy!"
+                }
+            ],
+            "include": [
+                {
+                    "i1": "This course includes:",
+                    "i2": "15 hours on-demand video",
+                    "i3": "131 articles",
+                    "i5": "Full lifetime access",
+                    "i6": "Access on mobile and TV",
+                    "i7": "Certificate of completion"
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "name": "JavaScript",
+            "title": "The Complete JavaScript Course 2021: From Zero to Expert!",
+            "image": "https://img-c.udemycdn.com/course/240x135/851712_fc61_6.jpg",
+            "rating": 4.7,
+            "price": 755,
+            "oldprice": 2499,
+            "shortDecp": "The modern JavaScript course for everyone! Master JavaScript with projects, challenges and theory. Many courses in one!",
+            "CreatedBy": "Jonas Schmedtman",
+            "learn": [
+                {
+                    "heading": "What you'll learn",
+                    "l1": "Become an advanced, confident, and modern JavaScript developer from scratch",
+                    "l2": "Become job-ready by understanding how JavaScript really works behind the scenes",
+                    "l3": "JavaScript fundamentals: variables, if/else, operators, boolean logic, functions, arrays, objects, loops, strings, etc.",
+                    "l4": "Modern OOP: Classes, constructors, prototypal inheritance, encapsulation, etc.",
+                    "l5": "Asynchronous JavaScript: Event loop, promises, async/await, AJAX calls and APIs",
+                    "l6": "Become an advanced, confident, and modern JavaScript developer from scratch",
+                    "l7": "Become job-ready by understanding how JavaScript really works behind the scenes",
+                    "l8": "JavaScript fundamentals: variables, if/else, operators, boolean logic, functions, arrays, objects, loops, strings, etc.",
+                    "l9": "Modern OOP: Classes, constructors, prototypal inheritance, encapsulation, etc.",
+                    "l0": "Asynchronous JavaScript: Event loop, promises, async/await, AJAX calls and APIs"
+                }
+            ],
+            "content": [
+                {
+                    "c1": "Welcome,",
+                    "c2": "Introduction",
+                    "c3": "Basic of JavaScript",
+                    "c4": "DOM",
+                    "c5": "Advance JavaScript"
+                }
+            ],
+            "requirement": [
+                {
+                    "r1": "No coding experience is necessary to take this course! I take you from beginner to expert!",
+                    "r2": "Any computer and OS will work — Windows, macOS or Linux. We will set up your text editor the course.",
+                    "r3": "A basic understanding of HTML and CSS is a plus, but not a must! The course includes an HTML and CSS crash course."
+                }
+            ],
+            "description": [
+                {
+                    "desc1": "*** The #1 bestselling JavaScript course on Udemy! ***",
+                    "desc2": "*** Completely re-built from scratch in October 2020 (68 hours video) ***",
+                    "desc3": "Really, really well made course. Super in-depth, with great challenges and projects that will solidify your Javascript understanding. I found the lectures were paced perfectly -- Jonas doesn't skip over anything that might be useful to a JS developer — Carson Bartholomew",
+                    "desc4": "JavaScript is the most popular programming language in the world. It powers the entire modern web. It provides millions of high-paying jobs all over the world."
+                }
+            ],
+            "include": [
+                {
+                    "i1": "This course includes:",
+                    "i2": "68 hours on-demand video",
+                    "i3": "21 articles",
+                    "i4": "18 downloadable resources",
+                    "i5": "Full lifetime access",
+                    "i6": "Access on mobile and TV",
+                    "i7": "Certificate of completion"
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "name": "JavaScript",
+            "title": "JavaScript: Understanding the Weird Parts",
+            "image": "https://img-c.udemycdn.com/course/240x135/364426_2991_6.jpg",
+            "rating": 4.8,
+            "price": 599,
+            "oldprice": 2499,
+            "shortDecp": "An advanced JavaScript course for everyone! Scope, closures, prototypes, 'this', build your own framework, and more.",
+            "CreatedBy": "Anthony Alicea",
+            "learn": [
+                {
+                    "heading": "What you'll learn",
+                    "l1": "Grasp how Javascript works and it's fundamental concepts",
+                    "l2": "Understand advanced concepts such as closures, prototypal inheritance, IIFEs, and much more.",
+                    "l3": "Avoid common pitfalls and mistakes other Javascript coders make",
+                    "l4": "Build your own Javascript framework or library",
+                    "l5": "Write solid, good Javascript code",
+                    "l6": "Drastically improve your ability to debug problems in Javascript.",
+                    "l7": "Understand the source code of popular Javascript frameworks",
+                    "l8": "JavaScript fundamentals: variables, if/else, operators, boolean logic, functions, arrays, objects, loops, strings, etc.",
+                    "l9": "Modern OOP: Classes, constructors, prototypal inheritance, encapsulation, etc.",
+                    "l0": "Asynchronous JavaScript: Event loop, promises, async/await, AJAX calls and APIs"
+                }
+            ],
+            "content": [
+                {
+                    "c1": "Getting Started",
+                    "c2": "Execution Contexts and Lexical Environmentds",
+                    "c3": "Types of Operators",
+                    "c4": "Objects and Functions",
+                    "c5": "Building Objects"
+                }
+            ],
+            "requirement": [
+                {
+                    "r1": "Basic Javascript knowledge (variables, loops, and basic functions - that's all the course expects you to know!)",
+                    "r2": "A browser and text editor",
+                    "r3": "A basic understanding of HTML and CSS is a plus, but not a must! The course includes an HTML and CSS crash course."
+                }
+            ],
+            "description": [
+                {
+                    "desc1": "Javascript is the language that modern developers need to know, and know well. Truly knowing Javascript will get you a job, and enable you to build quality web and server applications.",
+                    "desc2": "NOTE: This course includes information on ECMAScript 6 (ES6) the next version of Javascript!",
+                    "desc3": "In this course you will gain a deep understanding of Javascript, learn how Javascript works under the hood, and how that knowledge helps you avoid common pitfalls and drastically improve your ability to debug problems. You will find clarity in the parts that others, even experienced coders, may find weird, odd, and at times incomprehensible. You'll learn the beauty and deceptive power of this language that is at the forefront of modern software development today",
+                    "desc4": "This course will cover such advanced concepts as objects and object literals, function expressions, prototypical inheritance, functional programming, scope chains, function constructors (plus new ES6 features), immediately invoked function expressions (IIFEs), call, apply, bind, and more."
+                }
+            ],
+            "include": [
+                {
+                    "i1": "This course includes:",
+                    "i2": "12 hours on-demand video",
+                    "i3": "9 articles",
+                    "i4": "50 downloadable resources",
+                    "i5": "Full lifetime access",
+                    "i6": "Access on mobile and TV",
+                    "i7": "Certificate of completion"
+                }
+            ]
+        },
+        {
+            "id": 1900,
+            "name": "JavaScript",
+            "title": "Modern JavaScript From The Beginning",
+            "image": "https://img-c.udemycdn.com/course/240x135/1463348_52a4_2.jpg",
+            "rating": 4.7,
+            "price": 899,
+            "oldprice": 4499,
+            "shortDecp": "Learn and build projects with pure JavaScript (No frameworks or libraries)",
+            "CreatedBy": "Brad Traversy",
+            "learn": [
+                {
+                    "heading": "What you'll learn",
+                    "l1": "Modular learning sections & 10 real world projects with pure JavaScript",
+                    "l2": "Asynchronous programming with Ajax, Fetch API, Promises & Async / Await",
+                    "l3": "Learn JavaScript Patterns",
+                    "l4": "Master the DOM (document object model) WITHOUT jQuery",
+                    "l5": "Regular expressions, error handling, localStorage & more",
+                    "l6": "Drastically improve your ability to debug problems in Javascript.",
+                    "l7": "Understand the source code of popular Javascript frameworks",
+                    "l8": "JavaScript fundamentals: variables, if/else, operators, boolean logic, functions, arrays, objects, loops, strings, etc.",
+                    "l9": "Modern OOP: Classes, constructors, prototypal inheritance, encapsulation, etc.",
+                    "l0": "Asynchronous JavaScript: Event loop, promises, async/await, AJAX calls and APIs"
+                }
+            ],
+            "content": [
+                {
+                    "c1": "Intro & Getting Started",
+                    "c2": "JavaScript Language Fumdamentals",
+                    "c3": "DOM Manipulation & Events",
+                    "c4": "DOM Projects",
+                    "c5": "API Projects"
+                }
+            ],
+            "requirement": [
+                {
+                    "r1": "Basic HTML / CSS knowledge",
+                    "r2": "A browser and text editor",
+                    "r3": "A basic understanding of HTML and CSS is a plus, but not a must! The course includes an HTML and CSS crash course."
+                }
+            ],
+            "description": [
+                {
+                    "desc1": "This is a front to back JavaScript course for absolutely everybody. We start with the basic fundamentals and work our way to advanced programming WITHOUT relying on frameworks or libraries at all. You will learn a ton of pure JavaScript, whether you are a beginner or an established JS programmer. There is something for everyone...",
+                    "desc2": "Basics & Fundamentals: Data types, let & const variables, functions, conditionals, loops, object literals, arrays, etc",
+                    "desc3": "DOM Manipulation: Selectors, traversing the DOM, show/hide, creating & removing elements, event listeners",
+                    "desc4": "OOP: ES5 prototypes, inheritance, ES2015 classes & sub-classes, constructors"
+                }
+            ],
+            "include": [
+                {
+                    "i1": "This course includes:",
+                    "i2": "21.5 hours on-demand video",
+                    "i3": "2 articles",
+                    "i4": "111 downloadable resources",
+                    "i5": "Full lifetime access",
+                    "i6": "Access on mobile and TV",
+                    "i7": "Certificate of completion"
+                }
+            ]
         }
-        ],
-        "content":[{
-                   "c1": "Course Overview",
-                   "c2": "Python Setup",
-                   "c3": "Python Object and Data Structure Basics",
-                   "c4": "Methods and Functions",
-                   "c5":"Object Oriented Programming"         
-        }],
-        "requirement":[{
-            "heading": "Requirements",
-            "r1":"Access to a computer with an internet connection."
-                   
-        }],
-        "description": [{
-            "heading":"Description",
-            "desc1": "Become a Python Programmer and learn one of employer's most requested skills of 2021!",
-            "desc2":"This is the most comprehensive, yet straight-forward, course for the Python programming language on Udemy! Whether you have never programmed before, already know basic syntax, or want to learn about the advanced features of Python, this course is for you! In this course we will teach you Python 3.",
-            "desc3": "With over 100 lectures and more than 21 hours of video this comprehensive course leaves no stone unturned! This course includes quizzes, tests, coding exercises and homework assignments as well as 3 major projects to create a Python project portfolio!"
-            
-        }],
-        "include": [{
-            "i1" : "This course includes:",
-            "i2": "22 hours on-demand video",
-            "i3": "14 articles",
-            "i4": "Full lifetime access",
-            "i5": "Access on mobile and TV",
-            "i6": "Certificate of completion"
-        }]
-      }
-]
-
-
-    }
+    ],
+    "python": [
+        {
+            "id": 17,
+            "name": "Python",
+            "title": "2021 Complete Python Bootcamp From Zero to Hero in Python",
+            "image": "https://img-c.udemycdn.com/course/240x135/567828_67d0.jpg",
+            "rating": 4.6,
+            "price": 455,
+            "oldPrice": 3499,
+            "shortDecp": "Learn Python like a Professional Start from the basics and go all the way to creating your own applications and games",
+            "CreatedBy": "Jose Portilla",
+            "learn": [
+                {
+                    "heading": "What you'll learn",
+                    "l1": "Learn to use Python professionally, learning both Python 2 and Python 3!",
+                    "l2": "Learn advanced Python features, like the collections module and how to work with timestamps!",
+                    "l3": "Understand complex topics, like decorators",
+                    "l4": "Get an understanding of how to create GUIs in the Jupyter Notebook system!",
+                    "l5": "Create games with Python, like Tic Tac Toe and Blackjack!",
+                    "l6": "Learn to use Object Oriented Programming with classes!",
+                    "l7": "Understand how to use both the Jupyter Notebook and create .py files",
+                    "l8": "Build a complete understanding of Python from the ground up!"
+                }
+            ],
+            "content": [
+                {
+                    "c1": "Course Overview",
+                    "c2": "Python Setup",
+                    "c3": "Python Object and Data Structure Basics",
+                    "c4": "Methods and Functions",
+                    "c5": "Object Oriented Programming"
+                }
+            ],
+            "requirement": [
+                {
+                    "heading": "Requirements",
+                    "r1": "Access to a computer with an internet connection."
+                }
+            ],
+            "description": [
+                {
+                    "heading": "Description",
+                    "desc1": "Become a Python Programmer and learn one of employer's most requested skills of 2021!",
+                    "desc2": "This is the most comprehensive, yet straight-forward, course for the Python programming language on Udemy! Whether you have never programmed before, already know basic syntax, or want to learn about the advanced features of Python, this course is for you! In this course we will teach you Python 3.",
+                    "desc3": "With over 100 lectures and more than 21 hours of video this comprehensive course leaves no stone unturned! This course includes quizzes, tests, coding exercises and homework assignments as well as 3 major projects to create a Python project portfolio!"
+                }
+            ],
+            "include": [
+                {
+                    "i1": "This course includes:",
+                    "i2": "22 hours on-demand video",
+                    "i3": "14 articles",
+                    "i4": "Full lifetime access",
+                    "i5": "Access on mobile and TV",
+                    "i6": "Certificate of completion"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Python",
+            "title": "2021 Complete Python Bootcamp From Zero to Hero in Python",
+            "image": "https://img-c.udemycdn.com/course/240x135/567828_67d0.jpg",
+            "rating": 4.6,
+            "price": 455,
+            "oldprice": 1055,
+            "shortDecp": "Learn Python like a Professional Start from the basics and go all the way to creating your own applications and games",
+            "CreatedBy": "Jose Portilla",
+            "learn": [
+                {
+                    "heading": "What you'll learn",
+                    "l1": "Learn to use Python professionally, learning both Python 2 and Python 3!",
+                    "l2": "Learn advanced Python features, like the collections module and how to work with timestamps!",
+                    "l3": "Understand complex topics, like decorators",
+                    "l4": "Get an understanding of how to create GUIs in the Jupyter Notebook system!",
+                    "l5": "Create games with Python, like Tic Tac Toe and Blackjack!",
+                    "l6": "Learn to use Object Oriented Programming with classes!",
+                    "l7": "Understand how to use both the Jupyter Notebook and create .py files",
+                    "l8": "Build a complete understanding of Python from the ground up!"
+                }
+            ],
+            "content": [
+                {
+                    "c1": "Course Overview",
+                    "c2": "Python Setup",
+                    "c3": "Python Object and Data Structure Basics",
+                    "c4": "Methods and Functions",
+                    "c5": "Object Oriented Programming"
+                }
+            ],
+            "requirement": [
+                {
+                    "heading": "Requirements",
+                    "r1": "Access to a computer with an internet connection."
+                }
+            ],
+            "description": [
+                {
+                    "heading": "Description",
+                    "desc1": "Become a Python Programmer and learn one of employer's most requested skills of 2021!",
+                    "desc2": "This is the most comprehensive, yet straight-forward, course for the Python programming language on Udemy! Whether you have never programmed before, already know basic syntax, or want to learn about the advanced features of Python, this course is for you! In this course we will teach you Python 3.",
+                    "desc3": "With over 100 lectures and more than 21 hours of video this comprehensive course leaves no stone unturned! This course includes quizzes, tests, coding exercises and homework assignments as well as 3 major projects to create a Python project portfolio!"
+                }
+            ],
+            "include": [
+                {
+                    "i1": "This course includes:",
+                    "i2": "22 hours on-demand video",
+                    "i3": "14 articles",
+                    "i4": "Full lifetime access",
+                    "i5": "Access on mobile and TV",
+                    "i6": "Certificate of completion"
+                }
+            ]
+        }
+    ]
+}
