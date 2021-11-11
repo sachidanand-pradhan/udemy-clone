@@ -70,6 +70,11 @@ function add(data) {
         div.append(left,mid,right);
         // div.style.marginTop ="10px";
 
+
+        div.addEventListener('click', () => {
+            dataStored(el);
+        })
+
         d.append(div);
     })
 }
@@ -87,4 +92,13 @@ var c = 0;
         listOfCourses.style.display = "none";
         c--;
      }
+ }
+
+ function dataStored(data){
+    if(localStorage.getItem("decData") == null){
+        localStorage.setItem("decData",JSON.stringify([]));
+    }
+    let allData = JSON.parse(localStorage.getItem("decData"));
+    allData.push(data);
+    localStorage.setItem("decData",JSON.stringify(allData));
  }
