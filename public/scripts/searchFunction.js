@@ -49,7 +49,7 @@ function add(data) {
         title.setAttribute('class', 'lg:flex hidden');
 
         let author = document.createElement("p");
-        author.innerText = el.CreatedBy;
+        author.innerText = el.author;
 
         let rating = document.createElement("p");
         rating.innerText = el.rating + " ⭐⭐⭐⭐⭐";
@@ -69,6 +69,7 @@ function add(data) {
 
         div.append(left, mid, right);
         // div.style.marginTop ="10px";
+        // console.log(el.learn);
 
 
         div.addEventListener('click', () => {

@@ -9,7 +9,7 @@
             "price": 455,
             "oldprice": 1055,
             "shortDecp": "The modern JavaScript course for everyone! Master JavaScript with projects, challenges and theory. Many courses in one!",
-            "CreatedBy": "Jonas Schmedtman",
+            "author": "Jonas Schmedtman",
             "learn": [
                 {
                     "heading": "What you'll learn",
@@ -70,7 +70,7 @@
             "price": 455,
             "oldprice": 1055,
             "shortDecp": "The modern JavaScript course for everyone! Master JavaScript with projects, challenges and theory. Many courses in one!",
-            "CreatedBy": "Brad Traversy",
+            "author": "Brad Traversy",
             "learn": [
                 {
                     "heading": "What you'll learn",
@@ -131,7 +131,7 @@
             "price": 455,
             "oldprice": 1055,
             "shortDecp": "Learn Modern JavaScript (Complete guide, from Novice to Ninja) like a Professional Start from the basics and go all the way to creating your own applications and games",
-            "CreatedBy": "The Net Ninja (Shaun Pelling)",
+            "author": "The Net Ninja (Shaun Pelling)",
             "learn": [
                 {
                     "heading": "What you'll learn",
@@ -188,7 +188,7 @@
             "price": 455,
             "oldprice": 1055,
             "shortDecp": "Learn Learn JavaScript: Full-Stack from Scratch like a Professional Start from the basics and go all the way to creating your own applications and games",
-            "CreatedBy": "Brad Schiff",
+            "author": "Brad Schiff",
             "learn": [
                 {
                     "heading": "What you'll learn",
@@ -245,7 +245,7 @@
             "price": 455,
             "oldprice": 1055,
             "shortDecp": "Learn Javascript Tutorial and Projects Course like a Professional Start from the basics and go all the way to creating your own applications and games",
-            "CreatedBy": "John smilga",
+            "author": "John smilga",
             "learn": [
                 {
                     "heading": "What you'll learn",
@@ -302,7 +302,7 @@
             "price": 455,
             "oldprice": 1055,
             "shortDecp": "Learn Modern JavaScript (Complete guide, from Novice to Ninja) like a Professional Start from the basics and go all the way to creating your own applications and games",
-            "CreatedBy": "Ivan Lourenço Gomes, Andrii Piatakha",
+            "author": "Ivan Lourenço Gomes, Andrii Piatakha",
             "learn": [
                 {
                     "heading": "What you'll learn",
@@ -359,7 +359,7 @@
             "price": 455,
             "oldprice": 3499,
             "shortDecp": "Learn how to build a secure eecommerce application with Go (Golang)",
-            "CreatedBy": "Trevor Sawler",
+            "author": "Trevor Sawler",
             "learn": [
                 {
                     "heading": "What you'll learn",
@@ -416,7 +416,7 @@
             "price": 455,
             "oldprice": 3499,
             "shortDecp": "COMPLETELY REDONE - The only course you need to learn web development - HTML, CSS, JS, Node, and More!",
-            "CreatedBy": "Colt Steele",
+            "author": "Colt Steele",
             "learn": [
                 {
                     "heading": "What you'll learn",
@@ -473,7 +473,7 @@
             "price": 455,
             "oldprice": 3499,
             "shortDecp": "The only course you need to become a full-stack web developer. Covers HTML5, CSS3, JS, ES6, Node, APIs, Mobile & more!",
-            "CreatedBy": "Development Island (UK)",
+            "author": "Development Island (UK)",
             "learn": [
                 {
                     "heading": "What you'll learn",
@@ -530,7 +530,7 @@
             "price": 455,
             "oldprice": 1055,
             "shortDecp": "JavaScript for Beginners: Projects based learning, whiteboard animations, coding in the browser and quizzes",
-            "CreatedBy": "Rob Merrill",
+            "author": "Rob Merrill",
             "learn": [
                 {
                     "heading": "What you'll learn",
@@ -582,7 +582,7 @@
             "price": 455,
             "oldprice": 1055,
             "shortDecp": "JavaScript - Master the Fundamentals in 6 Hours",
-            "CreatedBy": "Rob Merrill",
+            "author": "Rob Merrill",
             "learn": [
                 {
                     "heading": "What you'll learn",
@@ -631,7 +631,7 @@
             "price": 455,
             "oldprice": 1055,
             "shortDecp": "The only course you need to become a JavaScript developer - 45 JavaScript projects, ES6, JSON, AJAX & much more!",
-            "CreatedBy": "Rob Merrill",
+            "author": "Rob Merrill",
             "learn": [
                 {
                     "heading": "What you'll learn",
@@ -689,7 +689,7 @@
             "price": 455,
             "oldprice": 1055,
             "shortDecp": "Learn all about OOP, understand the most confusing parts of JavaScript and prepare for technical interviews",
-            "CreatedBy": "Rob Merrill",
+            "author": "Rob Merrill",
             "learn": [
                 {
                     "heading": "What you'll learn",
@@ -744,7 +744,7 @@
             "price": 455,
             "oldprice": 1055,
             "shortDecp": "Learn JavaScript, PHP and MySQL by building the ultimate music streaming website from scratch! The complete guide!",
-            "CreatedBy": "Rob Merrill",
+            "author": "Rob Merrill",
             "learn": [
                 {
                     "heading": "What you'll learn",
@@ -793,7 +793,7 @@
             "price": 755,
             "oldprice": 2499,
             "shortDecp": "The modern JavaScript course for everyone! Master JavaScript with projects, challenges and theory. Many courses in one!",
-            "CreatedBy": "Jonas Schmedtman",
+            "author": "Jonas Schmedtman",
             "learn": [
                 {
                     "heading": "What you'll learn",
@@ -854,7 +854,7 @@
             "price": 599,
             "oldprice": 2499,
             "shortDecp": "An advanced JavaScript course for everyone! Scope, closures, prototypes, 'this', build your own framework, and more.",
-            "CreatedBy": "Anthony Alicea",
+            "author": "Anthony Alicea",
             "learn": [
                 {
                     "heading": "What you'll learn",
@@ -915,7 +915,7 @@
             "price": 899,
             "oldprice": 4499,
             "shortDecp": "Learn and build projects with pure JavaScript (No frameworks or libraries)",
-            "CreatedBy": "Brad Traversy",
+            "author": "Brad Traversy",
             "learn": [
                 {
                     "heading": "What you'll learn",
@@ -978,7 +978,7 @@
             "price": 455,
             "oldPrice": 3499,
             "shortDecp": "Learn Python like a Professional Start from the basics and go all the way to creating your own applications and games",
-            "CreatedBy": "Jose Portilla",
+            "author": "Jose Portilla",
             "learn": [
                 {
                     "heading": "What you'll learn",
@@ -1035,7 +1035,7 @@
             "price": 455,
             "oldprice": 1055,
             "shortDecp": "Learn Python like a Professional Start from the basics and go all the way to creating your own applications and games",
-            "CreatedBy": "Jose Portilla",
+            "author": "Jose Portilla",
             "learn": [
                 {
                     "heading": "What you'll learn",
