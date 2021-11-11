@@ -37,18 +37,912 @@ function addFunctionalityToNavbar() {
         thirdiv.setAttribute('class', 'hidden')
     })
 
+    // after hover on ****   firstdiv > development   **** 
+    let development = document.getElementById("development")
+    development.addEventListener('mouseover',()=>{
+        secdiv.innerText = null
+        // 1 item
+        let sdiv1 = document.createElement("div")
+        sdiv1.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+
+        let h1 = document.createElement("h1")
+        h1.innerText="Web Development"
+
+        let i1 = document.createElement("img")
+        i1.setAttribute('class', 'w-2 h-2')
+        i1.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+
+        sdiv1.append(h1,i1)
+        secdiv.append(sdiv1)
+
+        // 2 item
+        let sdiv2 = document.createElement("div")
+        sdiv2.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+
+        let h2 = document.createElement("h1")
+        h2.innerText="Data Science"
+
+        let i2nd = document.createElement("img")
+        i2nd.setAttribute('class', 'w-2 h-2')
+        i2nd.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+
+        sdiv2.append(h2,i2nd)
+        secdiv.append(sdiv2)
+
+        //3 item
+        let sdiv3 = document.createElement("div")
+        sdiv3.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+
+        let h3 = document.createElement("h1")
+        h3.innerText="Mobile Development"
+
+        let i3 = document.createElement("img")
+        i3.setAttribute('class', 'w-2 h-2')
+        i3.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+
+        sdiv3.append(h3,i3)
+        secdiv.append(sdiv3)
+
+        // 4 item
+        let sdiv4 = document.createElement("div")
+        sdiv4.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+
+        let h4 = document.createElement("h1")
+        h4.innerText="Programming Launguages"
+
+        let i4 = document.createElement("img")
+        i4.setAttribute('class', 'w-2 h-2')
+        i4.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+
+        sdiv4.append(h4,i4)
+        secdiv.append(sdiv4)
+
+        // 5 item
+        let sdiv5 = document.createElement("div")
+        sdiv5.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+
+        let h5 = document.createElement("h1")
+        h5.innerText="Game Development"
+
+        let i5 = document.createElement("img")
+        i5.setAttribute('class', 'w-2 h-2')
+        i5.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+
+        sdiv5.append(h5,i5)
+        secdiv.append(sdiv5)
+
+        // 6 item
+        let sdiv6 = document.createElement("div")
+        sdiv6.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+
+        let h6 = document.createElement("h1")
+        h6.innerText="Database design"
+
+        let i6 = document.createElement("img")
+        i6.setAttribute('class', 'w-2 h-2')
+        i6.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+
+        sdiv6.append(h6,i6)
+        secdiv.append(sdiv6)
+
+        // 7 item
+        let sdiv7 = document.createElement("div")
+        sdiv7.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+
+        let h7 = document.createElement("h1")
+        h7.innerText="Softwere Testing"
+
+        let i7 = document.createElement("img")
+        i7.setAttribute('class', 'w-2 h-2')
+        i7.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+
+        sdiv7.append(h7,i7)
+        secdiv.append(sdiv7)
+
+        // 8 item
+        let sdiv8 = document.createElement("div")
+        sdiv8.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+
+        let h8 = document.createElement("h1")
+        h8.innerText="Softwere Engineering"
+
+        let i8 = document.createElement("img")
+        i8.setAttribute('class', 'w-2 h-2')
+        i8.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+
+        sdiv8.append(h8,i8)
+        secdiv.append(sdiv8)
+
+        // 9 item
+        let sdiv9 = document.createElement("div")
+        sdiv9.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+
+        let h9 = document.createElement("h1")
+        h9.innerText="Softwere Development Tools"
+
+        let i9 = document.createElement("img")
+        i9.setAttribute('class', 'w-2 h-2')
+        i9.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+
+        sdiv9.append(h9,i9)
+        secdiv.append(sdiv9)
+
+        // 10 item
+        let sdiv10 = document.createElement("div")
+        sdiv10.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+
+        let h10 = document.createElement("h1")
+        h10.innerText="No-Code Development"
+
+        let i10 = document.createElement("img")
+        i10.setAttribute('class', 'w-2 h-2')
+        i10.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+
+        sdiv10.append(h10,i10)
+        secdiv.append(sdiv10)
+    })
+
 
     // after hover on ****   firstdiv > bussiness   **** 
 
     let bussi = document.getElementById("bussi")
     bussi.addEventListener('mouseover', () => {
-        //secdiv.innerText = null
+        secdiv.innerText = null
+        // 1 item
+        let sdiv1 = document.createElement("div")
+        sdiv1.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
 
+        let h1 = document.createElement("h1")
+        h1.innerText="Entrepreneurship"
 
+        let i1 = document.createElement("img")
+        i1.setAttribute('class', 'w-2 h-2')
+        i1.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
 
+        sdiv1.append(h1,i1)
+        secdiv.append(sdiv1)
 
+        // 2 item
+        let sdiv2 = document.createElement("div")
+        sdiv2.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+
+        let h2 = document.createElement("h1")
+        h2.innerText="Communication"
+
+        let i2nd = document.createElement("img")
+        i2nd.setAttribute('class', 'w-2 h-2')
+        i2nd.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+
+        sdiv2.append(h2,i2nd)
+        secdiv.append(sdiv2)
+
+        //3 item
+        let sdiv3 = document.createElement("div")
+        sdiv3.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+
+        let h3 = document.createElement("h1")
+        h3.innerText="Management"
+
+        let i3 = document.createElement("img")
+        i3.setAttribute('class', 'w-2 h-2')
+        i3.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+
+        sdiv3.append(h3,i3)
+        secdiv.append(sdiv3)
+
+        // 4 item
+        let sdiv4 = document.createElement("div")
+        sdiv4.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+
+        let h4 = document.createElement("h1")
+        h4.innerText="Sales"
+
+        let i4 = document.createElement("img")
+        i4.setAttribute('class', 'w-2 h-2')
+        i4.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+
+        sdiv4.append(h4,i4)
+        secdiv.append(sdiv4)
+
+        // 5 item
+        let sdiv5 = document.createElement("div")
+        sdiv5.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+
+        let h5 = document.createElement("h1")
+        h5.innerText="Bussiness Strategy"
+
+        let i5 = document.createElement("img")
+        i5.setAttribute('class', 'w-2 h-2')
+        i5.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+
+        sdiv5.append(h5,i5)
+        secdiv.append(sdiv5)
+
+        // 6 item
+        let sdiv6 = document.createElement("div")
+        sdiv6.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+
+        let h6 = document.createElement("h1")
+        h6.innerText="Operations"
+
+        let i6 = document.createElement("img")
+        i6.setAttribute('class', 'w-2 h-2')
+        i6.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+
+        sdiv6.append(h6,i6)
+        secdiv.append(sdiv6)
+
+        // 7 item
+        let sdiv7 = document.createElement("div")
+        sdiv7.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+
+        let h7 = document.createElement("h1")
+        h7.innerText="Project Management"
+
+        let i7 = document.createElement("img")
+        i7.setAttribute('class', 'w-2 h-2')
+        i7.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+
+        sdiv7.append(h7,i7)
+        secdiv.append(sdiv7)
+
+        // 8 item
+        let sdiv8 = document.createElement("div")
+        sdiv8.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+
+        let h8 = document.createElement("h1")
+        h8.innerText="Bussiness Law"
+
+        let i8 = document.createElement("img")
+        i8.setAttribute('class', 'w-2 h-2')
+        i8.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+
+        sdiv8.append(h8,i8)
+        secdiv.append(sdiv8)
+
+        // 9 item
+        let sdiv9 = document.createElement("div")
+        sdiv9.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+
+        let h9 = document.createElement("h1")
+        h9.innerText="Bussiness Analytics & Intelligence"
+
+        let i9 = document.createElement("img")
+        i9.setAttribute('class', 'w-2 h-2')
+        i9.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+
+        sdiv9.append(h9,i9)
+        secdiv.append(sdiv9)
+
+        // 10 item
+        let sdiv10 = document.createElement("div")
+        sdiv10.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+
+        let h10 = document.createElement("h1")
+        h10.innerText="Human Resources"
+
+        let i10 = document.createElement("img")
+        i10.setAttribute('class', 'w-2 h-2')
+        i10.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+
+        sdiv10.append(h10,i10)
+        secdiv.append(sdiv10)
+
+        // 11 item
+        let sdiv11 = document.createElement("div")
+        sdiv11.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+
+        let h11 = document.createElement("h1")
+        h11.innerText="Industry"
+
+        let i11 = document.createElement("img")
+        i11.setAttribute('class', 'w-2 h-2')
+        i11.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+
+        sdiv11.append(h11,i11)
+        secdiv.append(sdiv11)
+
+        // 12 item
+        let sdiv12 = document.createElement("div")
+        sdiv12.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+
+        let h12 = document.createElement("h1")
+        h12.innerText="E-Commerce"
+
+        let i12 = document.createElement("img")
+        i12.setAttribute('class', 'w-2 h-2')
+        i12.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+
+        sdiv12.append(h12,i12)
+        secdiv.append(sdiv12)
+
+        // 13 item 
+        let sdiv13 = document.createElement("div")
+        sdiv13.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+
+        let h13 = document.createElement("h1")
+        h13.innerText="Media"
+
+        let i13 = document.createElement("img")
+        i13.setAttribute('class', 'w-2 h-2')
+        i13.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+
+        sdiv13.append(h13,i13)
+        secdiv.append(sdiv13)
+
+        // 14 item
+        let sdiv14 = document.createElement("div")
+        sdiv14.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+
+        let h14 = document.createElement("h1")
+        h14.innerText="Real State"
+
+        let i14 = document.createElement("img")
+        i14.setAttribute('class', 'w-2 h-2')
+        i14.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+
+        sdiv14.append(h14,i14)
+        secdiv.append(sdiv14)
+
+        // 15 item
+        let sdiv15 = document.createElement("div")
+        sdiv15.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+
+        let h15 = document.createElement("h1")
+        h15.innerText="Other Bussiness"
+
+        let i15 = document.createElement("img")
+        i15.setAttribute('class', 'w-2 h-2')
+        i15.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+
+        sdiv15.append(h15,i15)
+        secdiv.append(sdiv15)
 
     })
+
+     // after hover on ****   firstdiv > Finanace & Accounting   **** 
+     let fna = document.getElementById("fna")
+     fna.addEventListener('mouseover',()=>{
+         secdiv.innerText = null
+          // 1 item
+        let sdiv1 = document.createElement("div")
+        sdiv1.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+
+        let h1 = document.createElement("h1")
+        h1.innerText="Accountin & bookkepping"
+
+        let i1 = document.createElement("img")
+        i1.setAttribute('class', 'w-2 h-2')
+        i1.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+
+        sdiv1.append(h1,i1)
+        secdiv.append(sdiv1)
+
+        // 2 item
+        let sdiv2 = document.createElement("div")
+        sdiv2.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+
+        let h2 = document.createElement("h1")
+        h2.innerText="Compliance"
+
+        let i2nd = document.createElement("img")
+        i2nd.setAttribute('class', 'w-2 h-2')
+        i2nd.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+
+        sdiv2.append(h2,i2nd)
+        secdiv.append(sdiv2)
+
+        //3 item
+        let sdiv3 = document.createElement("div")
+        sdiv3.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+
+        let h3 = document.createElement("h1")
+        h3.innerText="Cryptocurrency & Blockchain"
+
+        let i3 = document.createElement("img")
+        i3.setAttribute('class', 'w-2 h-2')
+        i3.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+
+        sdiv3.append(h3,i3)
+        secdiv.append(sdiv3)
+
+        // 4 item
+        let sdiv4 = document.createElement("div")
+        sdiv4.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+
+        let h4 = document.createElement("h1")
+        h4.innerText="Economics"
+
+        let i4 = document.createElement("img")
+        i4.setAttribute('class', 'w-2 h-2')
+        i4.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+
+        sdiv4.append(h4,i4)
+        secdiv.append(sdiv4)
+
+        // 5 item
+        let sdiv5 = document.createElement("div")
+        sdiv5.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+
+        let h5 = document.createElement("h1")
+        h5.innerText="Finance"
+
+        let i5 = document.createElement("img")
+        i5.setAttribute('class', 'w-2 h-2')
+        i5.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+
+        sdiv5.append(h5,i5)
+        secdiv.append(sdiv5)
+
+        // 6 item
+        let sdiv6 = document.createElement("div")
+        sdiv6.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+
+        let h6 = document.createElement("h1")
+        h6.innerText="Finance Cert & Exap Prep"
+
+        let i6 = document.createElement("img")
+        i6.setAttribute('class', 'w-2 h-2')
+        i6.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+
+        sdiv6.append(h6,i6)
+        secdiv.append(sdiv6)
+
+        // 7 item
+        let sdiv7 = document.createElement("div")
+        sdiv7.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+
+        let h7 = document.createElement("h1")
+        h7.innerText="Financial Modeling & Analysis"
+
+        let i7 = document.createElement("img")
+        i7.setAttribute('class', 'w-2 h-2')
+        i7.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+
+        sdiv7.append(h7,i7)
+        secdiv.append(sdiv7)
+
+        // 8 item
+        let sdiv8 = document.createElement("div")
+        sdiv8.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+
+        let h8 = document.createElement("h1")
+        h8.innerText="Investing & Trading"
+
+        let i8 = document.createElement("img")
+        i8.setAttribute('class', 'w-2 h-2')
+        i8.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+
+        sdiv8.append(h8,i8)
+        secdiv.append(sdiv8)
+
+        // 9 item
+        let sdiv9 = document.createElement("div")
+        sdiv9.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+
+        let h9 = document.createElement("h1")
+        h9.innerText="Money Management Tools"
+
+        let i9 = document.createElement("img")
+        i9.setAttribute('class', 'w-2 h-2')
+        i9.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+
+        sdiv9.append(h9,i9)
+        secdiv.append(sdiv9)
+
+        // 10 item
+        let sdiv10 = document.createElement("div")
+        sdiv10.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+
+        let h10 = document.createElement("h1")
+        h10.innerText="Taxes"
+
+        let i10 = document.createElement("img")
+        i10.setAttribute('class', 'w-2 h-2')
+        i10.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+
+        sdiv10.append(h10,i10)
+        secdiv.append(sdiv10)
+
+        // 11 item
+        let sdiv11 = document.createElement("div")
+        sdiv11.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+
+        let h11 = document.createElement("h1")
+        h11.innerText="Other Finance & Accounting"
+
+        let i11 = document.createElement("img")
+        i11.setAttribute('class', 'w-2 h-2')
+        i11.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+
+        sdiv11.append(h11,i11)
+        secdiv.append(sdiv11)
+     })
+
+     // after hover on ****   firstdiv > It & Softwere  **** 
+     let Itsoft = document.getElementById("Itsoft")
+     Itsoft.addEventListener('mouseover',()=>{
+         secdiv.innerText = null
+          // 1 item
+        let sdiv1 = document.createElement("div")
+        sdiv1.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+
+        let h1 = document.createElement("h1")
+        h1.innerText="IT Certifications"
+
+        let i1 = document.createElement("img")
+        i1.setAttribute('class', 'w-2 h-2')
+        i1.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+
+        sdiv1.append(h1,i1)
+        secdiv.append(sdiv1)
+
+        // 2 item
+        let sdiv2 = document.createElement("div")
+        sdiv2.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+
+        let h2 = document.createElement("h1")
+        h2.innerText="Network & Security"
+
+        let i2nd = document.createElement("img")
+        i2nd.setAttribute('class', 'w-2 h-2')
+        i2nd.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+
+        sdiv2.append(h2,i2nd)
+        secdiv.append(sdiv2)
+
+        //3 item
+        let sdiv3 = document.createElement("div")
+        sdiv3.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+
+        let h3 = document.createElement("h1")
+        h3.innerText="Hardwere"
+
+        let i3 = document.createElement("img")
+        i3.setAttribute('class', 'w-2 h-2')
+        i3.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+
+        sdiv3.append(h3,i3)
+        secdiv.append(sdiv3)
+
+        // 4 item
+        let sdiv4 = document.createElement("div")
+        sdiv4.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+
+        let h4 = document.createElement("h1")
+        h4.innerText="Operating System & Servers"
+
+        let i4 = document.createElement("img")
+        i4.setAttribute('class', 'w-2 h-2')
+        i4.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+
+        sdiv4.append(h4,i4)
+        secdiv.append(sdiv4)
+
+        // 5 item
+        let sdiv5 = document.createElement("div")
+        sdiv5.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+
+        let h5 = document.createElement("h1")
+        h5.innerText="Other IT & Softwere"
+
+        let i5 = document.createElement("img")
+        i5.setAttribute('class', 'w-2 h-2')
+        i5.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+
+        sdiv5.append(h5,i5)
+        secdiv.append(sdiv5)
+
+     });
+
+     // after hover on ****   firstdiv > Personal Development   **** 
+
+    let personaldev = document.getElementById("personaldev")
+    personaldev.addEventListener('mouseover', () => {
+        secdiv.innerText = null
+        // 1 item
+        let sdiv1 = document.createElement("div")
+        sdiv1.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+
+        let h1 = document.createElement("h1")
+        h1.innerText="Personal Transformation"
+
+        let i1 = document.createElement("img")
+        i1.setAttribute('class', 'w-2 h-2')
+        i1.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+
+        sdiv1.append(h1,i1)
+        secdiv.append(sdiv1)
+
+        // 2 item
+        let sdiv2 = document.createElement("div")
+        sdiv2.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+
+        let h2 = document.createElement("h1")
+        h2.innerText="Personal Productivity"
+
+        let i2nd = document.createElement("img")
+        i2nd.setAttribute('class', 'w-2 h-2')
+        i2nd.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+
+        sdiv2.append(h2,i2nd)
+        secdiv.append(sdiv2)
+
+        //3 item
+        let sdiv3 = document.createElement("div")
+        sdiv3.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+
+        let h3 = document.createElement("h1")
+        h3.innerText="Leadership"
+
+        let i3 = document.createElement("img")
+        i3.setAttribute('class', 'w-2 h-2')
+        i3.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+
+        sdiv3.append(h3,i3)
+        secdiv.append(sdiv3)
+
+        // 4 item
+        let sdiv4 = document.createElement("div")
+        sdiv4.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+
+        let h4 = document.createElement("h1")
+        h4.innerText="Career Development"
+
+        let i4 = document.createElement("img")
+        i4.setAttribute('class', 'w-2 h-2')
+        i4.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+
+        sdiv4.append(h4,i4)
+        secdiv.append(sdiv4)
+
+        // 5 item
+        let sdiv5 = document.createElement("div")
+        sdiv5.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+
+        let h5 = document.createElement("h1")
+        h5.innerText="Parenting & Relationships"
+
+        let i5 = document.createElement("img")
+        i5.setAttribute('class', 'w-2 h-2')
+        i5.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+
+        sdiv5.append(h5,i5)
+        secdiv.append(sdiv5)
+
+        // 6 item
+        let sdiv6 = document.createElement("div")
+        sdiv6.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+
+        let h6 = document.createElement("h1")
+        h6.innerText="Happyness"
+
+        let i6 = document.createElement("img")
+        i6.setAttribute('class', 'w-2 h-2')
+        i6.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+
+        sdiv6.append(h6,i6)
+        secdiv.append(sdiv6)
+
+        // 7 item
+        let sdiv7 = document.createElement("div")
+        sdiv7.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+
+        let h7 = document.createElement("h1")
+        h7.innerText="Esoteric Practices"
+
+        let i7 = document.createElement("img")
+        i7.setAttribute('class', 'w-2 h-2')
+        i7.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+
+        sdiv7.append(h7,i7)
+        secdiv.append(sdiv7)
+
+        // 8 item
+        let sdiv8 = document.createElement("div")
+        sdiv8.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+
+        let h8 = document.createElement("h1")
+        h8.innerText="Religion & Sprituality"
+
+        let i8 = document.createElement("img")
+        i8.setAttribute('class', 'w-2 h-2')
+        i8.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+
+        sdiv8.append(h8,i8)
+        secdiv.append(sdiv8)
+
+        // 9 item
+        let sdiv9 = document.createElement("div")
+        sdiv9.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+
+        let h9 = document.createElement("h1")
+        h9.innerText="Personal Brand Building"
+
+        let i9 = document.createElement("img")
+        i9.setAttribute('class', 'w-2 h-2')
+        i9.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+
+        sdiv9.append(h9,i9)
+        secdiv.append(sdiv9)
+
+        // 10 item
+        let sdiv10 = document.createElement("div")
+        sdiv10.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+
+        let h10 = document.createElement("h1")
+        h10.innerText="Creativity"
+
+        let i10 = document.createElement("img")
+        i10.setAttribute('class', 'w-2 h-2')
+        i10.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+
+        sdiv10.append(h10,i10)
+        secdiv.append(sdiv10)
+
+        // 11 item
+        let sdiv11 = document.createElement("div")
+        sdiv11.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+
+        let h11 = document.createElement("h1")
+        h11.innerText="Influence"
+
+        let i11 = document.createElement("img")
+        i11.setAttribute('class', 'w-2 h-2')
+        i11.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+
+        sdiv11.append(h11,i11)
+        secdiv.append(sdiv11)
+
+        // 12 item
+        let sdiv12 = document.createElement("div")
+        sdiv12.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+
+        let h12 = document.createElement("h1")
+        h12.innerText="Self Steem & Confidence"
+
+        let i12 = document.createElement("img")
+        i12.setAttribute('class', 'w-2 h-2')
+        i12.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+
+        sdiv12.append(h12,i12)
+        secdiv.append(sdiv12)
+
+        // 13 item 
+        let sdiv13 = document.createElement("div")
+        sdiv13.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+
+        let h13 = document.createElement("h1")
+        h13.innerText="Stress Management"
+
+        let i13 = document.createElement("img")
+        i13.setAttribute('class', 'w-2 h-2')
+        i13.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+
+        sdiv13.append(h13,i13)
+        secdiv.append(sdiv13)
+
+        // 14 item
+        let sdiv14 = document.createElement("div")
+        sdiv14.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+
+        let h14 = document.createElement("h1")
+        h14.innerText="Memory & Study Skills"
+
+        let i14 = document.createElement("img")
+        i14.setAttribute('class', 'w-2 h-2')
+        i14.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+
+        sdiv14.append(h14,i14)
+        secdiv.append(sdiv14)
+
+        // 15 item
+        let sdiv15 = document.createElement("div")
+        sdiv15.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+
+        let h15 = document.createElement("h1")
+        h15.innerText="Motivation"
+
+        let i15 = document.createElement("img")
+        i15.setAttribute('class', 'w-2 h-2')
+        i15.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+
+        sdiv15.append(h15,i15)
+        secdiv.append(sdiv15)
+
+    })
+
+     // // after hover on ****   firstdiv > Office productivity  **** 
+
+     let officeproductivity = document.getElementById("officeproductivity")
+     officeproductivity.addEventListener('mouseover',()=>{
+        secdiv.innerText = null
+        // 1 item
+        let sdiv1 = document.createElement("div")
+        sdiv1.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+
+        let h1 = document.createElement("h1")
+        h1.innerText="Microsoft"
+
+        let i1 = document.createElement("img")
+        i1.setAttribute('class', 'w-2 h-2')
+        i1.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+
+        sdiv1.append(h1,i1)
+        secdiv.append(sdiv1)
+
+        // 2 item
+        let sdiv2 = document.createElement("div")
+        sdiv2.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+
+        let h2 = document.createElement("h1")
+        h2.innerText="Apple"
+
+        let i2nd = document.createElement("img")
+        i2nd.setAttribute('class', 'w-2 h-2')
+        i2nd.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+
+        sdiv2.append(h2,i2nd)
+        secdiv.append(sdiv2)
+
+        //3 item
+        let sdiv3 = document.createElement("div")
+        sdiv3.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+
+        let h3 = document.createElement("h1")
+        h3.innerText="Google"
+
+        let i3 = document.createElement("img")
+        i3.setAttribute('class', 'w-2 h-2')
+        i3.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+
+        sdiv3.append(h3,i3)
+        secdiv.append(sdiv3)
+
+        // 4 item
+        let sdiv4 = document.createElement("div")
+        sdiv4.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+
+        let h4 = document.createElement("h1")
+        h4.innerText="SAP"
+
+        let i4 = document.createElement("img")
+        i4.setAttribute('class', 'w-2 h-2')
+        i4.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+
+        sdiv4.append(h4,i4)
+        secdiv.append(sdiv4)
+
+        // 5 item
+        let sdiv5 = document.createElement("div")
+        sdiv5.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+
+        let h5 = document.createElement("h1")
+        h5.innerText="Oracle"
+
+        let i5 = document.createElement("img")
+        i5.setAttribute('class', 'w-2 h-2')
+        i5.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+
+        sdiv5.append(h5,i5)
+        secdiv.append(sdiv5)
+
+        // 6 item
+        let sdiv6 = document.createElement("div")
+        sdiv6.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+
+        let h6 = document.createElement("h1")
+        h6.innerText="Other Office Productivity"
+
+        let i6 = document.createElement("img")
+        i6.setAttribute('class', 'w-2 h-2')
+        i6.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Psy7Qfe0vInE8c2tai5SPQnyQa66USsJYj67ltC-nl03-SUvuyipAlzkS0f2KOVUsxI&usqp=CAU"
+
+        sdiv6.append(h6,i6)
+        secdiv.append(sdiv6)
+
+    });
+
 
     //  after hover on ****   Udemy Bussiness  ****  
     let ubussi = document.getElementById("ubussi")
