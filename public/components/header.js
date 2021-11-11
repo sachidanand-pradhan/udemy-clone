@@ -342,7 +342,7 @@ function navbar() {
                     </svg>
                 </div>
                 <!-- 11 item -->
-                <div class="flex text-sm items-center hover:text-blue-800 ml-2 mt-4">
+                <div id='healthfitness' class="flex text-sm items-center hover:text-blue-800 ml-2 mt-4">
                     <h1 class="flex-grow">Health & fitness</h1>
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
                         <path fill-rule="evenodd"
@@ -351,7 +351,7 @@ function navbar() {
                     </svg>
                 </div>
                 <!-- 12 item -->
-                <div class="flex text-sm items-center hover:text-blue-800 ml-2 mt-4">
+                <div id='music' class="flex text-sm items-center hover:text-blue-800 ml-2 mt-4">
                     <h1 class="flex-grow">Music</h1>
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
                         <path fill-rule="evenodd"
