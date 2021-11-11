@@ -19,22 +19,28 @@
     <div class="w-full grid-cols-1">
         <div class="w-full border auto-cols-auto">
             <div class="flex w-full">
-                <div class="w-3/12 border bg-gray-700 flex justify-center"> 
+                <div class="w-3/12 border flex justify-center"> 
                     <div class="my-5 w-1/4 border">
                         <span><span class="material-icons mx-2">filter_list</span>Filter</span>
                     </div>
-                    <div class="my-5 mx-5 w-1/4 border">
+                    <div class="my-5 mx-5 w-36 border py-1 px-1" onclick="show()">
                         <button>Stor by <br>
                             Most Relevent</button>
                     </div>
                 </div>
-                <div class="w-9/12 text-right border bg-red-800">
-                   <div class="px-12 pt-10 text-xl">10,000 results</div>
+                <div class="w-26 hidden mt-20" id="sortFun" style="margin-left: 170px;">
+                    <div class="text-xl mt-2 hover:bg-blue-500">Most Relevent</div>
+                    <div class="text-xl mt-2 hover:bg-blue-500">Most Reviewed</div>
+                    <div class="text-xl mt-2 hover:bg-blue-500">Highest Rated</div>
+                    <div class="text-xl mt-2 hover:bg-blue-500">Newest</div>
+                </div>
+                <div class="w-9/12 text-right border">
+                   <div class="mx-12 mt-10 text-xl">10,000 results</div>
                 </div>
             </div>
         </div>
         <div class="w-full flex my-4">
-            <div class="w-3/12 h-10 border-t-2">
+            <div class="w-3/12 h-10 border-t-2 lg:grid grid-cols-1 hidden">
                 <div class="ml-20">
                     <div onclick="showDiv()" class="font-bold mt-4 flex justify-between">
                         <div>Topic</div>
@@ -173,7 +179,7 @@
                     </div>
                 </div>
             </div>
-            <div id="data" class="grid grid-cols-1 w-8/12"></div>
+            <div id="data" class="grid grid-cols-1 lg:w-8/12 sm:w-10/12 m-auto"></div>
         </div>
     </div>
 </body>

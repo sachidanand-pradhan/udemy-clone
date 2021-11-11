@@ -220,7 +220,30 @@ function dataStored(data) {
 //     p3.innerText = el[0].l3;
 //     console.log(h2, p1, p2, p3)
 
-//     toggleDiv.append(h2, p1, p2, p3);
+//     toggleDiv.append(h2, p1, p2);
 
-//     // toggleDiv.setAttribute('class', 'w-full ml-28 absolute z-40 bg-black');
+//     toggleDiv.style.width = "500px"
+//     console.log(toggleDiv);
+//     toggleDiv.style.position = "absolute";
+//     toggleDiv.style.zIndex = "40";
+
+//     // toggleDiv.setAttribute('class', 'w-1/4 ml-28 absolute z-40 bg-black');
 // }
+
+
+let count = 0;
+
+function show(){
+    let sortFun = document.getElementById("sortFun");
+    if(count === 0){
+        sortFun.style.display= "block";
+        sortFun.style.position="absolute";
+        sortFun.style.zIndex = "40";
+        sortFun.style.border = "1px solid black";
+        count++;
+    }else if(count === 1){
+        sortFun.style.display= "none";
+        count--;
+    }
+    
+}
