@@ -20,7 +20,7 @@ function setdata(e) {
   let array = JSON.parse(localStorage.getItem("udemyUsers"));
   if (array.length === 0) {
     array.push(udemy_Users_Data);
-    window.location.href = "index.html";
+    window.location.href = "home.html";
   } else {
     let countEmail = 0;
     for (let i = 0; i < array.length; i++) {

@@ -16,7 +16,7 @@ function login(e) {
   });
   if (flag === true) {
     console.log("Sucess");
-    window.location.href = "index.html";
+    window.location.href = "home.html";
   } else {
     alert("Invalid usename or password!");
   }
