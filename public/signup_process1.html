@@ -160,10 +160,10 @@
    justify-content: center;
    user-select: none;
    vertical-align: bottom;
-   white-space: nowrap;" href="">
+   white-space: nowrap;" href="home.html">
      <span style="color: #5624d0;">Skip for now</span>
    </a>
-   <button style="content: '';
+   <button onclick="next()" id="nBtn" style="content: '';
    position: relative;
    background-color: #1c1d1f;
    color: #fff;
@@ -175,3 +175,8 @@
     </div>
   </body>
 </html>
+<script>
+  function next(){
+    window.location.href = "signup_process2.html"
+  }
+</script>
