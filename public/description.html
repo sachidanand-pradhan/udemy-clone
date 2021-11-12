@@ -1,93 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <script src="./scripts/navbar.js"></script>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-</head>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
 
-
-<body>
+  <body>
     <header id="nav"></header>
 
-
     <div class="w-full flex">
-        <div class="w-1/2 h-84 bg-gray-800" id="left"></div>
-        <div class="w-1/2 h-84 bg-gray-800" id="right"></div>
+      <div class="w-1/2 h-84 bg-gray-800" id="left"></div>
+      <div class="w-1/2 h-84 bg-gray-800" id="right"></div>
     </div>
-
-</body>
-
+    <div class="w-full flex">
+      <div class="w-1/2 h-84 mt-8 border border-gray-300" id="bot"></div>
+    </div>
+  </body>
 </html>
 
-
 <script type="module">
-    import navbar from './components/header.js';
+  import navbar from "./components/header.js";
 
-    let promise = new Promise((resolve, reject) => {
-        let header = document.getElementById('nav');
+  let promise = new Promise((resolve, reject) => {
+    let header = document.getElementById("nav");
 
-        header.innerHTML = navbar();
+    header.innerHTML = navbar();
 
-        resolve('Navbar imported');
-    });
-    promise.then((res) => {
-        console.log(res);
-        addFunctionalityToNavbar();
-        console.log('done');
-    })
-
+    resolve("Navbar imported");
+  });
+  promise.then((res) => {
+    console.log(res);
+    addFunctionalityToNavbar();
+    console.log("done");
+  });
 </script>
 
 <script>
-    let desData = JSON.parse(localStorage.getItem("decData"));
-    console.log(desData);
+  let desData = JSON.parse(localStorage.getItem("decData"));
+  console.log(desData);
 
-    showdata(desData[desData.length - 1]);
+  showdata(desData[desData.length - 1]);
 
+  function showdata(data) {
+    let left = document.getElementById("left");
 
+    let right = document.getElementById("right");
 
+    console.log("kdkj", data.name);
+    left.innerText = null;
+    right.innerText = null;
 
-    function showdata(data) {
-        let left = document.getElementById("left");
+    let topDiv = document.createElement("div");
 
-        let right = document.getElementById("right");
+    let name = document.createElement("h1");
+    name.innerText = data.name;
+    name.setAttribute("class", "ml-40 text-white mt-5 font-bold text-4xl");
 
+    let title = document.createElement("p");
+    title.innerText = data.title;
+    title.setAttribute("class", "ml-40 text-white mt-5 ");
 
-        console.log("kdkj", data.name);
-        left.innerText = null;
-        right.innerText = null;
+    let bestseller = document.createElement("p");
+    bestseller.innerText = "Bestseller";
+    bestseller.setAttribute("class","ml-40 mt-5 px-2 py-0 bg-yellow-200 inline-block");
 
-        let topDiv = document.createElement("div");
+    let rating = document.createElement("p");
+    rating.innerText = data.rating;
+    rating.setAttribute("class","ml-5 text-white mt-5 text-yellow-300 inline-block");
 
-        let name = document.createElement("h1");
-        name.innerText = data.name;
-        name.setAttribute('class','ml-40 text-white mt-5 font-bold text-4xl');
+    // console.log(data.learn[0]);
+    // console.log(data.learn[0].l1);
+    topDiv.append(name, title, bestseller, rating);
 
-        let title = document.createElement("p");
-        title.innerText = data.title;
-        title.setAttribute('class','ml-40 text-white mt-5 ');
+    left.append(topDiv);
 
-        let bestseller = document.createElement("p");
-        bestseller.innerText = "Bestseller";
-        bestseller.setAttribute('class','ml-40 mt-5 px-2 py-0 bg-yellow-200 inline-block');
+    let bot = document.getElementById("bot");
+    bot.innerText = null;
 
-        let rating = document.createElement("p");
-        rating.innerText = data.rating;
-        rating.setAttribute('class','ml-5 text-white mt-5 inline-block');
+    console.log("kdkj", data.learn[0]);
+    bot.innerText = null;
 
-        console.log(data.learn[0]);
-        console.log(data.learn[0].l1);
+    let botDiv = document.createElement("div");
 
-        topDiv.append(name,title,bestseller,rating);
+    let learn = document.createElement("h1");
+    learn.innerText = data.learn;
+    learn.setAttribute("class", "ml-20 text-black mt-5 font-bold text-4xl");
 
-        left.append(topDiv);
+    let learn_li = document.createElement("p");
+    learn_li.innerText = data.learn_li;
+    learn_li.setAttribute("class", "ml-40 text-white mt-5 ");
 
-
-    }
+    botDiv.append(learn, learn_li);
+    bot.append(botDiv);
+  }
 </script>
