@@ -2509,7 +2509,7 @@ function addFunctionalityToNavbar() {
 
     }
     let dt = JSON.parse(localStorage.getItem("check"));
-    if(dt[0] === 'logedin'){
+    if(dt[1] === 'logedin'){
         done()
         change()
     }
@@ -2517,7 +2517,7 @@ function addFunctionalityToNavbar() {
     function change(){
         let u = JSON.parse(localStorage.getItem("udemyUsers"))
         u.forEach((e) => {
-            if(e.email === dt[1]){
+            if(e.email === dt[0]){
                 let A = e.name[0].toUpperCase()
                 pahlaleter.innerText=A
                 username.innerText=A
@@ -2529,6 +2529,32 @@ function addFunctionalityToNavbar() {
             }
         });
     }
+
+    // delete function 
+
+    function itemdelete(){
+        localStorage.removeItem("check")
+    }
+
+    // ----  for log out -----
+
+    let logout = document.getElementById("logout")
+    logout.addEventListener('click',()=>{
+        ok()
+        itemdelete()
+    })
+
+    // links for sign in and sign up 
+
+    signin.addEventListener('click',()=>{
+        window.location.href="login.html"
+    })
+    // ------- //
+    signup.addEventListener('click',()=>{
+        window.location.href="signup.html"
+    })
+
+    //    --------------------------------------------------- //
 
 
     // -----  function for toggle on mobilemenu --------

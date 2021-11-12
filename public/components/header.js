@@ -5,8 +5,8 @@ function navbar() {
         <div id="hovermenudiv" class="w-72 bg-white overflow-y-scroll" style="height: 630px;">
             <!-- sign in and sign up -->
             <div id="beforlogin" class="block">
-                <a href="#" class="block m-4 text-indigo-700">log in</a>
-                <a href="#" class="block m-4 text-indigo-700">Sign up</a>
+                <a href="login.html" class="block m-4 text-indigo-700">log in</a>
+                <a href="signup.html" class="block m-4 text-indigo-700">Sign up</a>
             </div>
             <div id="afterlogin" class="hidden">
                 <div id="mobusername" class="bg-black rounded-full font-bold text-2xl text-white py-4 px-6">A</div>
@@ -570,7 +570,7 @@ function navbar() {
         <hr>
         <!--  -->
         <div class="m-4 text-sm text-gray-600 hover:text-blue-700"><a href="#">Help</a></div>
-        <div class="m-4 text-sm text-gray-600 hover:text-blue-700"><a href="#">Log out</a></div>
+        <div id="logout" class="m-4 text-sm text-gray-600 hover:text-blue-700"><a href="#">Log out</a></div>
 
     </div>`
 }

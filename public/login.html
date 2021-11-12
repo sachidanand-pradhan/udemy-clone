@@ -169,7 +169,7 @@ function login(e) {
     }
     let dt = JSON.parse(localStorage.getItem("check"));
     dt = [];
-    dt.push('logedin',email);
+    dt.push(email,'logedin');
      //console.log(dt);
     localStorage.setItem("check", JSON.stringify(dt));
 
