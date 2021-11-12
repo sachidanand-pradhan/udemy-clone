@@ -1,18 +1,26 @@
-async function getData() {
-    let res = await fetch(`http://localhost:5000/api/python`);
+let course_datas = JSON.parse(localStorage.getItem("searchData"));
+// console.log("---9989",course_datas[course_datas.length - 1][0].name);
+
+
+async function getData(course) {
+    course.toLowerCase();
+    console.log(course,"0909");
+    let res = await fetch(`http://localhost:5000/api/${course}`);
     let data = await res.json();
-    console.log("data:------", data);
-    // console.log("data:",data[0].include);
     add(data);
 
 }
-getData();
+getData(course_datas[course_datas.length - 1][0].name);
+
 
 function add(data) {
-    // d.innerText = null;
-    let d = document.getElementById("data");
+    // console.log("---++--",data)
+    
+    let d = document.getElementById("dataAdd");
+
     d.innerHTML = null;
     data.forEach((el) => {
+        
         // console.log(el);
         let div = document.createElement("div");
         div.setAttribute('class', 'flex mt-2 border')
@@ -68,15 +76,11 @@ function add(data) {
         right.append(price, oldprice);
 
         div.append(left, mid, right);
-        // div.style.marginTop ="10px";
-        // console.log(el.learn);
 
 
         div.addEventListener('click', () => {
             dataStored(el);
         });
-
-        // learn
 
 
         div.addEventListener('mouseover', () => {

@@ -159,7 +159,7 @@ function navbar() {
             </svg>
         </button>
         <!-- logo -->
-        <a href="#" class="ml-4 mx-2 min-w-max">
+        <a href="home.html" class="ml-4 mx-2 min-w-max">
             <img src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg" alt="" width="91" height="34">
         </a>
         <!-- category -->
@@ -176,7 +176,7 @@ function navbar() {
                         d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                 </svg>
             </button>
-            <input type="text" placeholder="Search for something" class="h-10 outline-none mx-4 w-full bg-transparent">
+            <input oninput="debounce(main,1500)" type="text" placeholder="Search for something" class="h-10 outline-none mx-4 w-full bg-transparent" id="courseData">
         </div>
         <!-- bussiness -->
         <button id="ubussi" class="mx-2 text-sm hidden xl:block hover:text-blue-800 py-7">
@@ -218,7 +218,7 @@ function navbar() {
             </button>
         </div>
         <!-- sign in -->
-        <button id="signin" class="hidden md:block mx-2 text-sm border border-black px-3 font-semibold py-2">Log
+        <button id="signin" class="hidden md:block mx-2 text-sm border border-black px-3 font-semibold py-2 hover:bg-gray-100">Log
             in</button>
         <!-- bell -->
         <button id="bell" class="hidden">
@@ -237,7 +237,7 @@ function navbar() {
             <div class="bg-black rounded-full font-bold text-sm text-white py-1.5 px-3">A</div>
         </button>
         <!-- language -->
-        <button id="language" class="hidden md:block mx-2 border border-black px-2 py-2 mr-4">
+        <button id="language" class="hidden md:block mx-2 border border-black px-2 py-2 mr-4 hover:bg-gray-100">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
                 stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -469,7 +469,7 @@ function navbar() {
         </div>
     </div>
     <!-- search result -->
-    <div class="w-2/4 h-auto max-h-80 overflow-hidden bg-white border absolute z-40 " style="margin-left:15%;" id="ShowCoursesName"></div>
+    <div class="w-2/4 h-3/5 max-h-80 overflow-hidden bg-white border absolute z-40 hidden" style="margin-left:15%;" id="ShowCoursesName"></div>
     <!-- ----------   after hover on bussiness   --------- -->
     <div id="bussiness" class="hidden" style="margin-left: 49%;">
         <h1 class="text-center m-3 font-bold text-xl leading-5">Get your team access to over 6,000 top Udemy courses,

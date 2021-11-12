@@ -56,38 +56,38 @@ function addFunctionalityToNavbar() {
 
             // 1 item
             let h1 = document.createElement("h1")
-            h1.setAttribute('class','mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+            h1.setAttribute('class', 'mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
             h1.innerText = "Javascript"
 
             let h2 = document.createElement("h1")
-            h2.setAttribute('class','mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+            h2.setAttribute('class', 'mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
             h2.innerText = "React"
 
             let h3 = document.createElement("h1")
-            h3.setAttribute('class','mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+            h3.setAttribute('class', 'mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
             h3.innerText = "CSS"
 
             let h4 = document.createElement("h1")
-            h4.setAttribute('class','mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+            h4.setAttribute('class', 'mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
             h4.innerText = "Angular"
 
             let h5 = document.createElement("h1")
-            h5.setAttribute('class','mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+            h5.setAttribute('class', 'mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
             h5.innerText = "Node.js"
 
             let h6 = document.createElement("h1")
-            h6.setAttribute('class','mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+            h6.setAttribute('class', 'mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
             h6.innerText = "PHP"
 
             let h7 = document.createElement("h1")
-            h7.setAttribute('class','mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+            h7.setAttribute('class', 'mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
             h7.innerText = "HTML5"
 
             let h8 = document.createElement("h1")
-            h8.setAttribute('class','mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+            h8.setAttribute('class', 'mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
             h8.innerText = "Django"
 
-            tdiv.append(popular,h1,h2,h3,h4,h5,h6,h7,h8)
+            tdiv.append(popular, h1, h2, h3, h4, h5, h6, h7, h8)
             thirdiv.append(tdiv)
         })
         // --------------------------------------
@@ -116,38 +116,38 @@ function addFunctionalityToNavbar() {
 
             // 1 item
             let h1 = document.createElement("h1")
-            h1.setAttribute('class','mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+            h1.setAttribute('class', 'mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
             h1.innerText = "Python"
 
             let h2 = document.createElement("h1")
-            h2.setAttribute('class','mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+            h2.setAttribute('class', 'mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
             h2.innerText = "Machine Learning"
 
             let h3 = document.createElement("h1")
-            h3.setAttribute('class','mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+            h3.setAttribute('class', 'mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
             h3.innerText = "Deep Learning"
 
             let h4 = document.createElement("h1")
-            h4.setAttribute('class','mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+            h4.setAttribute('class', 'mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
             h4.innerText = "Data Analysis"
 
             let h5 = document.createElement("h1")
-            h5.setAttribute('class','mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+            h5.setAttribute('class', 'mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
             h5.innerText = "Artificial Intelligence"
 
             let h6 = document.createElement("h1")
-            h6.setAttribute('class','mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+            h6.setAttribute('class', 'mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
             h6.innerText = "R(Programming Language)"
 
             let h7 = document.createElement("h1")
-            h7.setAttribute('class','mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+            h7.setAttribute('class', 'mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
             h7.innerText = "Statistics"
 
             let h8 = document.createElement("h1")
-            h8.setAttribute('class','mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+            h8.setAttribute('class', 'mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
             h8.innerText = "Nuetral Newtorks"
 
-            tdiv.append(popular,h1,h2,h3,h4,h5,h6,h7,h8)
+            tdiv.append(popular, h1, h2, h3, h4, h5, h6, h7, h8)
             thirdiv.append(tdiv)
         })
         // --------------------------------------
@@ -165,8 +165,8 @@ function addFunctionalityToNavbar() {
         //3 item
         let sdiv3 = document.createElement("div")
         sdiv3.setAttribute('class', 'flex justify-between items-center mx-2 my-4 text-sm hover:text-indigo-700 cursor-pointer')
-         //  after hover, efect on ------ thirddiv----
-         sdiv3.addEventListener('mouseover', () => {
+        //  after hover, efect on ------ thirddiv----
+        sdiv3.addEventListener('mouseover', () => {
             thirdiv.innerText = null
             let tdiv = document.createElement("div")
             let popular = document.createElement('div')
@@ -177,38 +177,38 @@ function addFunctionalityToNavbar() {
 
             // 1 item
             let h1 = document.createElement("h1")
-            h1.setAttribute('class','mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+            h1.setAttribute('class', 'mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
             h1.innerText = "Google Flutter"
 
             let h2 = document.createElement("h1")
-            h2.setAttribute('class','mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+            h2.setAttribute('class', 'mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
             h2.innerText = "Android Development"
 
             let h3 = document.createElement("h1")
-            h3.setAttribute('class','mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+            h3.setAttribute('class', 'mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
             h3.innerText = "iOS Development"
 
             let h4 = document.createElement("h1")
-            h4.setAttribute('class','mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+            h4.setAttribute('class', 'mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
             h4.innerText = "React Native"
 
             let h5 = document.createElement("h1")
-            h5.setAttribute('class','mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+            h5.setAttribute('class', 'mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
             h5.innerText = "Swift"
 
             let h6 = document.createElement("h1")
-            h6.setAttribute('class','mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+            h6.setAttribute('class', 'mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
             h6.innerText = "Dart(Programming Language)"
 
             let h7 = document.createElement("h1")
-            h7.setAttribute('class','mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+            h7.setAttribute('class', 'mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
             h7.innerText = "Kotlin"
 
             let h8 = document.createElement("h1")
-            h8.setAttribute('class','mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+            h8.setAttribute('class', 'mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
             h8.innerText = "SwiftUI"
 
-            tdiv.append(popular,h1,h2,h3,h4,h5,h6,h7,h8)
+            tdiv.append(popular, h1, h2, h3, h4, h5, h6, h7, h8)
             thirdiv.append(tdiv)
         })
         // --------------------------------------
@@ -238,42 +238,42 @@ function addFunctionalityToNavbar() {
 
             // 1 item
             let h1 = document.createElement("h1")
-            h1.setAttribute('class','mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+            h1.setAttribute('class', 'mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
             h1.innerText = "Python"
 
             let h2 = document.createElement("h1")
-            h2.setAttribute('class','mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+            h2.setAttribute('class', 'mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
             h2.innerText = "Java"
 
             let h3 = document.createElement("h1")
-            h3.setAttribute('class','mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+            h3.setAttribute('class', 'mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
             h3.innerText = "C#"
 
             let h4 = document.createElement("h1")
-            h4.setAttribute('class','mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+            h4.setAttribute('class', 'mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
             h4.innerText = "React"
 
             let h5 = document.createElement("h1")
-            h5.setAttribute('class','mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+            h5.setAttribute('class', 'mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
             h5.innerText = "C++"
 
             let h6 = document.createElement("h1")
-            h6.setAttribute('class','mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+            h6.setAttribute('class', 'mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
             h6.innerText = "C(Programming Language)"
 
             let h7 = document.createElement("h1")
-            h7.setAttribute('class','mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+            h7.setAttribute('class', 'mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
             h7.innerText = "Javascript"
 
             let h8 = document.createElement("h1")
-            h8.setAttribute('class','mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+            h8.setAttribute('class', 'mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
             h8.innerText = "Spring Framework"
 
             let h9 = document.createElement("h1")
-            h9.setAttribute('class','mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+            h9.setAttribute('class', 'mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
             h9.innerText = "Go(programming language)"
 
-            tdiv.append(popular,h1,h2,h3,h4,h5,h6,h7,h8,h9)
+            tdiv.append(popular, h1, h2, h3, h4, h5, h6, h7, h8, h9)
             thirdiv.append(tdiv)
         })
         // --------------------------------------
@@ -303,42 +303,42 @@ function addFunctionalityToNavbar() {
 
             // 1 item
             let h1 = document.createElement("h1")
-            h1.setAttribute('class','mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+            h1.setAttribute('class', 'mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
             h1.innerText = "Unity"
 
             let h2 = document.createElement("h1")
-            h2.setAttribute('class','mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+            h2.setAttribute('class', 'mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
             h2.innerText = "Unreal Engine"
 
             let h3 = document.createElement("h1")
-            h3.setAttribute('class','mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+            h3.setAttribute('class', 'mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
             h3.innerText = "Game Development Fundamental"
 
             let h4 = document.createElement("h1")
-            h4.setAttribute('class','mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+            h4.setAttribute('class', 'mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
             h4.innerText = "C#"
 
             let h5 = document.createElement("h1")
-            h5.setAttribute('class','mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+            h5.setAttribute('class', 'mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
             h5.innerText = "C++"
 
             let h6 = document.createElement("h1")
-            h6.setAttribute('class','mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+            h6.setAttribute('class', 'mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
             h6.innerText = "3D Game Development"
 
             let h7 = document.createElement("h1")
-            h7.setAttribute('class','mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+            h7.setAttribute('class', 'mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
             h7.innerText = "2D Game Development"
 
             let h8 = document.createElement("h1")
-            h8.setAttribute('class','mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+            h8.setAttribute('class', 'mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
             h8.innerText = "Unreal Engine Blueprints"
 
             let h9 = document.createElement("h1")
-            h9.setAttribute('class','mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+            h9.setAttribute('class', 'mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
             h9.innerText = "Mobile Game Development"
 
-            tdiv.append(popular,h1,h2,h3,h4,h5,h6,h7,h8,h9)
+            tdiv.append(popular, h1, h2, h3, h4, h5, h6, h7, h8, h9)
             thirdiv.append(tdiv)
         })
         // --------------------------------------
@@ -368,42 +368,42 @@ function addFunctionalityToNavbar() {
 
             // 1 item
             let h1 = document.createElement("h1")
-            h1.setAttribute('class','mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+            h1.setAttribute('class', 'mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
             h1.innerText = "SQL"
 
             let h2 = document.createElement("h1")
-            h2.setAttribute('class','mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+            h2.setAttribute('class', 'mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
             h2.innerText = "MySQL"
 
             let h3 = document.createElement("h1")
-            h3.setAttribute('class','mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+            h3.setAttribute('class', 'mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
             h3.innerText = "Oracle SQL"
 
             let h4 = document.createElement("h1")
-            h4.setAttribute('class','mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+            h4.setAttribute('class', 'mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
             h4.innerText = "MongoDB"
 
             let h5 = document.createElement("h1")
-            h5.setAttribute('class','mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+            h5.setAttribute('class', 'mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
             h5.innerText = "Apache Kafka"
 
             let h6 = document.createElement("h1")
-            h6.setAttribute('class','mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+            h6.setAttribute('class', 'mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
             h6.innerText = "Database Programming"
 
             let h7 = document.createElement("h1")
-            h7.setAttribute('class','mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+            h7.setAttribute('class', 'mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
             h7.innerText = "SQL Server"
 
             let h8 = document.createElement("h1")
-            h8.setAttribute('class','mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+            h8.setAttribute('class', 'mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
             h8.innerText = "Oracle Certification"
 
             let h9 = document.createElement("h1")
-            h9.setAttribute('class','mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+            h9.setAttribute('class', 'mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
             h9.innerText = "Database Management"
 
-            tdiv.append(popular,h1,h2,h3,h4,h5,h6,h7,h8,h9)
+            tdiv.append(popular, h1, h2, h3, h4, h5, h6, h7, h8, h9)
             thirdiv.append(tdiv)
         })
         // --------------------------------------
@@ -433,38 +433,38 @@ function addFunctionalityToNavbar() {
 
             // 1 item
             let h1 = document.createElement("h1")
-            h1.setAttribute('class','mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+            h1.setAttribute('class', 'mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
             h1.innerText = "Selenium WebDriver"
 
             let h2 = document.createElement("h1")
-            h2.setAttribute('class','mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+            h2.setAttribute('class', 'mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
             h2.innerText = "Java"
 
             let h3 = document.createElement("h1")
-            h3.setAttribute('class','mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+            h3.setAttribute('class', 'mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
             h3.innerText = "Selenium Testing Framework"
 
             let h4 = document.createElement("h1")
-            h4.setAttribute('class','mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+            h4.setAttribute('class', 'mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
             h4.innerText = "Automation Testing"
 
             let h5 = document.createElement("h1")
-            h5.setAttribute('class','mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+            h5.setAttribute('class', 'mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
             h5.innerText = "API Testing"
 
             let h6 = document.createElement("h1")
-            h6.setAttribute('class','mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+            h6.setAttribute('class', 'mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
             h6.innerText = "Postman"
 
             let h7 = document.createElement("h1")
-            h7.setAttribute('class','mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+            h7.setAttribute('class', 'mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
             h7.innerText = "Cypress.io"
 
             let h8 = document.createElement("h1")
-            h8.setAttribute('class','mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+            h8.setAttribute('class', 'mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
             h8.innerText = "REST Assured"
 
-            tdiv.append(popular,h1,h2,h3,h4,h5,h6,h7,h8)
+            tdiv.append(popular, h1, h2, h3, h4, h5, h6, h7, h8)
             thirdiv.append(tdiv)
         })
         // --------------------------------------
@@ -494,42 +494,42 @@ function addFunctionalityToNavbar() {
 
             // 1 item
             let h1 = document.createElement("h1")
-            h1.setAttribute('class','mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+            h1.setAttribute('class', 'mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
             h1.innerText = "Data Structures"
 
             let h2 = document.createElement("h1")
-            h2.setAttribute('class','mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+            h2.setAttribute('class', 'mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
             h2.innerText = "Coding Interviews"
 
             let h3 = document.createElement("h1")
-            h3.setAttribute('class','mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+            h3.setAttribute('class', 'mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
             h3.innerText = "Algorithims"
 
             let h4 = document.createElement("h1")
-            h4.setAttribute('class','mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+            h4.setAttribute('class', 'mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
             h4.innerText = "Kubernetes"
 
             let h5 = document.createElement("h1")
-            h5.setAttribute('class','mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+            h5.setAttribute('class', 'mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
             h5.innerText = "Microservices"
 
             let h6 = document.createElement("h1")
-            h6.setAttribute('class','mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+            h6.setAttribute('class', 'mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
             h6.innerText = "Certified Kubernetes Application Developer (CKAD)"
 
             let h7 = document.createElement("h1")
-            h7.setAttribute('class','mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+            h7.setAttribute('class', 'mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
             h7.innerText = "Python"
 
             let h8 = document.createElement("h1")
-            h8.setAttribute('class','mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+            h8.setAttribute('class', 'mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
             h8.innerText = "Apache Airflow"
 
             let h9 = document.createElement("h1")
-            h9.setAttribute('class','mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
+            h9.setAttribute('class', 'mx-4 my-4 text-sm hover:text-indigo-700 cursor-pointer')
             h9.innerText = "Spring Boot"
 
-            tdiv.append(popular,h1,h2,h3,h4,h5,h6,h7,h8,h9)
+            tdiv.append(popular, h1, h2, h3, h4, h5, h6, h7, h8, h9)
             thirdiv.append(tdiv)
         })
         // --------------------------------------
@@ -2515,4 +2515,104 @@ function addFunctionalityToNavbar() {
     function showmenu() {
         afterhovermenu.setAttribute('class', 'flex md:hidden fixed w-full')
     }
+}
+
+
+// search functon start
+var timerId;
+
+async function searchMovies(course_name) {
+    try {
+
+        let res = await fetch(`http://localhost:5000/api/${course_name}`);
+
+        let data = await res.json();
+        console.log("Data:--", data);
+        return data;
+
+
+    }
+    catch (e) {
+        console.log(e)
+    }
+
+}
+
+function appendMovies(course) {
+    // console.log("-------",course[0].name);
+    let ShowCoursesName = document.getElementById("ShowCoursesName");
+    ShowCoursesName.style.display = "block";
+    if (course === undefined) {
+        ShowCoursesName.innerHTML = null;
+        p = document.createElement("p");
+        p.innerText = "course not available!";
+        return false;
+    }else{
+        p = document.createElement("p");
+        p.innerText ="✔ "+ course[0].name;
+        console.log(course[0].name,"name---");
+        p.setAttribute('class','ml-4 mt-2');
+        ShowCoursesName.append(p);
+        p.addEventListener('click', () => {
+            dataStored(course);
+        });
+    }
+    // ShowCoursesName.innerHTML = null;
+    // console.log("datafetch", course);
+    // course.forEach(function (el) {
+    //     // movies_div.style.display = "block";
+    //     p = document.createElement("p");
+    //     p.innerText = el[0].name;
+    //     console.log(el[0].name,"name---");
+    //     ShowCoursesName.append(p);
+    // });
+
+}
+
+async function main() {
+    let name = document.getElementById("courseData").value;
+    // console.log("coursename", name);
+
+
+    if (name.length < 3) {
+        return false;
+    }
+
+    let res = await searchMovies(name.toLowerCase());
+
+    let course_data = res;
+
+    if(course_data.length === undefined){
+        alert("courses not available!")
+    }
+    // console.log("datas--:::::", course_data);
+
+    appendMovies(course_data);
+
+    // console.log(res)
+}
+
+function debounce(func, delay) {
+    if (timerId) {
+        clearTimeout(timerId)
+    }
+
+    timerId = setTimeout(function () {
+        func();
+    }, delay);
+}
+
+
+
+function dataStored(course){
+    console.log("00000",course);
+    if (localStorage.getItem("searchData") == null) {
+        localStorage.setItem("searchData", JSON.stringify([]));
+    }
+    let allData = JSON.parse(localStorage.getItem("searchData"));
+    allData.push(course);
+    localStorage.setItem("searchData", JSON.stringify(allData));
+    let ShowCoursesName = document.getElementById("ShowCoursesName");
+    ShowCoursesName.style.display = "none";
+    window.location.href = "afterSearchShowCoursePage.html";
 }
