@@ -176,7 +176,7 @@ function navbar() {
                         d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                 </svg>
             </button>
-            <input type="text" placeholder="Search for something" class="h-10 outline-none mx-4 w-full bg-transparent">
+            <input oninput="debounce(main,1500)" type="text" placeholder="Search for something" class="h-10 outline-none mx-4 w-full bg-transparent" id="courseData">
         </div>
         <!-- bussiness -->
         <button id="ubussi" class="mx-2 text-sm hidden xl:block hover:text-blue-800 py-7">
@@ -469,7 +469,7 @@ function navbar() {
         </div>
     </div>
     <!-- search result -->
-    <div class="w-2/4 h-auto max-h-80 overflow-hidden bg-white border absolute z-40 " style="margin-left:15%;" id="ShowCoursesName"></div>
+    <div class="w-2/4 h-3/5 max-h-80 overflow-hidden bg-white border absolute z-40 hidden" style="margin-left:15%;" id="ShowCoursesName"></div>
     <!-- ----------   after hover on bussiness   --------- -->
     <div id="bussiness" class="hidden" style="margin-left: 49%;">
         <h1 class="text-center m-3 font-bold text-xl leading-5">Get your team access to over 6,000 top Udemy courses,
