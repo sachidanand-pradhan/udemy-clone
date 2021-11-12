@@ -23,13 +23,14 @@
   line-height: 1.43;
   color: #1c1d1f;
 ">
-    <div class="flex" style="height: 70px; width: 380px; padding: 24px 64px 24px 24px;">
-      <h1 class="font-bold" style="font-size: 15px">
+    <div class="flex ml-2" style="height: 70px; width: 430px; padding: 24px 64px 24px 24px; ">
+      <h1 class="font-bold" style="font-size: 15px; text-align: center;">
         Sign Up and Start Learning!
       </h1>
     </div>
-    <hr/>
-    <div class="flex" style="height: 400px; width: 380px; padding: 24px 24px 16px 24px;">
+    <hr style="width: 350px;" class="ml-7">
+   
+    <div class="flex" style="width: 430px; padding: 24px 24px 16px 24px;">
       <form onsubmit="setdata(event)" id="form">
         <div style="border: 1.5px solid #1c1d1f" class="border-gray-800 flex">
           <div>
@@ -82,31 +83,33 @@
             />
           </div>
         </div>
-        <input type="checkbox" id="checkbox" required />
+        <div class="mt-2">
+          <input type="checkbox" id="checkbox" required />
         <label for=""
           >I’m in for emails with exciting discounts and personalized
           recommendations</label
         >
+        </div>
         <br />
        <div >
           <button
-          style="background-color: #7325a3; height: 48px; width: 332px; border: 1px solid #ffffff; margin: 0 0 16px 0; padding: 11px 12px 11px 12px;"
+          style="background-color: #7325a3; height: 48px; width: 380px; border: 1px solid #ffffff; margin: 0 0 16px 0; padding: 11px 12px 11px 12px;"
           class="p-4"
           type="submit"
         >
           Sign Up
         </button>
        </div>
-       <div>
-          <p style="text-align: center; font-size: 10px">
+       <div class="mb-4">
+          <p style="text-align: center; font-size: 12px">
               By signing up, you agree to our
               <a style="color: #401b9c" href="">Terms of Use</a> and
               <a style="color: #401b9c" href="">Privacy Policy.</a>
             </p>
        </div>
        <hr/>
-       <div class="flex" style="height: 45px; width: 380px; padding: 0 0 24px 0; text-align: center;">
-          Already have an account?
+       <div class="flex mt-2" style="height: 45px; width: 380px; padding: 0 0 24px 0; text-align: center;">
+         <h1 class="ml-14"> Already have an account?</h1>
             <a href="login.html" style="color: #5624d0" class="font-bold"
               >Login</a
             >
