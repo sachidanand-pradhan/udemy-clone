@@ -45,6 +45,24 @@
 </body>
 
 </html>
+<script type='module'>
+    import navbar from './components/header.js';
+
+    let promise = new Promise((resolve, reject) => {
+        let header = document.getElementById('navbar');
+
+        header.innerHTML = navbar();
+
+        resolve('Navbar imported');
+    });
+    promise.then((res) => {
+        // console.log( res );
+        addFunctionalityToNavbar();
+        // console.log( 'done' );
+    })
+
+
+</script>
 <script>
      var total = 0;
     let cart = JSON.parse(localStorage.getItem("decData"));
