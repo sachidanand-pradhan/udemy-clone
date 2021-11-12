@@ -9,36 +9,42 @@
     <link rel="stylesheet" href="style.css">
     <script src='./scripts/navbar.js'></script>
 </head>
- <style>
-    #courseCart{
+<style>
+    #courseCart {
         margin-left: 250px;
         margin-top: 40px;
         font-size: 20px;
     }
-    #cart{
+
+    #cart {
         width: 80%;
         height: 400px;
         border-radius: gray solid 2px;
     }
- </style>
+</style>
 
 <body>
-    
+
     <div id="navbar"></div>
 
-    <div class="w-full bg-black flex" >
+    <div class="w-full bg-black flex">
         <div class="font-bold text-5xl text-white py-12 pl-60">Shopping Cart</div>
     </div>
     <div id="courseCart" class="">Courses in Cart</div>
-    <div id="cart"> 
-        <div id="cart_items">
-      
-        </div>   
-    </div>
-    <p id = "coursenum"></p>
-    
+    <div id="cart" class="w-10/12 m-auto flex">
+        <div id="cart_items" class="w-10/12">
 
-    <div id="total"></div>
+        </div>
+        <div class="w-4/12 ml-4">
+            <p class="ml-2 mt-2 text-xl">Total:-</p>
+            <p id="TotalPrice" class="ml-2 mt-2 text-xl font-bold"></p>
+            <a href="#"><button class="px-28 py-4 bg-blue-700 mt-4 text-white">Checkout</button></a>
+            <h4 class="mt-4">Promotions</h4>
+            <p class="mt-2 ml-8" id="update"></p>
+            <input class="mt-5  py-4 border-2" type="text" id="promocode" placeholder="promo code">
+            <button class="ml-2 bg-blue-700 text-white px-10 py-4" onclick="discount()">Apply</button>
+        </div>
+    </div>
 </body>
 
 </html>
@@ -61,62 +67,149 @@
 
 </script>
 <script>
-     var total = 0;
+    var total = 0;
     let cart = JSON.parse(localStorage.getItem("decData"));
-    console.log("----",cart);
+    console.log("----", cart);
     add(cart);
 
-    if(cart == null){
-       var div =  document.getElementById("cart_items")
-       div.setAttribute("class", "cart_item")
-       
-       var img = document.createElement("img")
-       img.src = "https://s.udemycdn.com/browse_components/flyout/empty-shopping-cart-v2.jpg"
-       var para = document.createElement("p")
-       para.textContent = "Your cart is empty. Keep shopping to find a course"
+    if (cart == null) {
+        var div = document.getElementById("cart_items")
+        div.setAttribute("class", "cart_item")
 
-       var button = document.createElement("button")
-       button.textContent = "Keep shopping"
+        var img = document.createElement("img")
+        img.src = "https://s.udemycdn.com/browse_components/flyout/empty-shopping-cart-v2.jpg"
+        var para = document.createElement("p")
+        para.textContent = "Your cart is empty. Keep shopping to find a course"
+
+        var button = document.createElement("button")
+        button.textContent = "Keep shopping"
 
 
-       button.setAttribute("class", "buttons")
-       var link = document.createElement("a")
-       link.href = "home_page.html"
-       link.append(button)
-       
+        button.setAttribute("class", "buttons")
+        var link = document.createElement("a")
+        link.href = "home_page.html"
+        link.append(button)
 
-       div.append(img,para,link)
-       var p_item = document.getElementById("coursenum")
-       p_item.textContent = `${total} Courses in the cart`;
+
+        div.append(img, para, link)
+        var p_item = document.getElementById("coursenum")
+        p_item.textContent = `${total} Courses in the cart`;
     }
     // else{
 
     //     add(cart);
-    
+
     // }
     function add(data) {
-    // console.log("hii"+data);
-    var d =  document.getElementById("cart_items");
-    
-    data.forEach((el) => {
-        
+        // console.log("hii"+data);
+        var d = document.getElementById("cart_items");
 
-        let div = document.createElement("div");
-        let img = document.createElement("img");
-        img.src = el.image;
+        data.forEach((el) => {
 
-        let p = document.createElement("p");
-        p.innerText = el.name;
+            let div = document.createElement("div");
+            div.setAttribute('class', 'flex mt-2 border')
 
-
-        let price = document.createElement("p");
-        price.innerText = el.price;
-
-        div.append(img,p,price);
-        d.append(div)
+            let left = document.createElement("div");
+            let mid = document.createElement("div");
+            let right = document.createElement("div");
 
 
-    });
-   
-}
+            left.style.width = "30%";
+            // left.style.border = "2px solid black";
+            left.style.marginLeft = "5px";
+
+            mid.style.width = "60%";
+            mid.style.marginLeft = "5px";
+            // mid.style.border = "2px solid black";
+
+
+            right.style.width = "6%";
+            right.style.margin = "5px";
+            // right.style.border = "2px solid black";
+
+            let img = document.createElement("img");
+            img.src = el.image;
+            left.append(img);
+            img.style.width = "100%";
+
+            let p = document.createElement("p");
+            p.innerText = el.name;
+            p.setAttribute('class', 'font-bold');
+
+            let title = document.createElement("p");
+            title.innerText = el.title;
+            title.setAttribute('class', 'lg:flex hidden');
+
+            let author = document.createElement("p");
+            author.innerText = el.author;
+
+            let rating = document.createElement("p");
+            rating.innerText = el.rating + " ⭐⭐⭐⭐⭐";
+
+            mid.append(p, title, author, rating);
+
+
+            let price = document.createElement("p");
+            price.innerText = "₹ " + el.price;
+            price.setAttribute('class', 'font-bold');
+            let oldprice = document.createElement("p");
+            // text-decoration: line-through;
+            oldprice.innerText = "₹ " + el.oldprice;
+            oldprice.setAttribute('class', 'line-through');
+
+
+
+            right.append(price, oldprice);
+
+            div.append(left, mid, right);
+
+            d.append(div);
+
+
+        });
+
+    }
+
+    function price_sum(ac, el) {
+
+        return ac + el.price;
+    }
+
+    var tot = cart.reduce(price_sum, 0);
+    console.log(tot);
+    let TotalPrice = document.getElementById("TotalPrice");
+    TotalPrice.append(tot);
+
+
+    // let promocode = document.getElementById("promocode").value;
+    // console.log(promocode);
+
+    function discount() {
+        console.log(promocode);
+    }
+
+    function discount() {
+
+        let coupon = document.getElementById("promocode");
+        console.log(coupon.value);
+
+        if (coupon.value == "masai10") {
+
+            var sum = "Rs. " + (tot - (tot * 0.10));
+            TotalPrice.innerText = null;
+            TotalPrice.append(sum);
+            let update = document.getElementById("update");
+            update.innerText = null;
+            update.append("cupon code is applied");
+            update.style.color="green";
+        } else {
+            let update = document.getElementById("update");
+            update.innerText = null;
+            update.append("Coupon Code Not Valid!");
+            update.style.color="red";
+            return;
+        }
+
+    }
+
 </script>
