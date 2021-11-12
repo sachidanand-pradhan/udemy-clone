@@ -17,6 +17,7 @@
       color: #1c1d1f;
     "
   >
+  <header id="nav"></header>
     <div class="flex">
       <div style="background-color:#f7f9fa;
       border-radius:50%;
@@ -180,3 +181,22 @@
     window.location.href = "signup_process2.html"
   }
 </script>
+<script src="./scripts/navbar.js"></script>
+<script type="module">
+   import navbar from './components/header.js';
+
+let promise = new Promise((resolve,reject) => {
+    let header = document.getElementById('nav');
+
+    header.innerHTML = navbar();
+
+    resolve('Navbar imported');
+});
+promise.then((res) => {
+    console.log( res );
+    addFunctionalityToNavbar();
+    console.log( 'done' );
+})
+
+</script>
+
