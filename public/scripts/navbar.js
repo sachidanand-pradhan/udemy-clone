@@ -2550,7 +2550,7 @@ function appendMovies(course) {
     }else{
         p = document.createElement("p");
         p.innerText ="✔ "+ course[0].name;
-        // console.log(course[0].name,"name---");
+        console.log(course[0].name,"name---");
         p.setAttribute('class','ml-4 mt-2');
         ShowCoursesName.append(p);
         p.addEventListener('click', () => {
@@ -2612,4 +2612,7 @@ function dataStored(course){
     let allData = JSON.parse(localStorage.getItem("searchData"));
     allData.push(course);
     localStorage.setItem("searchData", JSON.stringify(allData));
+    let ShowCoursesName = document.getElementById("ShowCoursesName");
+    ShowCoursesName.style.display = "none";
+    window.location.href = "afterSearchShowCoursePage.html";
 }

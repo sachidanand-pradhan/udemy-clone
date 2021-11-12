@@ -159,7 +159,7 @@ function navbar() {
             </svg>
         </button>
         <!-- logo -->
-        <a href="#" class="ml-4 mx-2 min-w-max">
+        <a href="home.html" class="ml-4 mx-2 min-w-max">
             <img src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg" alt="" width="91" height="34">
         </a>
         <!-- category -->
