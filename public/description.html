@@ -15,7 +15,12 @@
 <body>
     <header id="nav"></header>
 
-    
+
+    <div class="w-full flex">
+        <div class="w-1/2 h-84 bg-gray-800" id="left"></div>
+        <div class="w-1/2 h-84 bg-gray-800" id="right"></div>
+    </div>
+
 </body>
 
 </html>
@@ -24,17 +29,65 @@
 <script type="module">
     import navbar from './components/header.js';
 
-let promise = new Promise((resolve,reject) => {
-    let header = document.getElementById('nav');
+    let promise = new Promise((resolve, reject) => {
+        let header = document.getElementById('nav');
 
-    header.innerHTML = navbar();
+        header.innerHTML = navbar();
 
-    resolve('Navbar imported');
-});
-promise.then((res) => {
-    console.log( res );
-    addFunctionalityToNavbar();
-    console.log( 'done' );
-})
+        resolve('Navbar imported');
+    });
+    promise.then((res) => {
+        console.log(res);
+        addFunctionalityToNavbar();
+        console.log('done');
+    })
 
+</script>
+
+<script>
+    let desData = JSON.parse(localStorage.getItem("decData"));
+    console.log(desData);
+
+    showdata(desData[desData.length - 1]);
+
+
+
+
+    function showdata(data) {
+        let left = document.getElementById("left");
+
+        let right = document.getElementById("right");
+
+
+        console.log("kdkj", data.name);
+        left.innerText = null;
+        right.innerText = null;
+
+        let topDiv = document.createElement("div");
+
+        let name = document.createElement("h1");
+        name.innerText = data.name;
+        name.setAttribute('class','ml-40 text-white mt-5 font-bold text-4xl');
+
+        let title = document.createElement("p");
+        title.innerText = data.title;
+        title.setAttribute('class','ml-40 text-white mt-5 ');
+
+        let bestseller = document.createElement("p");
+        bestseller.innerText = "Bestseller";
+        bestseller.setAttribute('class','ml-40 mt-5 px-2 py-0 bg-yellow-200 inline-block');
+
+        let rating = document.createElement("p");
+        rating.innerText = data.rating;
+        rating.setAttribute('class','ml-5 text-white mt-5 inline-block');
+
+        console.log(data.learn[0]);
+        console.log(data.learn[0].l1);
+
+        topDiv.append(name,title,bestseller,rating);
+
+        left.append(topDiv);
+
+
+    }
 </script>

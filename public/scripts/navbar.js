@@ -2478,6 +2478,13 @@ function addFunctionalityToNavbar() {
     let language = document.getElementById("language")
     let beforlogin = document.getElementById("beforlogin")
     let afterlogin = document.getElementById("afterlogin")
+    let username = document.getElementById("username")
+    let userkanaam = document.getElementById("userkanaam")
+    let useremail = document.getElementById("useremail")
+    let mobusername = document.getElementById("mobusername")
+    let mobuserkanaam = document.getElementById("mobuserkanaam")
+    let mobuseremail = document.getElementById("mobuseremail")
+    let pahlaleter = document.getElementById("pahlaleter")
     function ok() {
         signin.setAttribute('class', 'hidden md:block mx-2 text-sm border border-black px-3 font-semibold py-2')
         signup.setAttribute('class', 'hidden md:block mx-2 text-sm border border-black bg-black text-white px-3 font-semibold py-2')
@@ -2499,6 +2506,28 @@ function addFunctionalityToNavbar() {
         favorite.setAttribute('class', 'mx-2 py-7 hidden md:block')
         beforlogin.setAttribute('class', 'hidden')
         afterlogin.setAttribute('class', 'flex gap-2 m-4')
+
+    }
+    let dt = JSON.parse(localStorage.getItem("check"));
+    if(dt[0] === 'logedin'){
+        done()
+        change()
+    }
+     console.log(dt);
+    function change(){
+        let u = JSON.parse(localStorage.getItem("udemyUsers"))
+        u.forEach((e) => {
+            if(e.email === dt[1]){
+                let A = e.name[0].toUpperCase()
+                pahlaleter.innerText=A
+                username.innerText=A
+                useremail.innerText=e.email
+                userkanaam.innerText=e.name
+                mobusername.innerText=A
+                mobuserkanaam.innerText=e.name
+                mobuseremail.innerText=e.email
+            }
+        });
     }
 
 

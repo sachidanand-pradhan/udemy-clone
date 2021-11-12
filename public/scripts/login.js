@@ -18,7 +18,6 @@ function login(e) {
     alert("Login Sucessfully!");
     
     window.location.href = "home.html";
-    ok();
   } else {
     alert("Invalid usename or password!");
   }
