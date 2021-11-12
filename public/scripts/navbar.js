@@ -2616,3 +2616,8 @@ function dataStored(course){
     ShowCoursesName.style.display = "none";
     window.location.href = "afterSearchShowCoursePage.html";
 }
+
+
+function cartPage(){
+    window.location.href = "cartPage.html";
+}

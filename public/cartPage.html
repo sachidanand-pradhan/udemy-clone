@@ -73,7 +73,7 @@
     let courseCart = document.getElementById("courseCart");
     courseCart.innerText = null;
     courseCart.append(cart.length +" Courses in Cart")
-    add(cart);
+    // add(cart);
 
     if (cart == null) {
         var div = document.getElementById("cart_items")
@@ -98,11 +98,11 @@
         var p_item = document.getElementById("coursenum")
         p_item.textContent = `${total} Courses in the cart`;
     }
-    // else{
+    else{
 
-    //     add(cart);
+        add(cart);
 
-    // }
+    }
     function add(data) {
         // console.log("hii"+data);
         var d = document.getElementById("cart_items");
