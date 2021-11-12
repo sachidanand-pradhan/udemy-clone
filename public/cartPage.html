@@ -8,7 +8,6 @@
     <title>Udemy</title>
     <link rel="stylesheet" href="style.css">
     <script src='./scripts/navbar.js'></script>
-    <script src="./scripts/searchFunction.js"></script>
 </head>
  <style>
     #courseCart{
@@ -65,6 +64,7 @@
      var total = 0;
     let cart = JSON.parse(localStorage.getItem("decData"));
     console.log("----",cart);
+    add(cart);
 
     if(cart == null){
        var div =  document.getElementById("cart_items")
@@ -87,12 +87,13 @@
 
        div.append(img,para,link)
        var p_item = document.getElementById("coursenum")
-       p_item.textContent = `${total} Courses in the cart`
-    }else{
-
-        add(cart);
-    
+       p_item.textContent = `${total} Courses in the cart`;
     }
+    // else{
+
+    //     add(cart);
+    
+    // }
     function add(data) {
     // console.log("hii"+data);
     var d =  document.getElementById("cart_items");
