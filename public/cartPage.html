@@ -42,6 +42,7 @@
     
 
     <div id="total"></div>
+    <div id="d"></div>
 </body>
 
 </html>
@@ -66,7 +67,7 @@
 <script>
      var total = 0;
     let cart = JSON.parse(localStorage.getItem("decData"));
-    console.log(cart);
+    console.log("----",cart);
 
     if(cart == null){
        var div =  document.getElementById("cart_items")
@@ -90,84 +91,34 @@
        div.append(img,para,link)
        var p_item = document.getElementById("coursenum")
        p_item.textContent = `${total} Courses in the cart`
-    }
+    }else{
 
-
-
-
-
-
-
-
-
-
-
-    else{
-    add(cart);
+        add(cart);
     
     }
     function add(data) {
-    console.log("hii"+data);
-    let d = document.getElementById("data");
+    // console.log("hii"+data);
+    var d =  document.getElementById("d")
     
     data.forEach((el) => {
-        console.log(el)
+        
+
         let div = document.createElement("div");
-        div.setAttribute('class', 'flex mt-2 border')
-
-        let left = document.createElement("div");
-        let mid = document.createElement("div");
-        let right = document.createElement("div");
-
-
-        left.style.width = "30%";
-        // left.style.border = "2px solid black";
-        left.style.marginLeft = "5px";
-
-        mid.style.width = "60%";
-        mid.style.marginLeft = "5px";
-        // mid.style.border = "2px solid black";
-
-
-        right.style.width = "6%";
-        right.style.margin = "5px";
-        // right.style.border = "2px solid black";
-
         let img = document.createElement("img");
         img.src = el.image;
-        left.append(img);
-        img.style.width = "100%";
 
         let p = document.createElement("p");
         p.innerText = el.name;
-        p.setAttribute('class', 'font-bold');
 
-        let title = document.createElement("p");
-        title.innerText = el.title;
-        title.setAttribute('class', 'lg:flex hidden');
 
-        let author = document.createElement("p");
-        author.innerText = el.author;
+        let price = document.createElement("p");
+        price.innerText = el.price;
 
-        let rating = document.createElement("p");
-        rating.innerText = el.rating + " ⭐⭐⭐⭐⭐";
+        div.append(img,p,price);
+        d.append(div)
 
-        mid.append(p, title, author, rating);
 
-import navbar from './components/header.js';
-    
-let promise = new Promise((resolve, reject) => {
-        let header = document.getElementById('navbar');
-
-        header.innerHTML = navbar();
-
-        resolve('Navbar imported');
     });
-    promise.then((res) => {
-        addFunctionalityToNavbar();
-    })
-
-    
-    })
+   
 }
 </script>
