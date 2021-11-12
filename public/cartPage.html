@@ -70,6 +70,9 @@
     var total = 0;
     let cart = JSON.parse(localStorage.getItem("decData"));
     console.log("----", cart);
+    let courseCart = document.getElementById("courseCart");
+    courseCart.innerText = null;
+    courseCart.append(cart.length +" Courses in Cart")
     add(cart);
 
     if (cart == null) {
