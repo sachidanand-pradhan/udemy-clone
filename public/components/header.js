@@ -9,10 +9,10 @@ function navbar() {
                 <a href="#" class="block m-4 text-indigo-700">Sign up</a>
             </div>
             <div id="afterlogin" class="hidden">
-                <div class="bg-black rounded-full font-bold text-2xl text-white py-4 px-6">A</div>
-                <div class="my-auto">
-                    <a href="#" class="font-medium hover:text-blue-700">Avdhesh</a>
-                    <a href="#" class="text-sm text-gray-500">stpaul886@gmail.com</a>
+                <div id="mobusername" class="bg-black rounded-full font-bold text-2xl text-white py-4 px-6">A</div>
+                <div class="grid my-auto">
+                    <a href="#" id="mobuserkanaam" class="font-medium hover:text-blue-700">Avdhesh</a>
+                    <a href="#" id="mobuseremail" class="text-sm text-gray-500">stpaul886@gmail.com</a>
                 </div>
             </div>
             <hr>
@@ -232,9 +232,9 @@ function navbar() {
         <button id="signup"
             class="hidden md:block mx-2 text-sm border border-black bg-black text-white px-3 font-semibold py-2">Sign
             up</button>
-        <!-- user -->
+        <!-- user --> 
         <button id="user" class="hidden">
-            <div class="bg-black rounded-full font-bold text-sm text-white py-1.5 px-3">A</div>
+            <div id="pahlaleter" class="bg-black rounded-full font-bold text-sm text-white py-1.5 px-3">A</div>
         </button>
         <!-- language -->
         <button id="language" class="hidden md:block mx-2 border border-black px-2 py-2 mr-4 hover:bg-gray-100">
@@ -525,10 +525,10 @@ function navbar() {
     <div id="hoveruser" class="hidden" style="margin-left: 80%;">
         <!-- user info -->
         <div class="flex gap-2 m-4">
-            <div class="bg-black rounded-full font-bold text-2xl text-white py-4 px-6">A</div>
-            <div class="my-auto">
-                <a href="#" class="font-medium hover:text-blue-700">Avdhesh</a>
-                <a href="#" class="text-sm text-gray-500">stpaul886@gmail.com</a>
+            <div id="username" class="bg-black rounded-full font-bold text-2xl text-white py-4 px-6">A</div>
+            <div class="grid my-auto">
+                <a href="#" id="userkanaam" class="font-medium hover:text-blue-700">Avdhesh</a>
+                <a href="#" id="useremail" class="text-sm text-gray-500">stpaul886@gmail.com</a>
             </div>
         </div>
         <hr>
