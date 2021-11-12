@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Udemy</title>
     <link rel="stylesheet" href="style.css">
+    <script src='./scripts/navbar.js'></script>
+    <script src="./scripts/searchFunction.js"></script>
 </head>
  <style>
    
@@ -37,8 +39,17 @@
 
 </html>
 <script>
-
+import navbar from './components/header.js';
     
+let promise = new Promise((resolve, reject) => {
+        let header = document.getElementById('navbar');
 
+        header.innerHTML = navbar();
+
+        resolve('Navbar imported');
+    });
+    promise.then((res) => {
+        addFunctionalityToNavbar();
+    })
     
 </script>

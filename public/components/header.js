@@ -218,7 +218,7 @@ function navbar() {
             </button>
         </div>
         <!-- sign in -->
-        <button id="signin" class="hidden md:block mx-2 text-sm border border-black px-3 font-semibold py-2">Log
+        <button id="signin" class="hidden md:block mx-2 text-sm border border-black px-3 font-semibold py-2 hover:bg-gray-100">Log
             in</button>
         <!-- bell -->
         <button id="bell" class="hidden">
@@ -237,7 +237,7 @@ function navbar() {
             <div class="bg-black rounded-full font-bold text-sm text-white py-1.5 px-3">A</div>
         </button>
         <!-- language -->
-        <button id="language" class="hidden md:block mx-2 border border-black px-2 py-2 mr-4">
+        <button id="language" class="hidden md:block mx-2 border border-black px-2 py-2 mr-4 hover:bg-gray-100">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
                 stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"

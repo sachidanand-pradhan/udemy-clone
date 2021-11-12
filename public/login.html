@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="nav"></header>
+   <div style="font-family: sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+   font-size: 15px;
+   line-height: 1.43;
+   color: #1c1d1f;">
+    <div id="main">
+        <div style="color:#1c1d1f;
+        font-size: 15px;
+        font-weight:700;
+        line-height:21.45px;
+        padding:24px 64px 24px 24px;">Log In to Your Udemy Account!</div>
+        <br/>
+       <div style="color:#1c1d1f;
+       font-size:15px;
+       line-height:21.45px;
+       padding:24px 24px 16px;" id="boxes">
+        <div style="align-items:center;
+        border-color:#d1d7dc;
+        border-style:solid;
+        border-width:1px;
+        box-shadow:#1c1d1f 0px 2px 2px 0px;
+        font-weight:700;
+        line-height:22.88px;
+        margin:0px 0px 8px;" id="facebook" class="flex p-2 gap-x-5 hover:text-blue-700 cursor-pointer">
+            <div id="f-logo"><img style="width: 30px;" src="https://img.icons8.com/color/48/000000/facebook-circled--v5.png"/></div>
+            <div>Continue with Facebook</div>
+          </div>
+          <div style="align-items:center;
+          border-color:#d1d7dc;
+          border-style:solid;
+          border-width:1px;
+          box-shadow:#1c1d1f 0px 2px 2px 0px;
+          font-weight:700;
+          line-height:22.88px;
+          margin:0px 0px 8px;" id="google" class="flex p-2 gap-x-5 hover:text-blue-700 cursor-pointer">
+                <div id="g-logo"><img style="width: 30px;" src="https://img.icons8.com/color/48/000000/google-logo.png"/></div>
+                <div>Continue with Google</div>
+          </div>
+          <div style="align-items:center;
+          border-color:#d1d7dc;
+          border-style:solid;
+          border-width:1px;
+          box-shadow:#1c1d1f 0px 2px 2px 0px;
+          font-weight:700;
+          line-height:22.88px;
+          margin:0px 0px 8px;" id="apple" class="flex p-2 gap-x-5 hover:text-blue-700 cursor-pointer">
+            <div id="a-logo"><img style="width: 30px;" src="https://cdn4.iconfinder.com/data/icons/logos-3/560/apple-black-512.png" alt=""></div>
+            <div>Continue with Apple</div>
+      </div>
+     
+  <form onsubmit="login(event)" id="form">
+    <div  style="border: 1.5px solid #1c1d1f;" class="flex">
+        <div>
+            <span class="material-icons p-2">
+                email
+            </span>
+        </div>
+    <div >
+        <input style="font: size 18px; outline: none;" class="text-xl text-gray-500 p-2"type="email"  id="email" placeholder="Email" required>
+      </div>
+       </div>
+       <div  style="
+       border-color:#1c1d1f;
+       border-style:solid;
+       border-width:1px;
+       font-size:18px;
+       line-height:25.74px;" class="flex">
+       <div  style="border: 1.5px solid #1c1d1f;" class="flex">
+           <div>
+            <span class="material-icons p-2">
+                lock
+                </span>
+           </div>
+               <div>
+                <input style=" font: size 18px; outline: none;"  class="text-xl text-gray-500 p-2" type="password"  id="password" placeholder="Password" required>
+               </div>
+           </div>
+          
+          </div>
+          <div style="align-items:flex-start;
+          background-color:#7325a3;
+          border-color:#000000;
+          border-style:solid;
+          border-width:1px;
+          color:#ffffff;
+          line-height:21.6216px;
+          margin:0px 0px 16px;
+          padding:11px 12px;
+          text-align:center;">
+           <button style=" font-weight:700;" >Log In</button>
+       </div>
+  </form>
+    <br/>
+    <div style="font-size:15px;
+    font-weight:700;
+    line-height:21.45px;
+    text-align:center;">
+        <span >or</span> <a style="color:#401b9c;" href="">Forgot Password</a>
+    </div>
+    <div style="color:#1c1d1f;
+    font-size:15px;
+    line-height:21.45px;
+    text-align:center;">
+        Don't have an account? <a style="color:#401b9c;
+        font-size:15px;
+        font-weight:700;" href="signup.html">Sign up</a>
+    </div>
+    <div style="color:#401b9c;
+    font-size:15px;
+    font-weight:700;
+    line-height:21.45px;
+    text-align:center;">
+        <a  href="">Log in with your organization</a>
+    </div>
+    </div>
+   </div>
+</body>
+</html>
+<script src="./scripts/login.js"></script>
+<script src="./scripts/navbar.js"></script>
+<script type="module">
+   import navbar from './components/header.js';
+
+let promise = new Promise((resolve,reject) => {
+    let header = document.getElementById('nav');
+
+    header.innerHTML = navbar();
+
+    resolve('Navbar imported');
+});
+promise.then((res) => {
+    console.log( res );
+    addFunctionalityToNavbar();
+    console.log( 'done' );
+})
+
+</script>
