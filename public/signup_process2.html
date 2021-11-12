@@ -150,10 +150,10 @@ color: #1c1d1f;
  justify-content: center;
  user-select: none;
  vertical-align: bottom;
- white-space: nowrap;" href="">
+ white-space: nowrap;" href="home.html">
    <span style="color: #5624d0;">Skip for now</span>
  </a>
- <button style="content: '';
+ <button onclick="next()" style="content: '';
  position: relative;
  background-color: #1c1d1f;
  color: #fff;
@@ -166,3 +166,8 @@ color: #1c1d1f;
     
 </body>
 </html>
+<script>
+  function next(){
+    window.location.href = "home.html"
+  }
+</script>
