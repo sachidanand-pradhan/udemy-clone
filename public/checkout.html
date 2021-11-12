@@ -35,8 +35,36 @@
      <div class="bg-gray-50 ml-36 mt-4 border-black w-2/5 h-1/2 py-4 m-2">
          <div><input class=" py-3 border-black m-2  ml-6 w-11/12" placeholder="Name on Cart"/></div>
          <div><input class="py-3 border-black m-2 ml-6 w-11/12" placeholder="Card Number"/></div>
-        <input class="py-3 border-black ml-6" placeholder="MM"/>
-        <input class="py-3 border-black ml-1" placeholder="YYYY">
+         <select class="py-3 px-16 border-black ml-6">
+            <option value="" >MM</option>
+            <option>01</option>
+            <option>02</option>
+            <option>03</option>
+            <option>04</option>
+            <option>05</option>
+            <option>06</option>
+            <option>07</option>
+            <option>08</option>
+            <option>09</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+        </select>
+        <select class="py-3 px-16 border-black ml-2">
+            <option value="" >YYYY</option>
+            <option>2021</option>
+            <option>2022</option>
+            <option>2023</option>
+            <option>2024</option>
+            <option>2025</option>
+            <option>2026</option>
+            <option>2027</option>
+            <option>2028</option>
+            <option>2029</option>
+            <option>2030</option>
+            <option>2031</option>
+            <option>2032</option>
+        </select>
         <input class="py-3 border-black ml-1" placeholder="Security Code"/></br>
 
         <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" class="ml-6 mt-5">
@@ -45,14 +73,14 @@
 
      <div class="ml-36 mt-6 w-2/5">
          <p>Billing Address</p>
-         <input class="py-3 m-2 w-90" placeholder="Country"/>
-         <input class="py-3 m-2 w-90" placeholder="State/Union Terriotory"/>
+         <input class="py-3 m-2 w-90 px-12" placeholder="Country"/>
+         <input class="py-3 m-2 w-90 px-12" placeholder="State/Union Terriotory"/>
      </div>
 
 
      <div>
-     <h2 class="w-40">Summary</h2>
-     <button id = "make-pay" onclick = "makePayment()" class="bg-blue-500 p-3 text-2xl">Complete Payment</button>
+     <!-- <h2 class="w-40">Summary</h2> -->
+     <button id = "make-pay" onclick = "makePayment()" class="bg-blue-700 text-white p-3 text-2xl ml-36 mt-4 px-5">Complete Payment</button>
     </div>
 </body>
 </html>
