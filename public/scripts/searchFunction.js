@@ -9,29 +9,29 @@ async function getData(course) {
 }
 getData(course_datas[course_datas.length - 1][0].name);
 
-function sortLH(){
-    let arr = course_datas[course_datas.length - 1].sort(function(a,b){
+function sortLH() {
+    let arr = course_datas[course_datas.length - 1].sort(function (a, b) {
         return a.price - b.price;
     })
     add(arr);
 };
 
-function sortHL(){
-    let arr = course_datas[course_datas.length - 1].sort(function(a,b){
+function sortHL() {
+    let arr = course_datas[course_datas.length - 1].sort(function (a, b) {
         return b.price - a.price;
     })
     add(arr);
 }
 
-function highestR(){
-    let arr = course_datas[course_datas.length - 1].sort(function(a,b){
+function highestR() {
+    let arr = course_datas[course_datas.length - 1].sort(function (a, b) {
         return b.rating - a.rating;
     })
     add(arr);
 }
 
-function lowestR(){
-    let arr = course_datas[course_datas.length - 1].sort(function(a,b){
+function lowestR() {
+    let arr = course_datas[course_datas.length - 1].sort(function (a, b) {
         return a.rating - b.rating;
     })
     add(arr);
@@ -40,12 +40,12 @@ function lowestR(){
 
 function add(data) {
     // console.log("---++--",data)
-    
+
     let d = document.getElementById("dataAdd");
 
     d.innerHTML = null;
     data.forEach((el) => {
-        
+
         // console.log(el);
         let div = document.createElement("div");
         div.setAttribute('class', 'flex mt-2 border')
@@ -87,7 +87,13 @@ function add(data) {
         let rating = document.createElement("p");
         rating.innerText = el.rating + " ⭐⭐⭐⭐⭐";
 
-        mid.append(p, title, author, rating);
+        let i2 = document.createElement("p");
+        i2.innerText = el.include[0].i2;
+
+        let i3 = document.createElement("p");
+        i3.innerText = el.include[0].i3;
+
+        mid.append(p, title, author, rating, i2,i3);
 
 
         let price = document.createElement("p");
@@ -263,19 +269,19 @@ function dataStored(data) {
 
 let count = 0;
 
-function show(){
+function show() {
     let sortFun = document.getElementById("sortFun");
-    if(count === 0){
-        sortFun.style.display= "block";
-        sortFun.style.position="absolute";
+    if (count === 0) {
+        sortFun.style.display = "block";
+        sortFun.style.position = "absolute";
         sortFun.style.zIndex = "40";
         sortFun.style.border = "1px solid black";
         count++;
-    }else if(count === 1){
-        sortFun.style.display= "none";
+    } else if (count === 1) {
+        sortFun.style.display = "none";
         count--;
     }
-    
+
 }
 
 
