@@ -305,16 +305,17 @@ color: #1c1d1f;">
     //-------- Append data from the server
 
     let desData = JSON.parse(localStorage.getItem("decData"));
-    console.log(desData);
+    // console.log(desData);
 
     showdata(desData[desData.length - 1]);
+
+    let cart = JSON.parse(localStorage.getItem("cart"));
+    // console.log("----+++", cart);
 
     function showdata(data) {
 
         let right = document.getElementById("whiteRight");
 
-        console.log("kdkj", data.image);
-        //left.innerText = null;
         right.innerText = null;
 
 
@@ -337,13 +338,21 @@ color: #1c1d1f;">
         btn.innerText = "Add To Cart";
         btn.setAttribute('class', 'bg-purple-600  w-56 py-3 mt-4 ml-14 font-bold  hover:bg-purple-800 text-white');
 
+        btn.onclick = function () {
+            addtocart(data);
+        }
+
         let buyNow = document.createElement("button");
         buyNow.innerText = "Buy Now";
         buyNow.setAttribute('class', 'border-black border w-56  py-3 mt-4 ml-14 font-bold');
 
+        buyNow.onclick = function () {
+            buyNowfun(data);
+        }
+
         let includeDiv = document.createElement("div");
 
-        console.log(data.include[0]);
+        // console.log(data.include[0]);
 
         let i1 = document.createElement("h2");
         i1.innerText = data.include[0].i1;
@@ -511,9 +520,23 @@ color: #1c1d1f;">
         contetnt_c5.setAttribute("class", "text-black ml-4");
 
         contMain.append(contetnt_c1, contetnt_c2, contetnt_c3, contetnt_c4, contetnt_c5);
-        contMain.setAttribute('class','w-8/12 bg-white');
+        contMain.setAttribute('class', 'w-8/12 bg-white');
 
         contentDiv.append(contMain);
 
+    }
+
+    function addtocart(p) {
+        let data = JSON.parse(localStorage.getItem("cart"));
+        data.push(p);
+        localStorage.setItem("cart", JSON.stringify(data));
+        alert("Course added to cart");
+    }
+
+    function buyNowfun(p){
+        let data = JSON.parse(localStorage.getItem("cart"));
+        data.push(p);
+        localStorage.setItem("cart", JSON.stringify(data));
+        window.location.href = "cartPage.html";
     }
 </script>
