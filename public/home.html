@@ -369,6 +369,9 @@
                 Find out how</div>
         </div>
     </div>
+
+    <!-- footer -->
+    <div id="footer"></div>
 </body>
 
 </html>
@@ -376,6 +379,7 @@
 
 <script type='module'>
     import navbar from './components/header.js';
+    import footer from './components/footer.js';
 
     let promise = new Promise((resolve, reject) => {
         let header = document.getElementById('navbar');
@@ -416,5 +420,6 @@
         selectUl.scrollLeft -= 100;
     })
 
-
+    let footerDiv = document.getElementById('footer');
+    footerDiv.innerHTML = footer();
 </script>
