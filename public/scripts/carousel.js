@@ -116,8 +116,8 @@ function createCarousel() {
                 if (idx <= 2) hoverOn = 'left';
                 else hoverOn = 'right';
 
-                if (hoverOn == 'right') { card2.style.right = '230px'; }
-                else card2.style.left = '230px';
+                if (hoverOn == 'right') { card2.style.right = '210px'; }
+                else card2.style.left = '210px';
 
                 // creating title
                 let title2 = document.createElement('h2');
