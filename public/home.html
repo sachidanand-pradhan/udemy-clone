@@ -387,13 +387,11 @@
         header.innerHTML = navbar();
         resolve('Navbar imported');
     });
-
     promise.then((res) => {
         // console.log( res );
         addFunctionalityToNavbar();
     })
     createCarousel();
-
 
     let selectPopularCourses = document.getElementById('slct-pplr-courses');
     let selectPopularCoursesRBtn = selectPopularCourses.querySelector('.scrlRight');

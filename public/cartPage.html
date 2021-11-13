@@ -68,7 +68,7 @@
 </script>
 <script>
     var total = 0;
-    let cart = JSON.parse(localStorage.getItem("decData"));
+    let cart = JSON.parse(localStorage.getItem("cart"));
     console.log("----", cart);
     let courseCart = document.getElementById("courseCart");
     courseCart.innerText = null;
@@ -126,7 +126,7 @@
             // mid.style.border = "2px solid black";
 
 
-            right.style.width = "6%";
+            right.style.width = "10%";
             right.style.margin = "5px";
             // right.style.border = "2px solid black";
 
@@ -160,15 +160,21 @@
             oldprice.innerText = "₹ " + el.oldprice;
             oldprice.setAttribute('class', 'line-through');
 
+            let removeDiv = document.createElement('p');
+            removeDiv.innerHTML = 'Remove';
+            removeDiv.className = 'text-purple-500 mx-8 mt-4';
+            removeDiv.addEventListener('click',(event) => {
+                let child = event.target.parentNode;
+                child.remove();
 
+                
+            });
 
             right.append(price, oldprice);
 
-            div.append(left, mid, right);
+            div.append(left, mid,  removeDiv, right);
 
             d.append(div);
-
-
         });
 
     }
