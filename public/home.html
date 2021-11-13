@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel='stylesheet' href='./style.css'> 
     <link rel='stylesheet' href='./style.css'>
     <script src='./scripts/navbar.js'></script>
     <script src='./scripts/carousel.js'></script>
@@ -369,14 +370,12 @@
         let header = document.getElementById('navbar');
     
         header.innerHTML = navbar();
-
         resolve('Navbar imported');
     });
 
     promise.then((res) => {
-        console.log( res );
+        // console.log( res );
         addFunctionalityToNavbar();
     })
-
     createCarousel();
 </script>

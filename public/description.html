@@ -21,11 +21,26 @@
       <div class="w-1/2 h-84 bg-gray-800" id="right"></div>
     </div>
     <div class="w-full flex">
+
+      <div class="w-1/2 h-84 mt-8 border border-gray-300 bg-gray-400 ml-40" id="bot">
+        
       <div class="w-1/2 h-84 mt-8 border border-gray-300  ml-40" id="bot">
 
       </div>
     </div>
     <div class="w-1/2  mt-8 border ml-40">U Curated for the Udemy Business collection</div>
+    <div class="w-full">
+      <div class="w-1/2 h-60 mt-8 border border-gray-300 bg-gray-400 ml-40" id="botco">
+        Course Content
+      </div>
+      <div class="w-full">
+      <div class="w-1/2 h- mt-8 border border-gray-300 bg-gray-400 ml-40" id="recquire">
+        requirement
+      </div>
+      <div class="w-full">
+      <div class="w-1/2 h- mt-8 border border-gray-300 bg-gray-400 ml-40" id="dec">
+        Description
+      </div>
   </body>
 </html>
 
@@ -139,5 +154,73 @@
     learnDiv2.setAttribute('class','w-1/2 inline-block ');
     bot.append(learn,learnDiv1,learnDiv2);
     // bot.append(botDiv);
+
+    let botco = document.getElementById("botco");
+    botco.innerText = null;
+
+    console.log("kdkj", data.content);
+    // botco.innerText = null;
+
+
+    let contetntDiv1 = document.createElement("div");
+
+    let contetnt_c1 = document.createElement("p");
+    contetnt_c1.innerText = data.content[0].c1;
+    contetnt_c1.setAttribute("class", "text-black");
+
+    let contetnt_c2 = document.createElement("p");
+    contetnt_c2.innerText = data.content[0].c2;
+    contetnt_c2.setAttribute("class", "text-black");
+
+    let contetnt_c3 = document.createElement("p");
+    contetnt_c3.innerText = data.content[0].c3;
+    contetnt_c3.setAttribute("class", "text-black");
+
+    let contetnt_c4 = document.createElement("p");
+    contetnt_c4.innerText = data.content[0].c4;
+    contetnt_c4.setAttribute("class", "text-black");
+
+    let contetnt_c5 = document.createElement("p");
+    contetnt_c5.innerText = data.content[0].c5;
+    contetnt_c5.setAttribute("class", "text-black");
+ 
+    contetntDiv1.append(contetnt_c1,contetnt_c2,contetnt_c3,contetnt_c4,contetnt_c5);
+    contetntDiv1.setAttribute('class','w-1/2 inline-block');
+    botco.append(contetnt_c1,contetntDiv1);
+
+
+    let description = document.getElementById("dec");
+    description.innerText = null;
+
+    console.log("kdkj", data.description);
+    // recquire.innerText = null;
+
+
+    let descriptionDiv1 = document.createElement("div");
+
+    let description_1 = document.createElement("p");
+    description_1.innerText = data.description[0].heading;
+    description_1.setAttribute("class", "text-black");
+
+    let description_2 = document.createElement("p");
+    description_2.innerText = data.description[0].desc1;
+    description_2.setAttribute("class", "text-black");
+
+    let description_3 = document.createElement("p");
+    description_3.innerText = data.description[0].desc2;
+    description_3.setAttribute("class", "text-black");
+
+    let description_4 = document.createElement("p");
+    description_4.innerText = data.description[0].desc3;
+    description_4.setAttribute("class", "text-black");
+ 
+    descriptionDiv1.append(description_1,description_2,description_3,description_4);
+    descriptionDiv1.setAttribute('class','w-1/2 inline-block');
+    description.append(description_1,description_2,description_3,description_4,descriptionDiv1);
+
+
+
+    
+
   }
 </script>
