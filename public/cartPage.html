@@ -38,11 +38,13 @@
         <div class="w-4/12 ml-4">
             <p class="ml-2 mt-2 text-xl">Total:-</p>
             <p id="TotalPrice" class="ml-2 mt-2 text-xl font-bold"></p>
-            <a href="checkout.html"><button class="px-28 py-4 bg-purple-600 hover:bg-purple-800 mt-4 text-white">Checkout</button></a>
+            <a href="checkout.html"><button
+                    class="px-28 py-4 bg-purple-600 hover:bg-purple-800 mt-4 text-white">Checkout</button></a>
             <h4 class="mt-4">Promotions</h4>
             <p class="mt-2 ml-8" id="update"></p>
             <input class="mt-5  py-4 border-2" type="text" id="promocode" placeholder="promo code">
-            <button class="mt-2 bg-purple-600 hover:bg-purple-800 text-white px-10 py-4" onclick="discount()">Apply</button>
+            <button class="mt-2 bg-purple-600 hover:bg-purple-800 text-white px-10 py-4"
+                onclick="discount()">Apply</button>
         </div>
     </div>
 </body>
@@ -72,7 +74,7 @@
     console.log("----", cart);
     let courseCart = document.getElementById("courseCart");
     courseCart.innerText = null;
-    courseCart.append(cart.length +" Courses in Cart")
+    courseCart.append(cart.length + " Courses in Cart")
     // add(cart);
 
     if (cart == null) {
@@ -98,7 +100,7 @@
         var p_item = document.getElementById("coursenum")
         p_item.textContent = `${total} Courses in the cart`;
     }
-    else{
+    else {
 
         add(cart);
 
@@ -163,16 +165,24 @@
             let removeDiv = document.createElement('p');
             removeDiv.innerHTML = 'Remove';
             removeDiv.className = 'text-purple-500 mx-8 mt-4';
-            removeDiv.addEventListener('click',(event) => {
+            removeDiv.addEventListener('click', (event) => {
                 let child = event.target.parentNode;
+
+                cart = cart.filter((item) => {
+                    if (item.title != el.title) return item;
+                })
+
+                localStorage.setItem('cart', JSON.stringify(cart));
                 child.remove();
 
-                
+                let tot = cart.reduce(price_sum, 0);
+                console.log(tot);
+                let TotalPrice = document.getElementById("TotalPrice");
+                TotalPrice.innerHTML = tot;
             });
-
             right.append(price, oldprice);
 
-            div.append(left, mid,  removeDiv, right);
+            div.append(left, mid, removeDiv, right);
 
             d.append(div);
         });
@@ -210,12 +220,12 @@
             let update = document.getElementById("update");
             update.innerText = null;
             update.append("coupon code is applied");
-            update.style.color="green";
+            update.style.color = "green";
         } else {
             let update = document.getElementById("update");
             update.innerText = null;
             update.append("Coupon Code Not Valid!");
-            update.style.color="red";
+            update.style.color = "red";
             return;
         }
 
