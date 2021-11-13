@@ -2509,9 +2509,11 @@ function addFunctionalityToNavbar() {
 
     }
     let dt = JSON.parse(localStorage.getItem("check"));
-    if(dt[1] === 'logedin'){
-        done()
-        change()
+    if(dt != undefined){
+        if(dt[1] === 'logedin'){
+            done()
+            change()
+        }
     }
      console.log(dt);
     function change(){
