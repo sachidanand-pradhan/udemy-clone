@@ -3,19 +3,19 @@ function createCarousel() {
     async function getData() {
         let res = await fetch(`http://localhost:5000/api/javascript`);
         let data = await res.json();
-    
-        console.log('data',data);
-    
+
+        console.log('data', data);
+
         makeCarouselOf(data);
     }
     getData();
-    
+
 
     // a function to create the carousel
     function makeCarouselOf(data) {
         let carouselList = document.querySelectorAll('.carousel');
 
-        console.log(data,'data');
+        console.log(data, 'data');
 
         carouselList.forEach((carousel) => {
             // creating container for the carousel
@@ -116,8 +116,8 @@ function createCarousel() {
                 if (idx <= 2) hoverOn = 'left';
                 else hoverOn = 'right';
 
-                if (hoverOn == 'right') { card2.style.right = '230px'; }
-                else card2.style.left = '230px';
+                if (hoverOn == 'right') { card2.style.right = '210px'; }
+                else card2.style.left = '210px';
 
                 // creating title
                 let title2 = document.createElement('h2');
@@ -206,9 +206,13 @@ function createCarousel() {
                 let cartDiv = document.createElement('div');
                 cartDiv.className = 'flex mt-2';
 
-                let addToCart = document.createElement('div');
-                addToCart.className = 'p-2 text-center h-10 font-bold text-white bg-purple-700 w-max flex-grow hover:bg-purple-900';
-                addToCart.innerText = 'Add To Cart';
+                let addToCartDiv = document.createElement('div');
+                addToCartDiv.className = 'p-2 text-center h-10 font-bold text-white bg-purple-700 w-max flex-grow hover:bg-purple-900';
+                addToCartDiv.innerText = 'Add To Cart';
+                addToCartDiv.onclick = function () {
+                    addtocart(product);
+                }
+
 
                 // creating like button
                 let like = document.createElement('div');
@@ -217,7 +221,7 @@ function createCarousel() {
                 like.onclick = () => { like.innerHTML = '<img src="https://img.icons8.com/emoji/48/000000/heart-suit.png"/>' }
 
                 // appending everything to parent card
-                cartDiv.append(addToCart, like);
+                cartDiv.append(addToCartDiv, like);
                 card2.append(title2, updatedDiv, levels, shortDecp, contentParent, cartDiv);
                 parentCard.append(card1, card2);
 
@@ -261,10 +265,10 @@ function createCarousel() {
             container.append(scrollLeftBtn, scrollRightBtn);
 
             scrollLeftBtn.addEventListener('click', (event) => {
-                scrollLeft(event,1450);
+                scrollLeft(event, 1450);
             })
             scrollRightBtn.addEventListener('click', (event) => {
-                scrollRight(event,1450);
+                scrollRight(event, 1450);
             })
 
             // append the container to the carousel
@@ -274,22 +278,35 @@ function createCarousel() {
 
 
     // <img src="https://img.icons8.com/officel/50/000000/triangle-stroked.png"/>
-    function scrollLeft(e,scrollBy) {
+    function scrollLeft(e, scrollBy) {
         let container = e.target.parentNode.parentNode || e.target.parentNode;
-        container.scrollLeft += scrollBy;   
+        container.scrollLeft += scrollBy;
         console.log(scrollBy);
 
         let srlLBtn = container.querySelector('.scrlRight');
         srlLBtn.style.display = 'block';
     }
 
-    function scrollRight(e,scrollBy) {
+    function scrollRight(e, scrollBy) {
         let container = e.target.parentNode.parentNode || e.target.parentNode;
         container.scrollLeft -= scrollBy;
 
         let srlRBtn = container.querySelector('.scrlRight');
         if (container.scrollLeft <= 100) srlRBtn.style.display = 'none';
     }
-    
+
+    if (localStorage.getItem("cart") == null) {
+        localStorage.setItem("cart", JSON.stringify([]));
+    }
+
+
+    function addtocart(p) {
+        let data = JSON.parse(localStorage.getItem("cart"));
+        data.push(p);
+        localStorage.setItem("cart", JSON.stringify(data));
+    }
+
 }
+
+
 

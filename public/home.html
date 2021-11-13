@@ -12,7 +12,7 @@
     <script src='./scripts/carousel.js'></script>
 </head>
 
-<body>
+<body onclick="hide()">
     <div id='navbar'></div>
     <!-- intro -->
     <div class="intro h-auto w-full">
@@ -387,13 +387,11 @@
         header.innerHTML = navbar();
         resolve('Navbar imported');
     });
-
     promise.then((res) => {
         // console.log( res );
         addFunctionalityToNavbar();
     })
     createCarousel();
-
 
     let selectPopularCourses = document.getElementById('slct-pplr-courses');
     let selectPopularCoursesRBtn = selectPopularCourses.querySelector('.scrlRight');
