@@ -8,6 +8,7 @@
     <title>Udemy</title>
     <link rel="stylesheet" href="style.css">
     <script src='./scripts/navbar.js'></script>
+    <script src = './scripts/carousel.js'></script>
 </head>
 <style>
     #courseCart {
@@ -47,6 +48,13 @@
                 onclick="discount()">Apply</button>
         </div>
     </div>
+
+    <div>
+        <h3 class='text-2xl font-bold mx-20'>Explore new courses</h3>
+        <div class = 'carousel relative mx-14 px-6'></div>
+    </div>
+
+    <div id="footer"></div>
 </body>
 
 </html>
@@ -66,8 +74,14 @@
         // console.log( 'done' );
     })
 
+    import footer from './components/footer.js';
 
+    let footerDiv = document.getElementById('footer');
+    footerDiv.innerHTML = footer();
+    createCarousel();
 </script>
+
+
 <script>
     var total = 0;
     let cart = JSON.parse(localStorage.getItem("cart"));
