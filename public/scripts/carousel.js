@@ -26,6 +26,8 @@ function createCarousel() {
             container.style.height = '430px';
             container.style.width = '100%';
             container.id = 'container';
+            container.style.marginTop = "-50px"
+
 
 
             data.forEach((product, idx) => {
@@ -259,10 +261,10 @@ function createCarousel() {
             container.append(scrollLeftBtn, scrollRightBtn);
 
             scrollLeftBtn.addEventListener('click', (event) => {
-                scrollLeft(event);
+                scrollLeft(event,1450);
             })
             scrollRightBtn.addEventListener('click', (event) => {
-                scrollRight(event);
+                scrollRight(event,1450);
             })
 
             // append the container to the carousel
@@ -272,20 +274,22 @@ function createCarousel() {
 
 
     // <img src="https://img.icons8.com/officel/50/000000/triangle-stroked.png"/>
-    function scrollLeft(e) {
+    function scrollLeft(e,scrollBy) {
         let container = e.target.parentNode.parentNode || e.target.parentNode;
-        container.scrollLeft += 1450;   
+        container.scrollLeft += scrollBy;   
+        console.log(scrollBy);
 
-        let srlRBtn = container.querySelector('.scrlRight');
-        srlRBtn.style.display = 'block';
+        let srlLBtn = container.querySelector('.scrlRight');
+        srlLBtn.style.display = 'block';
     }
 
-    function scrollRight(e) {
+    function scrollRight(e,scrollBy) {
         let container = e.target.parentNode.parentNode || e.target.parentNode;
-        container.scrollLeft -= 1435;
+        container.scrollLeft -= scrollBy;
 
         let srlRBtn = container.querySelector('.scrlRight');
         if (container.scrollLeft <= 100) srlRBtn.style.display = 'none';
     }
+    
 }
 
