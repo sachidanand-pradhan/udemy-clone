@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel='stylesheet' href='./style.css'> 
+    <link rel='stylesheet' href='./style.css'>
     <link rel='stylesheet' href='./style.css'>
     <script src='./scripts/navbar.js'></script>
     <script src='./scripts/carousel.js'></script>
@@ -26,7 +26,7 @@
         <p class='md:text-lg text-md mt-2'>Skills for your present (and your future). Get started with us.</p>
         <div class="border border-black h-auto p-3 flex mt-2 justify-between">
             <input type="text" placeholder='What do you want to learn?'
-                class='w-11/12 focus:border-0 focus:outline-none' />
+                class='w-11/12 focus:border-0 focus:outline-none bg-transparent' />
             <img src="https://img.icons8.com/material-outlined/22/000000/search--v1.png" />
         </div>
     </div>
@@ -36,24 +36,36 @@
         <div class='text-2xl lg:text-3xl font-bold my-2 sm:block  hidden'>A broad selection of courses</div>
         <div class=" text-lg lg:text-xl sm:block hidden">Choose form 183,000 online video courses with new additons
             published every month</div>
-        <!-- 
-        <div class='flex my-4'>
-            <li class="mr-6 list-none font-bold">Python</li>
-            <li class="mr-6 list-none font-bold text-gray-500 hover:text-black hover:text-black">Excel</li>
-            <li class="mr-6 list-none font-bold text-gray-500 hover:text-black">Web Development</li>
-            <li class="mr-6 list-none font-bold text-gray-500 hover:text-black">JavaScript</li>
-            <li class="mr-6 list-none font-bold text-gray-500 hover:text-black">Data Science</li>
-            <li class="mr-6 list-none font-bold text-gray-500 hover:text-black">AWS Certification</li>
-            <li class="mr-6 list-none font-bold text-gray-500 hover:text-black">Drawing</li>
-        </div> -->
+
+        <div class='flex relative w-auto overflow-hidden' id='slct-pplr-courses'>
+            <ul class = 'flex relative my-4 w-max overflow-hidden px-12 md:px-0' id='select-ul'>
+                <li style = 'min-width:fit-content'  class="mr-6 list-none font-bold ">Python</li>
+                <li style = 'min-width:fit-content' class="mr-6 list-none font-bold text-gray-500 hover:text-black hover:text-black">Excel</li>
+                <li style = 'min-width:fit-content' class="mr-6 list-none font-bold text-gray-500 hover:text-black">Web Development</li>
+                <li style = 'min-width:fit-content' class="mr-6 list-none font-bold text-gray-500 hover:text-black">JavaScript</li>
+                <li style = 'min-width:fit-content' class="mr-6 list-none font-bold text-gray-500 hover:text-black">Data Science</li>
+                <li style = 'min-width:fit-content' class="mr-6 list-none font-bold text-gray-500 hover:text-black">AWS Certification</li>
+                <li style = 'min-width:fit-content' class="mr-6 list-none font-bold text-gray-500 hover:text-black">Drawing</li>
+            </ul>
+
+            <div class='absolute lg:hidden right-0 top-2.5 bg-gray-200 rounded-full w-8 h-8 p-2 z-40 scrlRight shadow-lg' >
+                <img src="https://img.icons8.com/ios-glyphs/24/000000/chevron-right.png" />
+            </div>
+
+            <div class='absolute lg:hidden left-0 top-2.5 bg-gray-200 rounded-full w-8 h-8 p-2 z-40 scrlLeft shadow-lg'' >
+                <img src="https://img.icons8.com/ios-glyphs/24/000000/chevron-left.png" />
+            </div>
+        </div>
+
 
         <div class='border border-gray-300 h-auto p-8'>
             <div class="text-2xl my-2 font-bold hidden sm:block">Expand you career opprotunities with Python</div>
-            <p class='text-md md:w-11/12 xl:w-2/3 h-20 hidden sm:block'>Whether you work in machine learning or finance,
+            <p class='text-md md:w-11/12 xl:w-2/3 h-18 hidden sm:block overflow-hidden'>Whether you work in machine
+                learning or finance,
                 or are pursuing a career in web
                 development or data science, Python is one of the most important skills you can learn. Python's simple
                 syntax is especially suited for desktop, web, and business applications. Python's design philosophy
-                emphasizes readability and usability. Python was</p>
+                emphasizes readability and usability. Python was...</p>
             <div class="border border-black w-max p-2 text-sm font-bold my-4  hidden sm:block">Explore Python</div>
             <div class='carousel relative'></div>
         </div>
@@ -101,47 +113,47 @@
 
         <div class="categories hidden sm:block sm:grid sm:grid-cols-3 md:grid-cols-4 gap-8 my-6">
 
-            <div class='transform hover:scale-105 transition'>
+            <div class='transform hover:scale-105 transition cursor-pointer'>
                 <img src='https://s.udemycdn.com/home/top-categories/lohp-category-design-v2.jpg' alt='category' />
-                <h5 class='text-md font-bold my-2'>Design</h5>
+                <h5 class='text-md font-bold my-2 '>Design</h5>
             </div>
 
-            <div class='transform hover:scale-105 transition'>
+            <div class='transform hover:scale-105 transition cursor-pointer'>
                 <img src='https://s.udemycdn.com/home/top-categories/lohp-category-development-v2.jpg' alt='category' />
-                <h5 class='text-md font-bold my-2'>Development</h5>
+                <h5 class='text-md font-bold my-2  '>Development</h5>
             </div>
 
-            <div class='transform hover:scale-105 transition'>
+            <div class='transform hover:scale-105 transition cursor-pointer'>
                 <img src='https://s.udemycdn.com/home/top-categories/lohp-category-marketing-v2.jpg' alt='category' />
-                <h5 class='text-md font-bold my-2'>Marketing</h5>
+                <h5 class='text-md font-bold my-2  '>Marketing</h5>
             </div>
 
-            <div class='transform hover:scale-105 transition'>
+            <div class='transform hover:scale-105 transition cursor-pointer'>
                 <img src='https://s.udemycdn.com/home/top-categories/lohp-category-it-and-software-v2.jpg'
                     alt='category' />
-                <h5 class='text-md font-bold my-2'>IT and Software</h5>
+                <h5 class='text-md font-bold my-2  '>IT and Software</h5>
             </div>
 
-            <div class='transform hover:scale-105 transition'>
+            <div class='transform hover:scale-105 transition cursor-pointer'>
                 <img src='https://s.udemycdn.com/home/top-categories/lohp-category-personal-development-v2.jpg'
                     alt='category' />
-                <h5 class='text-md font-bold my-2'>Personal Development</h5>
+                <h5 class='text-md font-bold my-2  '>Personal Development</h5>
             </div>
 
-            <div class='transform hover:scale-105 transition'>
+            <div class='transform hover:scale-105 transition cursor-pointer'>
                 <img src='https://s.udemycdn.com/home/top-categories/lohp-category-business-v2.jpg' alt='category' />
-                <h5 class='text-md font-bold my-2'>Business</h5>
+                <h5 class='text-md font-bold my-2  '>Business</h5>
             </div>
 
-            <div class='transform hover:scale-105 transition'>
+            <div class='transform hover:scale-105 transition cursor-pointer'>
                 <img src='https://s.udemycdn.com/home/top-categories/lohp-category-photography-v2.jpg' alt='category' />
-                <h5 class='text-md font-bold my-2'>Photography</h5>
+                <h5 class='text-md font-bold my-2  '>Photography</h5>
             </div>
 
 
-            <div class='transform hover:scale-105 transition'>
+            <div class='transform hover:scale-105 transition cursor-pointer'>
                 <img src='https://s.udemycdn.com/home/top-categories/lohp-category-music-v2.jpg' alt='category' />
-                <h5 class='text-md font-bold my-2'>Music</h5>
+                <h5 class='text-md font-bold my-2  '>Music</h5>
             </div>
         </div>
 
@@ -307,10 +319,10 @@
     </div>
 
     <!-- trusted by -->
-    <div class="bg-gray-100 my-24 h-auto text-center justify-center p-8">
+    <div class="bg-gray-100 my-14 h-auto text-center justify-center pt-8 pb-4">
         <h3 class='font-bold text-2xl'>Trusted by companies of all sizes</h3>
 
-        <div class='grid grid-cols-3 md:flex m-auto w-80 my-4 text '>
+        <div class='grid grid-cols-3 md:flex w-80 m-auto sm:w-max my-4'>
             <img src="https://s.udemycdn.com/partner-logos/v4/apple-dark.svg" alt='apple logo' class='mx-4' />
             <img src="https://s.udemycdn.com/partner-logos/v4/box-dark.svg" alt='apple logo' class='mx-4' />
             <img src="https://s.udemycdn.com/partner-logos/v4/volkswagen-dark.svg" alt='apple logo' class='mx-4' />
@@ -322,18 +334,17 @@
     </div>
 
     <!-- udemy business -->
-    <div class='md:w-4/5 m-auto lg:px-10 flex bg-blue-100 justify-center'>
-
-        <div class=' lg:my-28 my-6 px-5 md:px-0 bg-blue-200'>
+    <div class='lg:w-4/5 m-auto lg:px-10 flex flex-col-reverse lg:flex-row'>
+        <div class='lg:ml-32 lg:mr-5 lg:my-20 my-6 px-5 md:px-0 m-auto'>
             <img src='https://www.udemy.com/staticx/udemy/images/v7/logo-ub.svg' alt='udemy-business'
-                class='w-60 m-auto md:m-10'>
+                class='w-60 m-auto lg:m-0'>
 
-            <p class="text-md sm:text-lg my-2 text-center max-w-xl m-auto md:mx-10 my-4 md:text-left">Instructors from
-                around the world teach millions of students on Udemy. We provide
+            <p class="text-md sm:text-lg my-2 text-center lg:text-left">Instructors from around the world teach millions
+                of students on Udemy. We provide
                 the tools and skills to teach what you love.</p>
 
             <div
-                class="bg-gray-900 sm:w-max text-white p-2.5  cursor-pointer m-auto md:m-4 md:mx-10 font-bold hover:bg-black">
+                class="bg-gray-900 sm:w-max text-white p-2.5 cursor-pointer m-auto lg:m-0 font-bold hover:bg-black my-4 text-center">
                 Start teaching today</div>
         </div>
 
@@ -354,7 +365,7 @@
                 launching new careers, advancing in their fields, and
                 enriching their lives.</p>
             <div
-                class="bg-gray-900 md:w-max text-white p-2.5 text-center m-auto lg:mx-0  lg:my-4 cursor-pointer font-bold hover:bg-black">
+                class="bg-gray-900 sm:w-max text-white p-2.5 cursor-pointer m-auto lg:m-0 font-bold hover:bg-black my-4 text-center">
                 Find out how</div>
         </div>
     </div>
@@ -366,9 +377,9 @@
 <script type='module'>
     import navbar from './components/header.js';
 
-    let promise = new Promise((resolve,reject) => {
+    let promise = new Promise((resolve, reject) => {
         let header = document.getElementById('navbar');
-    
+
         header.innerHTML = navbar();
         resolve('Navbar imported');
     });
@@ -378,4 +389,32 @@
         addFunctionalityToNavbar();
     })
     createCarousel();
+
+
+    let selectPopularCourses = document.getElementById('slct-pplr-courses');
+    let selectPopularCoursesRBtn = selectPopularCourses.querySelector('.scrlRight');
+    let selectPopularCoursesLBtn = selectPopularCourses.querySelector('.scrlLeft');
+
+    window.onresize = () => {
+        if (window.innerWidth <= 850) { 
+        selectPopularCoursesRBtn.style.display = 'flex' ;
+        selectPopularCoursesLBtn.style.display = 'flex' ;
+        }
+        else {
+            selectPopularCoursesRBtn.style.display = 'none' ;
+            selectPopularCoursesLBtn.style.display = 'none' ;
+        }
+    }
+
+    selectPopularCoursesRBtn.addEventListener('click',(event) => {
+        let selectUl = document.getElementById('select-ul');
+        selectUl.scrollLeft += 100;
+    })
+
+    selectPopularCoursesLBtn.addEventListener('click',(event) => {
+        let selectUl = document.getElementById('select-ul');
+        selectUl.scrollLeft -= 100;
+    })
+
+
 </script>
