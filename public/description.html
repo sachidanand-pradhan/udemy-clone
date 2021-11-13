@@ -21,7 +21,9 @@
       <div class="w-1/2 h-84 bg-gray-800" id="right"></div>
     </div>
     <div class="w-full flex">
-      <div class="w-1/2 h-84 mt-8 border border-gray-300" id="bot"></div>
+      <div class="w-1/2 h-84 mt-8 border border-gray-300 bg-gray-400 ml-40" id="bot">
+
+      </div>
     </div>
   </body>
 </html>
@@ -86,19 +88,55 @@
     bot.innerText = null;
 
     console.log("kdkj", data.learn[0]);
-    bot.innerText = null;
+    // bot.innerText = null;
 
-    let botDiv = document.createElement("div");
+
+    let learnDiv1 = document.createElement("div");
 
     let learn = document.createElement("h1");
-    learn.innerText = data.learn;
-    learn.setAttribute("class", "ml-20 text-black mt-5 font-bold text-4xl");
+    learn.innerText = data.learn[0].heading;
+    learn.setAttribute("class", "text-black font-bold text-4xl bg-red-600");
 
     let learn_li = document.createElement("p");
-    learn_li.innerText = data.learn_li;
-    learn_li.setAttribute("class", "ml-40 text-white mt-5 ");
+    learn_li.innerText = data.learn[0].l1;
+    learn_li.setAttribute("class", "text-black block");
 
-    botDiv.append(learn, learn_li);
-    bot.append(botDiv);
+    let learn_li2 = document.createElement("p");
+    learn_li2.innerText = data.learn[0].l2;
+    learn_li2.setAttribute("class", "text-black");
+
+    let learn_li3 = document.createElement("p");
+    learn_li3.innerText = data.learn[0].l3;
+    learn_li3.setAttribute("class", "text-black");
+
+    let learn_li4 = document.createElement("p");
+    learn_li4.innerText = data.learn[0].l4;
+    learn_li4.setAttribute("class", "text-black");
+
+    let learnDiv2 = document.createElement("div");
+
+    let learn_li5 = document.createElement("p");
+    learn_li5.innerText = data.learn[0].l5;
+    learn_li5.setAttribute("class", "text-black");
+
+    let learn_li6 = document.createElement("p");
+    learn_li6.innerText = data.learn[0].l6;
+    learn_li6.setAttribute("class", "text-black");
+
+    let learn_li7 = document.createElement("p");
+    learn_li7.innerText = data.learn[0].l7;
+    learn_li7.setAttribute("class", "text-black");
+
+    let learn_li8 = document.createElement("p");
+    learn_li8.innerText = data.learn[0].l8;
+    learn_li8.setAttribute("class", " text-black");
+
+
+    learnDiv1.append(learn_li,learn_li2,learn_li3,learn_li4);
+    learnDiv1.setAttribute('class','w-1/2 inline-block bg-red-300');
+    learnDiv2.append(learn_li5,learn_li6,learn_li7,learn_li8);
+    learnDiv2.setAttribute('class','w-1/2 inline-block bg-red-300');
+    bot.append(learn,learnDiv1,learnDiv2);
+    // bot.append(botDiv);
   }
 </script>
