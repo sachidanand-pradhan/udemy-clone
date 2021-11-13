@@ -8,31 +8,27 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-     <h1 class="text-5xl ml-36 py-5 font-bold">Checkout</h1>
-     <div class="ml-36 py-2">
-        <div class="mt-2"><input type="radio" name="pay" >
+    
+    <div class="text-5xl ml-96 py-5  font-bold">Checkout</div>
+    <div class="ml-36 py-2 ">
+        <div class="mt-2 ml-60"><input type="radio" name="pay" >
         <label for="card" >Credit or Debit Card</div>
         
-        <div class="mt-2"><input type="radio" name="pay">
+        <div class="mt-2 py-2 ml-60"><input type="radio" name="pay">
         <label for="card">Pay with Net Banking</div>  
                 
-        <div class="mt-2"><input type="radio" name="pay" >
+        <div class="mt-2 py-2 ml-60"><input type="radio" name="pay" >
         <label for="card" >Pay with UPI</div>   
         
-        <div class="mt-2"><input type="radio" name="pay">
+        <div class="mt-2 py-2 ml-60"><input type="radio" name="pay">
         <label for="card">Pay with PayTM</div >   
         
-        <div class="mt-2"><input type="radio" name="pay" >
+        <div class="mt-2 py-2 ml-60"><input type="radio" name="pay" >
         <label class="py-3">Pay with Wallets India</div>
 
-         <!-- <p class="ml-36 py-1" >Credit or Debit Card</p>
-         <p class="ml-36 py-1">Pay with Net Banking</p>
-         <p class="ml-36 py-1">Pay with UPI</p>
-         <p class="ml-36 py-1">Pay with PayTM</p>
-         <p class="ml-36 py-1">Pay with Wallets India</p> -->
      </div>
 
-     <div class="bg-gray-50 ml-36 mt-4 border-black w-2/5 h-1/2 py-4 m-2">
+     <div class="bg-gray-50 ml-96  mt-4 border-black w-2/5 h-1/2 py-4 m-2">
          <div><input class=" py-3 border-black m-2  ml-6 w-11/12 border-2" placeholder="Name on Cart"/></div>
          <div><input class="py-3 border-black m-2 ml-6 w-11/12 border-2" placeholder="Card Number"/></div>
          <select class="py-3 px-16 border-black ml-6 border-2">
@@ -50,7 +46,7 @@
             <option>11</option>
             <option>12</option>
         </select>
-        <select class="py-3 px-16 border-black ml-2 border-2">
+        <select class="py-3 px-16 border-black border-2">
             <option value="" >YYYY</option>
             <option>2021</option>
             <option>2022</option>
@@ -65,22 +61,20 @@
             <option>2031</option>
             <option>2032</option>
         </select>
-        <input class="py-3 border-black ml-1 border-2" placeholder="Security Code"/></br>
+        <input class="py-3 border-black border-2" placeholder="Security Code"/></br>
 
         <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" class="ml-6 mt-5 border-2">
   <label for="vehicle1"> Remember this Cart </label>
      </div>
 
-     <div class="ml-36 mt-6 w-2/5">
+     <div class="ml-96 mt-6 w-2/5">
          <p>Billing Address</p>
          <input class="py-3 m-2 w-90 px-12 border-black border-2" placeholder="Country"/>
          <input class="py-3 m-2 w-90 px-12 border-black border-2" placeholder="State/Union Terriotory"/>
      </div>
 
-
      <div>
-     <!-- <h2 class="w-40">Summary</h2> -->
-     <button id = "make-pay" onclick = "makePayment()" class="bg-blue-700 text-white p-3 text-2xl ml-36 mt-4 px-5">Complete Payment</button>
+     <button id = "make-pay" onclick = "makePayment()" class="bg-blue-700 text-white p-3 text-2xl ml-36 mt-4 px-5 ml-96 center">Complete Payment</button>
     </div>
 </body>
 </html>

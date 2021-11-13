@@ -2558,17 +2558,30 @@ function addFunctionalityToNavbar() {
 
 
     // -----  function for toggle on mobilemenu --------
-    let afterhovermenu = document.getElementById("afterhovermenu")
+    // let afterhovermenu = document.getElementById("afterhovermenu")
+    // let cross = document.getElementById("cross")
+    // cross.addEventListener('click', () => {
+    //     afterhovermenu.setAttribute('class', 'hidden')
+    // })
+
+    // let menuIcon = document.getElementById('menu-icon');
+    // menuIcon.onclick = showmenu;
+
+    // function showmenu() {
+    //     afterhovermenu.setAttribute('class', 'flex md:hidden fixed w-full')
+    // }
+
+        let afterhovermenu = document.getElementById("afterhovermenu");
     let cross = document.getElementById("cross")
     cross.addEventListener('click', () => {
         afterhovermenu.setAttribute('class', 'hidden')
     })
 
-    let menuIcon = document.getElementById('menu-icon');
-    menuIcon.onclick = showmenu;
+    let menuBtn = document.getElementById('menu-icon');
+    menuBtn.onclick = showmenu;
 
     function showmenu() {
-        afterhovermenu.setAttribute('class', 'flex md:hidden fixed w-full')
+        afterhovermenu.setAttribute('class', 'flex md:hidden fixed w-full');
     }
 }
 
