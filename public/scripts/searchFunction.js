@@ -236,7 +236,7 @@ function dataStored(data) {
     let allData = JSON.parse(localStorage.getItem("decData"));
     allData.push(data);
     localStorage.setItem("decData", JSON.stringify(allData));
-    window.location.href = "suraj.html";
+    window.location.href = "desc.html";
 }
 
 // function divShow(el) {
