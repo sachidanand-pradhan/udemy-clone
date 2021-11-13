@@ -1,18 +1,21 @@
 function createCarousel() {
     // a function to get the data via api
     async function getData() {
-        let res = await fetch(`http://localhost:5000/api/products`);
+        let res = await fetch(`http://localhost:5000/api/javascript`);
         let data = await res.json();
-
-        makecarouselOf(data);
+    
+        console.log('data',data);
+    
+        makeCarouselOf(data);
     }
     getData();
-
+    
 
     // a function to create the carousel
-    function makecarouselOf(data) {
-
+    function makeCarouselOf(data) {
         let carouselList = document.querySelectorAll('.carousel');
+
+        console.log(data,'data');
 
         carouselList.forEach((carousel) => {
             // creating container for the carousel
@@ -23,6 +26,7 @@ function createCarousel() {
             container.style.height = '430px';
             container.style.width = '100%';
             container.id = 'container';
+
 
             data.forEach((product, idx) => {
                 let parentCard = document.createElement('div');
