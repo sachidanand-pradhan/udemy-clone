@@ -304,6 +304,7 @@ function createCarousel() {
         let data = JSON.parse(localStorage.getItem("cart"));
         data.push(p);
         localStorage.setItem("cart", JSON.stringify(data));
+        alert("Course added to cart");
     }
 
 }

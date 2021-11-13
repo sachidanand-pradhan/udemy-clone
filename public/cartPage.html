@@ -8,7 +8,7 @@
     <title>Udemy</title>
     <link rel="stylesheet" href="style.css">
     <script src='./scripts/navbar.js'></script>
-    <script src = './scripts/carousel.js'></script>
+    <script src='./scripts/carousel.js'></script>
 </head>
 <style>
     #courseCart {
@@ -51,7 +51,7 @@
 
     <div>
         <h3 class='text-2xl font-bold mx-20'>Explore new courses</h3>
-        <div class = 'carousel relative mx-14 px-6'></div>
+        <div class='carousel relative mx-14 px-6'></div>
     </div>
 
     <div id="footer"></div>
@@ -193,6 +193,9 @@
                 console.log(tot);
                 let TotalPrice = document.getElementById("TotalPrice");
                 TotalPrice.innerHTML = tot;
+
+                let courseCart = document.getElementById("courseCart");
+                courseCart.innerText = `${cart.length} courses in Cart`;
             });
             right.append(price, oldprice);
 
