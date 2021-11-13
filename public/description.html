@@ -77,11 +77,11 @@
 
     let btn = document.createElement("button");
     btn.innerText = "Add To Cart";
-    btn.setAttribute('class','bg-blue-700 px-10 py-2 mt-2 font-bold text-white');
+    btn.setAttribute('class','bg-purple-600 px-16 py-3 mt-4 ml-12 font-bold  hover:bg-purple-800 text-white');
 
     let buyNow = document.createElement("button");
     buyNow.innerText = "Buy Now";
-    buyNow.setAttribute('class','border-black border-2 px-10 py-2 mt-2 ml-2 font-bold');
+    buyNow.setAttribute('class','border-black border-2 px-16 py-3 mt-4 ml-14 font-bold');
 
     let includeDiv = document.createElement("div");
 
@@ -195,13 +195,13 @@
     let text = document.createElement("p");
 
     text.innerText = "Curated for the Udemy Business collection";
-    text.setAttribute('class','ml-40 inline-block bg-white px-48 py-2 mt-4 border-gray-300 border-2 ');
+    text.setAttribute('class','ml-40 inline-block bg-white px-48 py-2 mt-4 border-gray-300 border-2 font-bold');
 
     let contMain = document.createElement("div");
 
     let contetnt_c1 = document.createElement("p");
-    contetnt_c1.innerText ="🟃 "+ data.content[0].c1;
-    contetnt_c1.setAttribute("class", "text-black ml-4");
+    contetnt_c1.innerText =" "+ data.content[0].c1;
+    contetnt_c1.setAttribute("class", "text-black ml-4 font-bold");
 
     let contetnt_c2 = document.createElement("p");
     contetnt_c2.innerText ="🟃 "+ data.content[0].c2;
