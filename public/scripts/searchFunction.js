@@ -8,7 +8,6 @@ async function getData(course) {
     let res = await fetch(`http://localhost:5000/api/${course}`);
     let data = await res.json();
     add(data);
-
 }
 getData(course_datas[course_datas.length - 1][0].name);
 

@@ -215,7 +215,6 @@ function createCarousel() {
                 like.onclick = () => { like.innerHTML = '<img src="https://img.icons8.com/emoji/48/000000/heart-suit.png"/>' }
 
                 // appending everything to parent card
-
                 cartDiv.append(addToCart, like);
                 card2.append(title2, updatedDiv, levels, shortDecp, contentParent, cartDiv);
                 parentCard.append(card1, card2);
@@ -250,21 +249,23 @@ function createCarousel() {
 
             // adding a scroll right button
             let scrollRightBtn = document.createElement('div');
-            scrollRightBtn.className = 'absolute left-0 top-36 bg-black rounded-full w-10 h-10 p-2 z-40';
+            scrollRightBtn.className = 'absolute left-0 top-36 bg-black rounded-full w-10 h-10 p-2 z-40 scrlRight';
             scrollRightBtn.class = 'scrlRight'
             scrollRightBtn.innerHTML = `<img src="https://img.icons8.com/ios-glyphs/24/ffffff/chevron-left.png" />`;
             scrollRightBtn.style.display = 'none';
+            scrollRightBtn.style.zIndex = '999';
 
             // appending all components into the container
             container.append(scrollLeftBtn, scrollRightBtn);
 
-            
-            scrollRightBtn.onclick = scrollRight;
             scrollLeftBtn.addEventListener('click', (event) => {
                 scrollLeft(event);
             })
+            scrollRightBtn.addEventListener('click', (event) => {
+                scrollRight(event);
+            })
 
-
+            // append the container to the carousel
             carousel.append(container);
         })
     }
@@ -272,21 +273,18 @@ function createCarousel() {
 
     // <img src="https://img.icons8.com/officel/50/000000/triangle-stroked.png"/>
     function scrollLeft(e) {
-        let cont = document.getElementsByClassName('carousel-container');
-        // console.log('container',cont);
-
         let container = e.target.parentNode.parentNode || e.target.parentNode;
-        container.scrollLeft += 1450;
+        container.scrollLeft += 1450;   
 
         let srlRBtn = container.querySelector('.scrlRight');
         srlRBtn.style.display = 'block';
     }
 
-    function scrollRight() {
-        let container = document.getElementById('container');
+    function scrollRight(e) {
+        let container = e.target.parentNode.parentNode || e.target.parentNode;
         container.scrollLeft -= 1435;
 
-        let srlRBtn = document.getElementById('scrlRight');
+        let srlRBtn = container.querySelector('.scrlRight');
         if (container.scrollLeft <= 100) srlRBtn.style.display = 'none';
     }
 }
