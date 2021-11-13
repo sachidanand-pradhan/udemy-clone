@@ -52,8 +52,10 @@ color: #1c1d1f;">
             </div>
             <div id="white" class="flex">
                 <div id="whiteLeft" class="w-2/3 ml-36">
-                    <div id="learn" class="border w-2/3 border-gray-300 ">
-                    </div>
+
+
+                    <div id="learn" class="w-3/4"> </div>
+
                     <div id="curated" class="w-3/4 border flex p-4 mt-6 border-gray-300">
                         <div id="u-lo">
                             <img class="h-6 w-6" src="https://cdn.worldvectorlogo.com/logos/udemy-3.svg" alt="">
@@ -63,7 +65,9 @@ color: #1c1d1f;">
                         #401b9c;" href="#"><u>Udemy Buisness</u></a> collection</span>
                         </div>
                     </div>
+
                     <h1 class="w-3/4 mt-6 font-bold text-2xl ">Course content</h1>
+
                     <div class="flex w-3/4 border border-gray-300 mt-6">
                         <div>
                             <span>21 sections </span><span class="font-bold">.</span><span> 315 lectures</span><span> .
@@ -71,12 +75,12 @@ color: #1c1d1f;">
                         </div>
                         <div>
                             <span style="color: 
-                       #401b9c;" class="cursor-pointer ml-36"><u>Expand all</u></span>
+                       #401b9c;" class="cursor-pointer ml-28"><u>Expand all</u></span>
                         </div>
                     </div>
-                    <div id="content" class="w-3/4 border border-gray-300 mt-6">
-                        <h1>Welcome, Welcome, Welcome!</h1>
-                    </div>
+
+                    <div id="content" class="w-3/4 border border-gray-300 mt-6"></div>
+
                     <div id="requirements" class="w-3/4  mt-6">
                         <h1 class="font-bold text-2xl">Requirements</h1>
                         <ul class="p-6 text-sm">
@@ -238,7 +242,8 @@ color: #1c1d1f;">
                         #401b9c;" id="read_more_btn1" class="cursor-pointer font-bold flex">Show more</span>
                     </div>
                 </div>
-                <div id="whiteRight" class="w-3/12 sticky top-0 z-50 border  bg-white h-96 mr-28 " style="width: 336px;"></div>
+                <div id="whiteRight" class="w-3/12 sticky top-0 z-50 border  bg-white h-96 mr-28 "
+                    style="width: 336px;"></div>
 
 
             </div>
@@ -367,7 +372,7 @@ color: #1c1d1f;">
         let div = document.createElement("div")
         div.append(price, btn, buyNow, i1, i2, i3, i4, i5, i6)
         right.append(div);
-        div.setAttribute('class','w-96')
+        div.setAttribute('class', 'w-96')
 
 
         let cn = document.getElementById('courseName');
@@ -382,31 +387,27 @@ color: #1c1d1f;">
         sd.innerHTML = data.shortDecp;
         auth.innerHTML = data.author;
 
-        let li1 = document.getElementById('l1');
-        let li2 = document.getElementById('l2');
-        let li3 = document.getElementById('l3');
-        let li4 = document.getElementById('l4');
-        let li5 = document.getElementById('l5');
-        let li6 = document.getElementById('l6');
-        let li7 = document.getElementById('l7');
-        let li8 = document.getElementById('l8');
-        let li9 = document.getElementById('l9');
-        let li10 = document.getElementById('l10');
+        // let li1 = document.getElementById('l1');
+        // let li2 = document.getElementById('l2');
+        // let li3 = document.getElementById('l3');
+        // let li4 = document.getElementById('l4');
+        // let li5 = document.getElementById('l5');
+        // let li6 = document.getElementById('l6');
+        // let li7 = document.getElementById('l7');
+        // let li8 = document.getElementById('l8');
+        // let li9 = document.getElementById('l9');
+        // let li10 = document.getElementById('l10');
 
-        li1.innerHTML = "✓ " + data.learn[1].l1;
-        li2.innerHTML = "✓ " + data.learn[2].l2;
-
-        li3.innerHTML = "✓ " + data.learn[3].l3;
-        li4.innerHTML = "✓ " + data.learn[4].l4;
-
-        li5.innerHTML = "✓ " + data.learn[5].l5;
-        li6.innerHTML = "✓ " + data.learn[6].l6;
-
-        li7.innerHTML = "✓ " + data.learn[7].l7;
-        li8.innerHTML = "✓ " + data.learn[8].l8;
-
-        li9.innerHTML = "✓ " + data.learn[9].l9;
-        li10.innerHTML = "✓ " + data.learn[10].l10;
+        // li1.innerHTML = "✓ " + data.learn[0].l1;
+        // li2.innerHTML = "✓ " + data.learn[0].l2;
+        // li3.innerHTML = "✓ " + data.learn[0].l3;
+        // li4.innerHTML = "✓ " + data.learn[0].l4;
+        // li5.innerHTML = "✓ " + data.learn[0].l5;
+        // li6.innerHTML = "✓ " + data.learn[0].l6;
+        // li7.innerHTML = "✓ " + data.learn[0].l7;
+        // li8.innerHTML = "✓ " + data.learn[0].l8;
+        // li9.innerHTML = "✓ " + data.learn[0].l9;
+        // li10.innerHTML = "✓ " + data.learn[0].l10;
 
 
         let re1 = document.getElementById('r1');
@@ -431,59 +432,88 @@ color: #1c1d1f;">
 
         /////-------whta you will learn
 
-    let addLearn = document.createElement("div");
+        let addLearn = document.createElement("div");
 
-let learnDiv = document.createElement("div");
+        let learnDiv = document.createElement("div");
 
-let learnDiv1 = document.createElement("div");
-let learnDiv2 = document.createElement("div");
+        let learnDiv1 = document.createElement("div");
+        let learnDiv2 = document.createElement("div");
 
-let learn = document.createElement("h1");
-learn.innerText = data.learn[0].heading;
-learn.setAttribute("class", "text-black font-bold text-2xl mb-4");
+        let learn = document.createElement("h1");
+        learn.innerText = data.learn[0].heading;
+        learn.setAttribute("class", "text-black font-bold text-2xl mb-4");
 
-let learn_li = document.createElement("p");
-learn_li.innerText ="✓ "+ data.learn[0].l1;
-learn_li.setAttribute("class", "ml-2 text-black block");
+        let learn_li = document.createElement("p");
+        learn_li.innerText = "✓ " + data.learn[0].l1;
+        learn_li.setAttribute("class", "ml-2 text-black block");
 
-let learn_li2 = document.createElement("p");
-learn_li2.innerText ="✓ "+ data.learn[0].l2;
-learn_li2.setAttribute("class", "ml-2 text-black");
+        let learn_li2 = document.createElement("p");
+        learn_li2.innerText = "✓ " + data.learn[0].l2;
+        learn_li2.setAttribute("class", "ml-2 text-black");
 
-let learn_li3 = document.createElement("p");
-learn_li3.innerText ="✓ "+ data.learn[0].l3;
-learn_li3.setAttribute("class", "ml-2 text-black");
+        let learn_li3 = document.createElement("p");
+        learn_li3.innerText = "✓ " + data.learn[0].l3;
+        learn_li3.setAttribute("class", "ml-2 text-black");
 
-let learn_li4 = document.createElement("p");
-learn_li4.innerText ="✓ "+ data.learn[0].l4;
-learn_li4.setAttribute("class", "ml-2 text-black");
+        let learn_li4 = document.createElement("p");
+        learn_li4.innerText = "✓ " + data.learn[0].l4;
+        learn_li4.setAttribute("class", "ml-2 text-black");
 
 
-let learn_li5 = document.createElement("p");
-learn_li5.innerText ="✓ "+ data.learn[0].l5;
-learn_li5.setAttribute("class", "ml-2 text-black");
+        let learn_li5 = document.createElement("p");
+        learn_li5.innerText = "✓ " + data.learn[0].l5;
+        learn_li5.setAttribute("class", "ml-2 text-black");
 
-let learn_li6 = document.createElement("p");
-learn_li6.innerText ="✓  "+ data.learn[0].l6;
-learn_li6.setAttribute("class", "ml-2 text-black");
+        let learn_li6 = document.createElement("p");
+        learn_li6.innerText = "✓  " + data.learn[0].l6;
+        learn_li6.setAttribute("class", "ml-2 text-black");
 
-let learn_li7 = document.createElement("p");
-learn_li7.innerText ="✓ "+ data.learn[0].l7;
-learn_li7.setAttribute("class", "ml-2 text-black");
+        let learn_li7 = document.createElement("p");
+        learn_li7.innerText = "✓ " + data.learn[0].l7;
+        learn_li7.setAttribute("class", "ml-2 text-black");
 
-let learn_li8 = document.createElement("p");
-learn_li8.innerText ="✓ "+ data.learn[0].l8;
-learn_li8.setAttribute("class", "ml-2  text-black");
+        let learn_li8 = document.createElement("p");
+        learn_li8.innerText = "✓ " + data.learn[0].l8;
+        learn_li8.setAttribute("class", "ml-2  text-black");
 
-learnDiv1.append(learn_li,learn_li2,learn_li3,learn_li4);
-learnDiv2.append(learn_li5,learn_li6,learn_li7,learn_li8);
-learnDiv.append(learnDiv1,learnDiv2);
-learnDiv.setAttribute('class','flex');
-addLearn.append(learn,learnDiv);
+        learnDiv1.append(learn_li, learn_li2, learn_li3, learn_li4);
+        learnDiv2.append(learn_li5, learn_li6, learn_li7, learn_li8);
+        learnDiv.append(learnDiv1, learnDiv2);
+        learnDiv.setAttribute('class', 'flex');
+        addLearn.append(learn, learnDiv);
 
-let ler = document.getElementById('learn');
-ler.append(learnDiv1,learnDiv2,learnDiv,addLearn);
-addLearn.setAttribute('class','w-8/12 m-auto mt-8 bg-white border-gray-300 border-2');
+        let ler = document.getElementById('learn');
+        ler.append(addLearn, learnDiv1, learnDiv2, learnDiv);
+        addLearn.setAttribute('class', ' w-full m-auto bg-whit mt-8');
+
+        let contentDiv = document.getElementById('content');
+
+        let contMain = document.createElement("div");
+
+        let contetnt_c1 = document.createElement("p");
+        contetnt_c1.innerText = " " + data.content[0].c1;
+        contetnt_c1.setAttribute("class", "text-black ml-4 font-bold");
+
+        let contetnt_c2 = document.createElement("p");
+        contetnt_c2.innerText = "🟃 " + data.content[0].c2;
+        contetnt_c2.setAttribute("class", "text-black ml-4");
+
+        let contetnt_c3 = document.createElement("p");
+        contetnt_c3.innerText = "🟃 " + data.content[0].c3;
+        contetnt_c3.setAttribute("class", "text-black ml-4");
+
+        let contetnt_c4 = document.createElement("p");
+        contetnt_c4.innerText = "🟃 " + data.content[0].c4;
+        contetnt_c4.setAttribute("class", "text-black ml-4");
+
+        let contetnt_c5 = document.createElement("p");
+        contetnt_c5.innerText = "🟃 " + data.content[0].c5;
+        contetnt_c5.setAttribute("class", "text-black ml-4");
+
+        contMain.append(contetnt_c1, contetnt_c2, contetnt_c3, contetnt_c4, contetnt_c5);
+        contMain.setAttribute('class','w-8/12 bg-white');
+
+        contentDiv.append(contMain);
 
     }
 </script>
