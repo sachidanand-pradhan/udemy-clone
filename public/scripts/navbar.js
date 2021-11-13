@@ -2608,6 +2608,10 @@ async function searchMovies(course_name) {
 
 }
 
+function hide(){
+    ShowCoursesName.style.display = "none";
+}
+
 function appendMovies(course) {
     // console.log("-------",course[0].name);
     let ShowCoursesName = document.getElementById("ShowCoursesName");
