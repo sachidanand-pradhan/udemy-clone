@@ -182,11 +182,14 @@
             <div id="dataAdd" class="grid grid-cols-1 lg:w-8/12 sm:w-10/12 m-auto"></div>
         </div>
     </div>
+
+    <div id = 'footer'></div>
 </body>
 
 </html>
 <script type='module'>
     import navbar from './components/header.js';
+    import footer from './components/footer.js';
 
     let promise = new Promise((resolve, reject) => {
         let header = document.getElementById('navbar');
@@ -201,5 +204,7 @@
         // console.log( 'done' );
     })
 
+    let footerDiv = document.getElementById('footer');
+    footerDiv.innerHTML = footer();
 
 </script>
