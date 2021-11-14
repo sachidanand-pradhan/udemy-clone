@@ -16,7 +16,7 @@
 <body style="font-family: sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
 color: #1c1d1f;">
     <header id="nav"></header>
-    <div class="flex">
+    <div class="flex mb-10">
         <div id="left">
             <div style="background-color: #1c1D1F; color: #ffffff;" id="black" class="flex">
                 <div id="blackLeft" class="w-2/3">
@@ -249,11 +249,14 @@ color: #1c1d1f;">
             </div>
         </div>
     </div>
+      <!-- footer -->
+      <div id="footer"></div>
 </body>
 
 </html>
 <script type="module">
     import navbar from "./components/header.js";
+    import footer from './components/footer.js';
 
     let promise = new Promise((resolve, reject) => {
         let header = document.getElementById("nav");
@@ -267,6 +270,8 @@ color: #1c1d1f;">
         addFunctionalityToNavbar();
         console.log("done");
     });
+    let footerDiv = document.getElementById('footer');
+    footerDiv.innerHTML = footer();
 </script>
 <script>
     const readMoreBtn = document.querySelector('#read_more_btn');
