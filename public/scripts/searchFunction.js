@@ -72,14 +72,15 @@ function add(data) {
         img.src = el.image;
         left.append(img);
         img.style.width = "100%";
+        img.setAttribute('class','cursor-pointer')
 
         let p = document.createElement("p");
         p.innerText = el.name;
-        p.setAttribute('class', 'font-bold');
+        p.setAttribute('class', 'font-bold cursor-pointer');
 
         let title = document.createElement("p");
         title.innerText = el.title;
-        title.setAttribute('class', 'lg:flex hidden');
+        title.setAttribute('class', 'lg:flex hidden cursor-pointer');
 
         let author = document.createElement("p");
         author.innerText = el.author;
