@@ -1,5 +1,5 @@
 function footer() {
-    return `<footer class="bg-black text-white text-sm py-2 px-2">
+    return `<footer class="bg-black text-white text-sm py-2 px-2 mt-4">
         <!-- upper div -->
         <div class="grid md:flex flex-row-reverse justify-between  p-6">
             <!-- language -->

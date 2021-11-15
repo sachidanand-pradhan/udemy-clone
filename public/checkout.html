@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,86 +8,122 @@
     <title>Udemy</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <div id='header'></div>
+
     <div class="text-5xl ml-96 py-5  font-bold">Checkout</div>
     <div class="ml-36 py-2 ">
-        <div class="mt-2 ml-60"><input type="radio" name="pay" >
-        <label for="card" >Credit or Debit Card</div>
-        
-        <div class="mt-2 py-2 ml-60"><input type="radio" name="pay">
-        <label for="card">Pay with Net Banking</div>  
-                
-        <div class="mt-2 py-2 ml-60"><input type="radio" name="pay" >
-        <label for="card" >Pay with UPI</div>   
-        
-        <div class="mt-2 py-2 ml-60"><input type="radio" name="pay">
-        <label for="card">Pay with PayTM</div >   
-        
-        <div class="mt-2 py-2 ml-60"><input type="radio" name="pay" >
-        <label class="py-3">Pay with Wallets India</div>
+        <div class="mt-2 ml-60"><input type="radio" name="pay">
+            <label for="card">Credit or Debit Card
+        </div>
 
-     </div>
+        <div class="mt-2 py-2 ml-60"><input type="radio" name="pay">
+            <label for="card">Pay with Net Banking
+        </div>
 
-     <div class="bg-gray-50 ml-96  mt-4 border-black h-1/2 py-4 m-2" style="width: 660px;">
-         <div><input class=" py-3 border-black m-2  ml-6 w-11/12 border-2" placeholder="Name on Cart"/></div>
-         <div><input class="py-3 border-black m-2 ml-6 w-11/12 border-2" placeholder="Card Number"/></div>
-         <div class="flex justify-between">
-           <div>
-            <select class="border-black ml-6 border-2 h-14 w-48">
-                <option value="" >MM</option>
-                <option>01</option>
-                <option>02</option>
-                <option>03</option>
-                <option>04</option>
-                <option>05</option>
-                <option>06</option>
-                <option>07</option>
-                <option>08</option>
-                <option>09</option>
-                <option>10</option>
-                <option>11</option>
-                <option>12</option>
-            </select>
-            <select class="border-black border-2 h-14 w-48">
-                <option value="" >YYYY</option>
-                <option>2021</option>
-                <option>2022</option>
-                <option>2023</option>
-                <option>2024</option>
-                <option>2025</option>
-                <option>2026</option>
-                <option>2027</option>
-                <option>2028</option>
-                <option>2029</option>
-                <option>2030</option>
-                <option>2031</option>
-                <option>2032</option>
-            </select>
-           </div>
-            <input class=" border-black border-2 h-14 w-48" placeholder="Security Code"/></br>
-         </div>
+        <div class="mt-2 py-2 ml-60"><input type="radio" name="pay">
+            <label for="card">Pay with UPI
+        </div>
+
+        <div class="mt-2 py-2 ml-60"><input type="radio" name="pay">
+            <label for="card">Pay with PayTM
+        </div>
+
+        <div class="mt-2 py-2 ml-60"><input type="radio" name="pay">
+            <label class="py-3">Pay with Wallets India
+        </div>
+
+    </div>
+
+    <div class="bg-gray-50 ml-96  mt-4 border-black h-1/2 py-4 m-2" style="width: 660px;">
+        <div><input class=" py-3 border-black m-2  ml-6 w-11/12 border-2" placeholder="Name on Cart" /></div>
+        <div><input class="py-3 border-black m-2 ml-6 w-11/12 border-2" placeholder="Card Number" /></div>
+        <div class="flex justify-between">
+            <div>
+                <select class="border-black ml-6 border-2 h-14 w-48">
+                    <option value="">MM</option>
+                    <option>01</option>
+                    <option>02</option>
+                    <option>03</option>
+                    <option>04</option>
+                    <option>05</option>
+                    <option>06</option>
+                    <option>07</option>
+                    <option>08</option>
+                    <option>09</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                </select>
+                <select class="border-black border-2 h-14 w-48">
+                    <option value="">YYYY</option>
+                    <option>2021</option>
+                    <option>2022</option>
+                    <option>2023</option>
+                    <option>2024</option>
+                    <option>2025</option>
+                    <option>2026</option>
+                    <option>2027</option>
+                    <option>2028</option>
+                    <option>2029</option>
+                    <option>2030</option>
+                    <option>2031</option>
+                    <option>2032</option>
+                </select>
+            </div>
+            <input class=" border-black border-2 h-14 w-48" placeholder="Security Code" /></br>
+        </div>
 
         <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" class="ml-6 mt-5 border-2">
-  <label for="vehicle1"> Remember this Cart </label>
-     </div>
-
-     <div class="ml-96 mt-6 w-2/5">
-         <p>Billing Address</p>
-        <div class="flex ml-5">
-            <input class="py-3 m-2 w-90 px-12 border-black border-2" placeholder="Country"/>
-            <input class="py-3 m-2 w-90 px-12 border-black border-2" placeholder="State/Union Terriotory"/>
-        </div>
-     </div>
-
-     <div>
-     <button id = "make-pay" onclick = "makePayment()" class="bg-blue-600 text-white p-3 text-2xl ml-36 mt-4 px-5 ml-96 center rounded hover:bg-blue-800">Complete Payment</button>
+        <label for="vehicle1"> Remember this Cart </label>
     </div>
+
+    <div class="ml-96 mt-6 w-2/5">
+        <p>Billing Address</p>
+        <div class="flex ml-5">
+            <input class="py-3 m-2 w-90 px-12 border-black border-2" placeholder="Country" />
+            <input class="py-3 m-2 w-90 px-12 border-black border-2" placeholder="State/Union Terriotory" />
+        </div>
+    </div>
+
+    <div>
+        <button id="make-pay" onclick="makePayment()"
+            class="bg-blue-600 text-white p-3 text-2xl ml-36 mt-4 px-5 ml-96 center rounded hover:bg-blue-800">Complete
+            Payment</button>
+    </div>
+
+    <div id='footerPart'></div>
 </body>
+
 </html>
+
+<script type='module'>
+    import navbar from './components/header.js';
+    import footerComp from './components/footer.js';
+
+
+
+    let promise = new Promise((resolve, reject) => {
+        let headerDiv = document.getElementById('header');
+        let footerDiv = document.getElementById("footerPart");
+
+        headerDiv.innerHTML = navbar();
+        footerDiv.innerHTML = footerComp();
+
+        resolve('Navbar imported');
+    });
+    promise.then((res) => {
+        // console.log( res );
+        addFunctionalityToNavbar();
+    })
+
+</script>
+
+
 <script>
-    function makePayment(){
-        setTimeout(function(){
+    function makePayment() {
+        setTimeout(function () {
 
             alert("Congratulations! your payment is successfully paid");
             window.location.href = "home.html";

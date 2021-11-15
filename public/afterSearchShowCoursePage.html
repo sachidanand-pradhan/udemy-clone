@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <script src='./scripts/navbar.js'></script>
     <script src="./scripts/searchFunction.js"></script>
+    <script src = './scripts/carousel.js'></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
@@ -183,6 +184,8 @@
         </div>
     </div>
 
+    <div class = 'carousel relative p-4'></div>
+
     <div id = 'footer'></div>
 </body>
 
@@ -206,5 +209,7 @@
 
     let footerDiv = document.getElementById('footer');
     footerDiv.innerHTML = footer();
+
+    createCarousel();
 
 </script>
