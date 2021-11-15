@@ -2457,14 +2457,14 @@ function addFunctionalityToNavbar() {
     let hoveruser = document.getElementById("hoveruser")
 
     user.addEventListener('mouseover', () => {
-        hoveruser.setAttribute('class', 'block w-64 break-words bg-white border absolute')
+        hoveruser.setAttribute('class', 'block w-64 break-words bg-white border absolute z-50')
     })
 
     user.addEventListener('mouseout', () => {
         hoveruser.setAttribute('class', 'hidden')
     })
     hoveruser.addEventListener('mouseenter', () => {
-        hoveruser.setAttribute('class', 'block w-64 break-words bg-white border absolute')
+        hoveruser.setAttribute('class', 'block w-64 break-words bg-white border absolute z-50')
     })
     hoveruser.addEventListener('mouseleave', () => {
         hoveruser.setAttribute('class', 'hidden')
@@ -2499,7 +2499,7 @@ function addFunctionalityToNavbar() {
     function done() {
         signin.setAttribute('class', 'hidden')
         signup.setAttribute('class', 'hidden')
-        user.setAttribute('class', 'py-7 mr-4 hidden md:block')
+        user.setAttribute('class', 'py-9 px-1 mr-4 hidden md:block')
         language.setAttribute('class', 'hidden')
         learning.setAttribute('class', 'mx-2 text-sm hidden md:block hover:text-blue-800 py-7')
         bell.setAttribute('class', 'mx-2 py-7 hidden md:block')
@@ -2573,7 +2573,7 @@ function addFunctionalityToNavbar() {
     //     afterhovermenu.setAttribute('class', 'flex md:hidden fixed w-full')
     // }
 
-        let afterhovermenu = document.getElementById("afterhovermenu");
+    let afterhovermenu = document.getElementById("afterhovermenu");
     let cross = document.getElementById("cross")
     cross.addEventListener('click', () => {
         afterhovermenu.setAttribute('class', 'hidden')
@@ -2583,7 +2583,7 @@ function addFunctionalityToNavbar() {
     menuBtn.onclick = showmenu;
 
     function showmenu() {
-        afterhovermenu.setAttribute('class', 'flex md:hidden fixed w-full');
+        afterhovermenu.setAttribute('class', 'flex md:hidden fixed w-full z-50');
     }
 }
 
