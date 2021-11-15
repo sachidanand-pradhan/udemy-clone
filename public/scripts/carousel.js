@@ -213,7 +213,6 @@ function createCarousel() {
                     addtocart(product);
                 }
 
-
                 // creating like button
                 let like = document.createElement('div');
                 like.className = 'rounded-full w-10 border border-gray-900 border-2 h-10 ml-2 p-2';

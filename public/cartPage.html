@@ -181,7 +181,7 @@
                 let tot = cart.reduce(price_sum, 0);
                 console.log(tot);
                 let TotalPrice = document.getElementById("TotalPrice");
-                TotalPrice.innerHTML = tot;
+                TotalPrice.innerHTML = `Rs. ${tot}`;
 
                 let courseCart = document.getElementById("courseCart");
                 courseCart.innerText = `${cart.length} courses in Cart`;
@@ -210,16 +210,13 @@
     // console.log(promocode);
 
     function discount() {
-        console.log(promocode);
-    }
-
-    function discount() {
 
         let coupon = document.getElementById("promocode");
         console.log(coupon.value);
 
         if (coupon.value == "masai10") {
 
+            alert('10% discount has been applied');
             var sum = "Rs. " + (tot - (tot * 0.10));
             TotalPrice.innerText = null;
             TotalPrice.append(sum);
