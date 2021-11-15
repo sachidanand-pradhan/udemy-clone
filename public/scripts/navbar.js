@@ -2463,10 +2463,10 @@ function addFunctionalityToNavbar() {
     user.addEventListener('mouseout', () => {
         hoveruser.setAttribute('class', 'hidden')
     })
-    hoveruser.addEventListener('mouseover', () => {
+    hoveruser.addEventListener('mouseenter', () => {
         hoveruser.setAttribute('class', 'block w-64 break-words bg-white border absolute')
     })
-    hoveruser.addEventListener('mouseout', () => {
+    hoveruser.addEventListener('mouseleave', () => {
         hoveruser.setAttribute('class', 'hidden')
     })
 

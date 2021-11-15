@@ -103,7 +103,6 @@
     import footerComp from './components/footer.js';
 
 
-
     let promise = new Promise((resolve, reject) => {
         let headerDiv = document.getElementById('header');
         let footerDiv = document.getElementById("footerPart");
@@ -114,7 +113,6 @@
         resolve('Navbar imported');
     });
     promise.then((res) => {
-        // console.log( res );
         addFunctionalityToNavbar();
     })
 
