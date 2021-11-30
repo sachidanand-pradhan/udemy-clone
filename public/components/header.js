@@ -2,7 +2,7 @@ function navbar() {
 
     return `<!-- click on mobilemenu -->
     <div id="afterhovermenu" class="hidden z-0">
-        <div id="hovermenudiv" class="w-72 bg-white overflow-y-scroll z-20" style="height: 630px;">
+        <div id="hovermenudiv" class="w-72 bg-white overflow-y-scroll z-20" style="height: fit-content">
             <!-- sign in and sign up -->
             <div id="beforlogin" class="block">
                 <a href="login.html" class="block m-4 text-indigo-700">log in</a>
