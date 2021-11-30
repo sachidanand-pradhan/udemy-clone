@@ -1,8 +1,8 @@
 function navbar() {
 
     return `<!-- click on mobilemenu -->
-    <div id="afterhovermenu" class="hidden z-0">
-        <div id="hovermenudiv" class="w-72 bg-blue-100 overflow-y-scroll z-20" style="height: 800px">
+    <div id="afterhovermenu" class="hidden z-40">
+        <div id="hovermenudiv" class="w-72 bg-blue-100 overflow-y-scroll" style="height: 100vh">
             <!-- sign in and sign up -->
             <div id="beforlogin" class="block">
                 <a href="login.html" class="block m-4 text-indigo-700">log in</a>
